@@ -1562,7 +1562,7 @@ if(post('action')){
       // exec('zip ' . $zip_file . ' ' . $dir . '/*.* -j -x _files*', $out, $res);
 
       // check that ZipArchive class exists
-      if(!class_exists('ZipArchive')) error('Missing PHP ZipArchive class.', 500); 
+      // if(!class_exists('ZipArchive')) error('Missing PHP ZipArchive class.', 500); 
 
       // glob files / must be readable / is_file / !symlink / !is_exclude
       $files = array_filter(glob($dir. '/*', GLOB_NOSORT), function($file){
