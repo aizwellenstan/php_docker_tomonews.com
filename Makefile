@@ -10,7 +10,7 @@ help:
 run:
 	@sh clean_folder.sh
 	# @echo "Start Container Use default setting (listen web on 8080)"
-	@docker-compose up -d
+	# @docker-compose up -d
 	@docker-compose up -d --build
 	# @docker-compose exec php-fpm composer install
 	# @docker-compose exec php-fpm ln -s /var/www/html/storage/external /var/www/html/public/storage
