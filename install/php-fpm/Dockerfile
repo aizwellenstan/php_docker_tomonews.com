@@ -11,7 +11,8 @@ RUN apt-get update && \
     default-mysql-client \
     ffmpeg \
     cron \
-    openssh-client && \
+    openssh-client \
+    zlib1g-dev && \
     # git \
     # libfreetype6-dev \
     # libwebp-dev \
@@ -25,7 +26,7 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
     # docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-webp-dir=/usr/include/  --with-jpeg-dir=/usr/include/ && \
-    docker-php-ext-install pdo_mysql
+    docker-php-ext-install pdo_mysql zip
         
 
 COPY symfony.pool.conf  /usr/local/etc/
