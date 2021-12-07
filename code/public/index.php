@@ -1562,7 +1562,7 @@ if(post('action')){
       // exec('zip ' . $zip_file . ' ' . $dir . '/*.* -j -x _files*', $out, $res);
 
       // check that ZipArchive class exists
-      // if(!class_exists('ZipArchive')) error('Missing PHP ZipArchive class.', 500); 
+      if(!class_exists('ZipArchive')) error('Missing PHP ZipArchive class.', 500); 
 
       // glob files / must be readable / is_file / !symlink / !is_exclude
       $files = array_filter(glob($dir. '/*', GLOB_NOSORT), function($file){
@@ -1890,7 +1890,7 @@ header('files-msg: [' . header_memory_time() . ']');
       ?>
       
       <nav id="topbar"<?php if(!empty($topbar_classes)) echo ' class="' . join(' ', $topbar_classes) . '"'; ?>>
-      <img class="banner" src ="/assets/images/LIFE_Graudation_banner_4.png" height="160px">
+      <img class="banner" src ="./assets/images/LIFE_Graudation_banner_4.png" height="160px">
         <div id="topbar-top" style="display:none;">
           <div id="search-container"><input id="search" type="search" placeholder="search" size="1" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" disabled></div>
           <div id="change-layout" class="dropdown"></div>
