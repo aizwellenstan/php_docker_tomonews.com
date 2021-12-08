@@ -1879,6 +1879,7 @@ header('files-msg: [' . header_memory_time() . ']');
     <link href="<?php echo config::$assets ?>css/files.css" rel="stylesheet">
     <?php get_include('css/custom.css'); ?>
     <link href="/_files/assets/css/app.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body class="body-loading"><svg viewBox="0 0 18 18" class="svg-preloader svg-preloader-active preloader-body"><circle cx="9" cy="9" r="8" pathLength="100" class="svg-preloader-circle"></svg>
@@ -1963,6 +1964,7 @@ var CodeMirror = {};
     <!-- files -->
     <!-- <script src="<?php echo config::$assets ?>js/files.js"></script> -->
     <script src="_files/assets/js/files.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js" integrity="sha512-xQBQYt9UcgblF6aCMrwU1NkVA7HCXaSN2oq0so80KO+y68M+n64FOcqgav4igHe6D5ObBLIf68DWv+gfBowczg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
       var fileList = Array();
       function selectFile(checkBoxElem) {
@@ -1979,7 +1981,62 @@ var CodeMirror = {};
         }
 
       function download() {
-        console.log("download")
+        var fileURLs = fileList;
+        var zip = new JSZip();
+        var count = 0;
+
+        downloadFile(fileURLs[count], onDownloadComplete);
+      }
+
+      
+
+
+      function downloadFile(url, onSuccess) {
+          var xhr = new XMLHttpRequest();
+          // xhr.onprogress = calculateAndUpdateProgress;
+          xhr.open('GET', url, true);
+          xhr.responseType = "blob";
+          xhr.onreadystatechange = function () {
+              if (xhr.readyState == 4) {
+                  if (onSuccess) onSuccess(xhr.response);
+              }
+            }
+          console.log(xhr.response)
+      }
+
+      function onDownloadComplete(blobData){
+          if (count < fileURLs.length) {
+              blobToBase64(blobData, function(binaryData){
+                      // add downloaded file to zip:
+                      var fileName = fileURLs[count].substring(fileURLs[count].lastIndexOf('/')+1);
+                      zip.file(fileName, binaryData, {base64: true});
+                      if (count < fileURLs.length -1){
+                          count++;
+                          downloadFile(fileURLs[count], onDownloadCompleted);
+                      }
+                      else {
+                          // all files have been downloaded, create the zip
+                          var content = zip.generate();
+
+                          // then trigger the download link:        
+                          var zipName = 'download.zip';
+                          var a = document.createElement('a'); 
+                          a.href = "data:application/zip;base64," + content;
+                          a.download = zipName;
+                          a.click();
+                      }
+                  });
+          }
+      }
+
+      function blobToBase64(blob, callback) {
+          var reader = new FileReader();
+          reader.onload = function() {
+              var dataUrl = reader.result;
+              var base64 = dataUrl.split(',')[1];
+              callback(base64);
+          };
+          reader.readAsDataURL(blob);
       }
     </script>
   </body>
