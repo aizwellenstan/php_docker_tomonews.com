@@ -1,5 +1,5 @@
 <?php
-
+include '_files/models/create-zip.php';
 // errors
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -1907,7 +1907,14 @@ header('files-msg: [' . header_memory_time() . ']');
         <div id="files-sortbar"></div>
       </nav>
       <!-- files list container -->
-      <div><div id="files" class="list files-<?php echo config::$config['layout']; ?>"></div></div>
+      <div>
+        <!-- <form> -->
+        <div id="files" class="list files-<?php echo config::$config['layout']; ?>"></div>
+        </br>
+        <!-- <button type="submit" name="createzip" id="createzip" value="createzip" class="btn btn-primary"><i class="fa fa-archive"></i> Download All</button> -->
+        <button type="submit" name="createzip" id="createzip" onclick="download()"><i class="fa fa-archive"></i> Download All</button>
+        <!-- </form> -->
+      </div>
     </main>
 <?php if($menu_enabled) { ?>
     <aside id="sidebar">
@@ -1954,8 +1961,27 @@ var CodeMirror = {};
     <!-- custom -->
     <?php get_include('js/custom.js'); ?>
     <!-- files -->
-    <script src="<?php echo config::$assets ?>js/files.js"></script>
+    <!-- <script src="<?php echo config::$assets ?>js/files.js"></script> -->
+    <script src="_files/assets/js/files.js"></script>
+    <script>
+      var fileList = Array();
+      function selectFile(checkBoxElem) {
+          if (checkBoxElem.checked == true){
+            fileList.push(checkBoxElem.value)
+            console.log(fileList)
+          } else {
+            var index = fileList.indexOf(checkBoxElem.value);
+            if (index > -1) {
+              fileList.splice(index, 1);
+            }
+            console.log(fileList)
+          }
+        }
 
+      function download() {
+        console.log("download")
+      }
+    </script>
   </body>
 </html>
 <?php }}
