@@ -1712,7 +1712,7 @@
                 + "</a>"
                 // + '<input type="checkbox" name="fileId[]" class="custom-control-input" id="checkbox" value=""></input>'
                 // + '<input type="checkbox" name="fileId" class="custom-control-input" id="checkbox" value="'+l(c, "download" === _c.click)+'" onclick=selectFile(this)'
-                + '></input>'
+                // + '></input>'
                 + '</div>'
             }))
         }
