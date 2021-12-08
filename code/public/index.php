@@ -1879,7 +1879,7 @@ header('files-msg: [' . header_memory_time() . ']');
     <link href="<?php echo config::$assets ?>css/files.css" rel="stylesheet">
     <?php get_include('css/custom.css'); ?>
     <link href="/_files/assets/css/app.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   </head>
 
   <body class="body-loading"><svg viewBox="0 0 18 18" class="svg-preloader svg-preloader-active preloader-body"><circle cx="9" cy="9" r="8" pathLength="100" class="svg-preloader-circle"></svg>
