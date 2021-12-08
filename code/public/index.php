@@ -1872,14 +1872,13 @@ header('files-msg: [' . header_memory_time() . ']');
 <html<?php echo ' class="menu-' . ($menu_enabled ? 'enabled' : 'disabled sidebar-closed') . '"'; ?>>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
     <meta name="robots" content="noindex,nofollow">
     <title><?php echo $init_path ? basename($init_path) : '/'; ?></title>
     <?php get_include('include/head.html'); ?>
     <link href="<?php echo config::$assets ?>css/files.css" rel="stylesheet">
     <?php get_include('css/custom.css'); ?>
     <link href="/_files/assets/css/app.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   </head>
 
   <body class="body-loading"><svg viewBox="0 0 18 18" class="svg-preloader svg-preloader-active preloader-body"><circle cx="9" cy="9" r="8" pathLength="100" class="svg-preloader-circle"></svg>
