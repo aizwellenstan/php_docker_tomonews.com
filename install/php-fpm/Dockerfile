@@ -13,9 +13,10 @@ RUN apt-get update && \
     cron \
     openssh-client \
     zlib1g-dev \
-    libpng-dev && \
+    libpng-dev \
+    libfreetype6-dev \
+    libjpeg-dev && \
     # git \
-    # libfreetype6-dev \
     # libwebp-dev \
     # libjpeg62-turbo-dev \
     # libgmp-dev \
