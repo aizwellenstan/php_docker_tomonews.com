@@ -15,9 +15,9 @@ RUN apt-get update && \
     zlib1g-dev \
     libpng-dev \
     libfreetype6-dev \
-    libjpeg-dev && \
+    libjpeg-dev \
+    libwebp-dev && \
     # git \
-    # libwebp-dev \
     # libjpeg62-turbo-dev \
     # libgmp-dev \
     # libldap2-dev \
