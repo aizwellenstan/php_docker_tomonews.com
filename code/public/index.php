@@ -2064,8 +2064,9 @@ header('files-msg: [' . header_memory_time() . ']');
 
     <!-- custom footer html -->
     <?php get_include('include/footer.html'); ?>
-
-    <button type="submit" class="btn btn-primary right-buttom-corrner hide"><i class="fa fa-archive"></i>Download</button>
+    <div class="footer">
+      <button type="submit" class="btn btn-primary right-buttom-corrner hide"><i class="fa fa-archive"></i>Download</button>
+    </div>
     </form>
 
     <!-- Javascript -->
