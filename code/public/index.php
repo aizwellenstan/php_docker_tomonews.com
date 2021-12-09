@@ -2082,7 +2082,7 @@ header('files-msg: [' . header_memory_time() . ']');
       </style>
 
       <div class="footer">
-        <input type="submit" class="btn btn-primary right-buttom-corrner hide" id="selectedDownload"><i class="fa fa-archive"></i>Download</button>
+        <button type="submit" class="btn btn-primary right-buttom-corrner hide" id="selectedDownload"><i class="fa fa-archive"></i>Download</button>
       </div>
     </form>
 
