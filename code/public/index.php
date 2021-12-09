@@ -2113,6 +2113,10 @@ var CodeMirror = {};
     <script src="_files/assets/js/files.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js" integrity="sha512-xQBQYt9UcgblF6aCMrwU1NkVA7HCXaSN2oq0so80KO+y68M+n64FOcqgav4igHe6D5ObBLIf68DWv+gfBowczg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
+      document.getElementsByTagName('form')[0].addEventListener('submit', function(){
+        this.method = 'post';
+      }, false);
+
       const convertRestArgsIntoStylesArr = ([...args]) => {
           return args.slice(1);
       }
