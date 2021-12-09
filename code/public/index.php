@@ -2077,6 +2077,7 @@ header('files-msg: [' . header_memory_time() . ']');
         background-color: #E5E5E5;
         color: white;
         text-align: center;
+        z-index: 2147483648;
       }
       </style>
 
