@@ -2009,7 +2009,7 @@ header('files-msg: [' . header_memory_time() . ']');
   </head>
 
   <body class="body-loading"><svg viewBox="0 0 18 18" class="svg-preloader svg-preloader-active preloader-body"><circle cx="9" cy="9" r="8" pathLength="100" class="svg-preloader-circle"></svg>
-  <form>  
+  <form method='post'>  
   <main id="main">
     
       <?php
