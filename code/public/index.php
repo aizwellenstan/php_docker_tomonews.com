@@ -1556,77 +1556,171 @@ if(post('action')){
     // cached / download_dir_cache && file_exists() && zip is not older than dir time
     $cached = !empty(config::$config['download_dir_cache']) && file_exists($zip_file) && filemtime($zip_file) >= filemtime($dir);
 
-    // create zip if !cached
-    if(!$cached){
+  
 
-      // use shell zip command instead / probably faster and more robust than PHP / if use, comment out PHP ZipArchive method starting below
-      // exec('zip ' . $zip_file . ' ' . $dir . '/*.* -j -x _files*', $out, $res);
+    if (get('files')){
+        // use shell zip command instead / probably faster and more robust than PHP / if use, comment out PHP ZipArchive method starting below
+          // exec('zip ' . $zip_file . ' ' . $dir . '/*.* -j -x _files*', $out, $res);
 
-      // check that ZipArchive class exists
-      if(!class_exists('ZipArchive')) error('Missing PHP ZipArchive class.', 500); 
+          // check that ZipArchive class exists
+          if(!class_exists('ZipArchive')) error('Missing PHP ZipArchive class.', 500); 
 
-      // glob files / must be readable / is_file / !symlink / !is_exclude
-      $files = array_filter(glob($dir. '/*', GLOB_NOSORT), function($file){
-        return is_readable($file) && is_file($file) && !is_link($file) && !is_exclude($file, false);
-      });
+          // glob files / must be readable / is_file / !symlink / !is_exclude
+          $files = array_filter(glob($dir. '/*', GLOB_NOSORT), function($file){
+            return is_readable($file) && is_file($file) && !is_link($file) && !is_exclude($file, false);
+          });
 
-      // !no files available to zip
-      if(empty($files)) error('No files to zip!', 400);
-      
-      // new ZipArchive
-      $zip = new ZipArchive();
+          // !no files available to zip
+          if(empty($files)) error('No files to zip!', 400);
+          
+          // new ZipArchive
+          $zip = new ZipArchive();
 
-      // create new $zip_file
-      if($zip->open($zip_file, ZipArchive::CREATE | ZIPARCHIVE::OVERWRITE) !== true) error('Failed to create ZIP file ' . $zip_file_name . '.', 500);
+          // create new $zip_file
+          if($zip->open($zip_file, ZipArchive::CREATE | ZIPARCHIVE::OVERWRITE) !== true) error('Failed to create ZIP file ' . $zip_file_name . '.', 500);
 
-      // add files to zip / flatten with basename()
-      foreach($files as $file) $zip->addFile($file, basename($file));
+          
+          $rootPath = '/var/www/html/public/';
+          $fileArr = [];       
+          $postFiles = explode(",",get('files'));   
+          foreach ($postFiles as $file) {
+            array_push($fileArr,$rootPath.$file);
+          }
 
-      // no files added (for some reason)
-      if(!$zip->numFiles) error('Could not add any files to ' . $zip_file_name . '.', 500);
+          // add files to zip / flatten with basename()
+          foreach($files as $file) {
+            if (in_array($file, $fileArr))
+              $zip->addFile($file, basename($file));
+          }
+          
 
-      // close zip
-      $zip->close();
+          // no files added (for some reason)
+          if(!$zip->numFiles) error('Could not add any files to ' . $zip_file_name . '.', 500);
 
-      // make sure created zip file exists / just in case
-      if(!file_exists($zip_file)) error('Zip file ' . $zip_file_name . ' does not exist.', 500);
-    }
+          // close zip
+          $zip->close();
 
-    // redirect instead of readfile() / might be useful if readfile() fails and/or for caching and performance
-    /*$zip_url = get_url_path($zip_file);
-    if($zip_url){
-      header('Location:' . $zip_url . '?' . filemtime($dir), true, 302);
-      exit;
-    }*/
+          // make sure created zip file exists / just in case
+          if(!file_exists($zip_file)) error('Zip file ' . $zip_file_name . ' does not exist.', 500);
+        
 
-    // output headers
-    if(config::$has_login) {
-      header('cache-control: must-revalidate, post-check=0, pre-check=0');
-      header('cache-control: public');
-      header('expires: 0');
-      header('pragma: public');
+        // redirect instead of readfile() / might be useful if readfile() fails and/or for caching and performance
+        /*$zip_url = get_url_path($zip_file);
+        if($zip_url){
+          header('Location:' . $zip_url . '?' . filemtime($dir), true, 302);
+          exit;
+        }*/
+
+        // output headers
+        if(config::$has_login) {
+          header('cache-control: must-revalidate, post-check=0, pre-check=0');
+          header('cache-control: public');
+          header('expires: 0');
+          header('pragma: public');
+        } else {
+          set_cache_headers();
+        }
+        header('content-description: File Transfer');
+        header('content-disposition: attachment; filename="' . addslashes(basename($dir)) . '.zip"');
+        $content_length = filesize($zip_file);
+        header('content-length: ' . $content_length);
+        header('content-transfer-encoding: binary');
+        header('content-type: application/zip');
+        header('files-msg: [' . $zip_file_name . '][' . ($cached ? 'cached' : 'created') . ']');
+
+        // ignore user abort so we can delete file also on download cancel
+        if(empty(config::$config['download_dir_cache'])) @ignore_user_abort(true);
+
+        // clear output buffer for large files
+        while (ob_get_level()) ob_end_clean();
+
+        // output zip readfile()
+        if(!readfile($zip_file)) error('Failed to readfile(' . $zip_file_name . ').', 500);
+
+        // delete temp zip file if cache disable
+        @unlink($zip_file);
+
+        
+        
     } else {
-      set_cache_headers();
+
+        // create zip if !cached
+        if(!$cached){
+
+          // use shell zip command instead / probably faster and more robust than PHP / if use, comment out PHP ZipArchive method starting below
+          // exec('zip ' . $zip_file . ' ' . $dir . '/*.* -j -x _files*', $out, $res);
+
+          // check that ZipArchive class exists
+          if(!class_exists('ZipArchive')) error('Missing PHP ZipArchive class.', 500); 
+
+          // glob files / must be readable / is_file / !symlink / !is_exclude
+          $files = array_filter(glob($dir. '/*', GLOB_NOSORT), function($file){
+            return is_readable($file) && is_file($file) && !is_link($file) && !is_exclude($file, false);
+          });
+
+          // !no files available to zip
+          if(empty($files)) error('No files to zip!', 400);
+          
+          // new ZipArchive
+          $zip = new ZipArchive();
+
+          // create new $zip_file
+          if($zip->open($zip_file, ZipArchive::CREATE | ZIPARCHIVE::OVERWRITE) !== true) error('Failed to create ZIP file ' . $zip_file_name . '.', 500);
+
+          
+          // add files to zip / flatten with basename()
+          foreach($files as $file) $zip->addFile($file, basename($file));
+
+          
+
+          // no files added (for some reason)
+          if(!$zip->numFiles) error('Could not add any files to ' . $zip_file_name . '.', 500);
+
+          // close zip
+          $zip->close();
+
+          // make sure created zip file exists / just in case
+          if(!file_exists($zip_file)) error('Zip file ' . $zip_file_name . ' does not exist.', 500);
+        }
+
+        // redirect instead of readfile() / might be useful if readfile() fails and/or for caching and performance
+        /*$zip_url = get_url_path($zip_file);
+        if($zip_url){
+          header('Location:' . $zip_url . '?' . filemtime($dir), true, 302);
+          exit;
+        }*/
+
+        // output headers
+        if(config::$has_login) {
+          header('cache-control: must-revalidate, post-check=0, pre-check=0');
+          header('cache-control: public');
+          header('expires: 0');
+          header('pragma: public');
+        } else {
+          set_cache_headers();
+        }
+        header('content-description: File Transfer');
+        header('content-disposition: attachment; filename="' . addslashes(basename($dir)) . '.zip"');
+        $content_length = filesize($zip_file);
+        header('content-length: ' . $content_length);
+        header('content-transfer-encoding: binary');
+        header('content-type: application/zip');
+        header('files-msg: [' . $zip_file_name . '][' . ($cached ? 'cached' : 'created') . ']');
+
+        // ignore user abort so we can delete file also on download cancel
+        if(empty(config::$config['download_dir_cache'])) @ignore_user_abort(true);
+
+        // clear output buffer for large files
+        while (ob_get_level()) ob_end_clean();
+
+        // output zip readfile()
+        if(!readfile($zip_file)) error('Failed to readfile(' . $zip_file_name . ').', 500);
+
+        // delete temp zip file if cache disable
+        if(empty(config::$config['download_dir_cache'])) @unlink($zip_file);
     }
-    header('content-description: File Transfer');
-    header('content-disposition: attachment; filename="' . addslashes(basename($dir)) . '.zip"');
-    $content_length = filesize($zip_file);
-    header('content-length: ' . $content_length);
-    header('content-transfer-encoding: binary');
-    header('content-type: application/zip');
-    header('files-msg: [' . $zip_file_name . '][' . ($cached ? 'cached' : 'created') . ']');
-
-    // ignore user abort so we can delete file also on download cancel
-    if(empty(config::$config['download_dir_cache'])) @ignore_user_abort(true);
-
-    // clear output buffer for large files
-    while (ob_get_level()) ob_end_clean();
-
-    // output zip readfile()
-    if(!readfile($zip_file)) error('Failed to readfile(' . $zip_file_name . ').', 500);
-
-    // delete temp zip file if cache disable
-    if(empty(config::$config['download_dir_cache'])) @unlink($zip_file);
+    
+    
 
 
   // folder preview image
@@ -2115,10 +2209,10 @@ var CodeMirror = {};
     <script src="_files/assets/js/files.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js" integrity="sha512-xQBQYt9UcgblF6aCMrwU1NkVA7HCXaSN2oq0so80KO+y68M+n64FOcqgav4igHe6D5ObBLIf68DWv+gfBowczg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-      document.getElementsByTagName('form')[0].addEventListener('submit', function(){
-        this.action = '<?php echo isset($_GET['logout']) ? strtok($_SERVER['REQUEST_URI'], '?') : $_SERVER['REQUEST_URI']; ?>';
-        this.method = 'post';
-      }, false);
+      // document.getElementsByTagName('form')[0].addEventListener('submit', function(){
+      //   this.action = '<?php echo isset($_GET['logout']) ? strtok($_SERVER['REQUEST_URI'], '?') : $_SERVER['REQUEST_URI']; ?>';
+      //   this.method = 'post';
+      // }, false);
 
       const convertRestArgsIntoStylesArr = ([...args]) => {
           return args.slice(1);

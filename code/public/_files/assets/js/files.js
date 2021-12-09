@@ -1711,7 +1711,7 @@
                 + f("menu" !== _c.click || c.is_dir, "files-context") + D(c) 
                 + "</a>"
                 // + '<input type="checkbox" name="fileId[]" class="custom-control-input" id="checkbox" value=""></input>'
-                + '<input type="checkbox" name="fileId" class="custom-control-input hide" id="checkbox" value="'+l(c, "download" === _c.click)+'" onclick=selectFile(this)'
+                + '<input type="checkbox" class="custom-control-input hide" id="checkbox" value="'+l(c, "download" === _c.click)+'" onclick=selectFile(this)'
                 + '></input>'
                 + '</div>'
             }))
