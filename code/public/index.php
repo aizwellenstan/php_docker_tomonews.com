@@ -529,7 +529,7 @@ function is_exclude($path = false, $is_dir = true, $symlinked = false){
   if(!$is_dir){
     $basename = basename($path);
     if($basename === config::$local_config_file) return true;
-    if(config::$config['files_exclude'] && preg_match(config::$config['files_exclude'], $basename)) return true;
+    // if(config::$config['files_exclude'] && preg_match(config::$config['files_exclude'], $basename)) return true;
   }
 }
 
