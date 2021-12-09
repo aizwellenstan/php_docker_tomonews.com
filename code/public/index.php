@@ -1,4 +1,15 @@
 <?php
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    header('Access-Control-Allow-Origin: *');
+    header('Access-Control-Allow-Methods: POST, GET, DELETE, PUT, PATCH, OPTIONS');
+    header('Access-Control-Allow-Headers: token, Content-Type');
+    header('Access-Control-Max-Age: 1728000');
+    header('Content-Length: 0');
+    header('Content-Type: text/plain');
+    // die();
+}
+
+header('Access-Control-Allow-Origin: *');
 // errors
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -324,12 +335,6 @@ class config {
     if(self::$has_login) check_login($is_doc);
   }
 };
-
-header('Access-Control-Allow-Origin: *');
-
-header('Access-Control-Allow-Methods: GET, POST');
-
-header("Access-Control-Allow-Headers: X-Requested-With");
 
 // login page
 function login_page($is_login_attempt, $sidx, $is_logout, $client_hash){
