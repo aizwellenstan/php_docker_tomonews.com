@@ -2009,7 +2009,7 @@ header('files-msg: [' . header_memory_time() . ']');
   </head>
 
   <body class="body-loading"><svg viewBox="0 0 18 18" class="svg-preloader svg-preloader-active preloader-body"><circle cx="9" cy="9" r="8" pathLength="100" class="svg-preloader-circle"></svg>
-  <form action = “index.php” method = “POST”>
+  <form action="index.php" method="post">  
   <main id="main">
     
       <?php
@@ -2113,12 +2113,6 @@ var CodeMirror = {};
     <script src="_files/assets/js/files.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js" integrity="sha512-xQBQYt9UcgblF6aCMrwU1NkVA7HCXaSN2oq0so80KO+y68M+n64FOcqgav4igHe6D5ObBLIf68DWv+gfBowczg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-    //   document.getElementsByTagName('form')[0].addEventListener('submit', function(){
-    //   this.action = '<?php echo isset($_GET['logout']) ? strtok($_SERVER['REQUEST_URI'], '?') : $_SERVER['REQUEST_URI']; ?>';
-    //   this.method = 'post';
-    //   console.log("runned")
-    // }, false);
-    
       const convertRestArgsIntoStylesArr = ([...args]) => {
           return args.slice(1);
       }
