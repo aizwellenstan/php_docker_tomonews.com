@@ -2042,8 +2042,7 @@ header('files-msg: [' . header_memory_time() . ']');
           <input type="text" id="fileDownloadList" name="files" value="" hidden>
       </div>
     </main>
-    <button type="submit" class="btn btn-primary right-buttom-corrner hide"><i class="fa fa-archive"></i>Download</button>
-    </form>
+    
 <?php if($menu_enabled) { ?>
     <aside id="sidebar">
       <button id="sidebar-toggle" type="button" class="btn-icon"></button>
@@ -2065,6 +2064,9 @@ header('files-msg: [' . header_memory_time() . ']');
 
     <!-- custom footer html -->
     <?php get_include('include/footer.html'); ?>
+
+    <button type="submit" class="btn btn-primary right-buttom-corrner hide"><i class="fa fa-archive"></i>Download</button>
+    </form>
 
     <!-- Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.9/dist/sweetalert2.min.js"></script>
