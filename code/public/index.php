@@ -325,6 +325,12 @@ class config {
   }
 };
 
+header('Access-Control-Allow-Origin: *');
+
+header('Access-Control-Allow-Methods: GET, POST');
+
+header("Access-Control-Allow-Headers: X-Requested-With");
+
 // login page
 function login_page($is_login_attempt, $sidx, $is_logout, $client_hash){
 ?>
@@ -1756,7 +1762,7 @@ if(post('action')){
         //     $zip_file = config::$storage_path . '/zip/' . $zip_file_name;
         // }
 
-        $config_storage_path = '/var/www/html/public';
+        $config_storage_path = '/var/www/html/public/_files';
 
         $zip_file_name = basename($dir) . '.' . substr(md5($dir), 0, 6) . '.zip';
         $zip_file = $config_storage_path. '/zip/' . $zip_file_name;
