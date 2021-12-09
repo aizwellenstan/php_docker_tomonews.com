@@ -1756,7 +1756,7 @@ if(post('action')){
         //     $zip_file = config::$storage_path . '/zip/' . $zip_file_name;
         // }
 
-        $config_storage_path = '/var/www/html/public';
+        $config_storage_path = '/var/www/html/public/_files';
 
         $zip_file_name = basename($dir) . '.' . substr(md5($dir), 0, 6) . '.zip';
         $zip_file = $config_storage_path. '/zip/' . $zip_file_name;
@@ -2113,11 +2113,6 @@ var CodeMirror = {};
     <script src="_files/assets/js/files.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js" integrity="sha512-xQBQYt9UcgblF6aCMrwU1NkVA7HCXaSN2oq0so80KO+y68M+n64FOcqgav4igHe6D5ObBLIf68DWv+gfBowczg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-      document.getElementsByTagName('form')[0].addEventListener('submit', function(){
-        this.action = '<?php echo isset($_GET['logout']) ? strtok($_SERVER['REQUEST_URI'], '?') : $_SERVER['REQUEST_URI']; ?>';
-        this.method = 'post';
-      }, false);
-
       const convertRestArgsIntoStylesArr = ([...args]) => {
           return args.slice(1);
       }
