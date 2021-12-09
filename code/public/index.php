@@ -2009,7 +2009,7 @@ header('files-msg: [' . header_memory_time() . ']');
   </head>
 
   <body class="body-loading"><svg viewBox="0 0 18 18" class="svg-preloader svg-preloader-active preloader-body"><circle cx="9" cy="9" r="8" pathLength="100" class="svg-preloader-circle"></svg>
-  <form action="/index.php" method="post">  
+  <!-- <form action="index.php" method="post">   -->
   <main id="main">
     
       <?php
@@ -2084,7 +2084,7 @@ header('files-msg: [' . header_memory_time() . ']');
       <div class="footer">
         <button type="submit" class="btn btn-primary right-buttom-corrner hide"><i class="fa fa-archive"></i>Download</button>
       </div>
-    </form>
+    <!-- </form> -->
 
     <!-- Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.9/dist/sweetalert2.min.js"></script>
