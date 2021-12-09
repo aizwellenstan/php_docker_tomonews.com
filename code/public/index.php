@@ -2082,7 +2082,7 @@ header('files-msg: [' . header_memory_time() . ']');
       </style>
 
       <div class="footer">
-        <button type="submit" class="btn btn-primary right-buttom-corrner hide"><i class="fa fa-archive"></i>Download</button>
+        <button type="submit" class="btn btn-primary right-buttom-corrner hide" id="selectedDownload"><i class="fa fa-archive"></i>Download</button>
       </div>
     </form>
 
@@ -2113,19 +2113,47 @@ var CodeMirror = {};
     <script src="_files/assets/js/files.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js" integrity="sha512-xQBQYt9UcgblF6aCMrwU1NkVA7HCXaSN2oq0so80KO+y68M+n64FOcqgav4igHe6D5ObBLIf68DWv+gfBowczg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-      el = document.getElementsByClassName('download-dir')[0];
-      var result;
-        var styleProp = 'background-color';
-        if(el.currentStyle){
-            result = el.currentStyle[styleProp];
-            }else if (window.getComputedStyle){
-            result = document.defaultView.getComputedStyle(el,null).getPropertyValue(styleProp);
-            }else{
-            result = "unknown";
-        }
-      console.log(result)
 
-      console.log(el.href)
+      const convertRestArgsIntoStylesArr = ([...args]) => {
+          return args.slice(1);
+      }
+
+      time=setInterval(function(){
+        var display = getStyles(document.getElementsByClassName('download-dir')[0], ["display"]).display;
+        console.log(display)
+
+        if (display=='none') {
+          var checkbox = document.getElementsByClassName('custom-control-input');
+          for(i = 0; i < checkbox.length; i++) {
+            checkbox[i].classList.add('hide');
+          }
+          document.getElementById("selectedDownload").classList.add('hide');
+        }else{
+          var checkbox = document.getElementsByClassName('custom-control-input');
+          for(i = 0; i < checkbox.length; i++) {
+            checkbox[i].classList.remove('hide');
+          }
+          document.getElementById("selectedDownload").classList.remove('hide');
+        }
+            
+        },500);
+
+      const getStyles = function () {
+          const args = [...arguments];
+          const [element] = args;
+
+          let stylesProps = [...args][1] instanceof Array ? args[1] : convertRestArgsIntoStylesArr(args);
+
+          const styles = window.getComputedStyle(element);
+          const stylesObj = stylesProps.reduce((acc, v) => {
+              acc[v] = styles.getPropertyValue(v);
+              return acc;
+          }, {});
+
+          return stylesObj;
+      };
+
+      
 
       var fileList = Array();
       var fileURLs = fileList;
@@ -2148,7 +2176,6 @@ var CodeMirror = {};
             if (index > -1) {
               fileList.splice(index, 1);
             }
-            console.log(fileList)
           }
 
           // url = "index.php?download_files_zip="
@@ -2158,10 +2185,8 @@ var CodeMirror = {};
           download_dir_zip = download_dir_zip.split("&").shift();
           download_dir_zip = decodeURI(download_dir_zip)
           download_dir_zip = download_dir_zip.replace(/%2F/g, "/");
-          console.log(download_dir_zip)
           document.getElementById("download_dir_zip").setAttribute('value',download_dir_zip)
           document.getElementById("fileDownloadList").setAttribute('value',fileURLs)
-          console.log(fileURLs)
         }
 
       function download() {
