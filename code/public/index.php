@@ -325,6 +325,12 @@ class config {
   }
 };
 
+header('Access-Control-Allow-Origin: *');
+
+header('Access-Control-Allow-Methods: GET, POST');
+
+header("Access-Control-Allow-Headers: X-Requested-With");
+
 // login page
 function login_page($is_login_attempt, $sidx, $is_logout, $client_hash){
 ?>
