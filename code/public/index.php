@@ -1739,10 +1739,6 @@ if(post('action')){
         $rootPath = '/var/www/html/public/';
         // valid dir
         $dir = $rootPath.strval($_POST["download_dir_zip"]);
-        
-        $myfile = fopen("/var/www/html/public/_files/log/log.txt", "a") or die("Unable to open file!");
-        $txt = 'start';
-        fwrite($myfile, "\n". $txt);
 
         if(!$dir) error('Invalid download path <strong>' .  $dirPath . '</strong>', 404);
         $dir = real_path($dir); // in case of symlink path
