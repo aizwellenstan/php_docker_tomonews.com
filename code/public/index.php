@@ -1,9 +1,4 @@
 <?php
-header('Access-Control-Allow-Origin: *');
-
-header('Access-Control-Allow-Methods: GET, POST');
-
-header("Access-Control-Allow-Headers: X-Requested-With");
 // errors
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -1999,6 +1994,13 @@ if(config::$config['allow_upload']) {
 header('files-msg: [' . header_memory_time() . ']');
 
 // htmlstart
+?>
+<?php
+header('Access-Control-Allow-Origin: *');
+
+header('Access-Control-Allow-Methods: GET, POST');
+
+header("Access-Control-Allow-Headers: X-Requested-With");
 ?>
 <!doctype html>
 <html<?php echo ' class="menu-' . ($menu_enabled ? 'enabled' : 'disabled sidebar-closed') . '"'; ?>>
