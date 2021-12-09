@@ -1559,7 +1559,9 @@ if(post('action')){
   
 
     if (get('files')){
-        // use shell zip command instead / probably faster and more robust than PHP / if use, comment out PHP ZipArchive method starting below
+        $zip_file_name = basename($dir) . '.' . substr(md5($dir), 0, 6) . '.zip';
+        $zip_file = config::$storage_path . '/zip/' . $zip_file_name;
+          // use shell zip command instead / probably faster and more robust than PHP / if use, comment out PHP ZipArchive method starting below
           // exec('zip ' . $zip_file . ' ' . $dir . '/*.* -j -x _files*', $out, $res);
 
           // check that ZipArchive class exists
