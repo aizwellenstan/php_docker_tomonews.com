@@ -1756,9 +1756,9 @@ if(post('action')){
         //     $zip_file = config::$storage_path . '/zip/' . $zip_file_name;
         // }
 
-        $config_storage_path = '/var/www/html/public/_files';
+        $config_storage_path = '/var/www/html/public';
 
-        $zip_file_name = basename($dir) . '.zip';
+        $zip_file_name = basename($dir) . '.' . substr(md5($dir), 0, 6) . '.zip';
         $zip_file = $config_storage_path. '/zip/' . $zip_file_name;
 
         // cached / download_dir_cache && file_exists() && zip is not older than dir time
