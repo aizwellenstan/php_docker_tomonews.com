@@ -1,3 +1,14 @@
+.right-buttom-corrner {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+}
+
+.hide {
+    /* display: none; */
+}
+
 .modal-dialog  {
     display: none !important;
 }

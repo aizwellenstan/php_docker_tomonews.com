@@ -1,8 +1,13 @@
 
-0
-0
-0
-0
-0
-0
-0
+start
+e
+e
+/var/www/html/public/example/Devision of Art Associate Degrees/HoshimachiSusei.jpeg
+/var/www/html/public/example/Devision of Art Associate Degrees/HoushouMarin.jpeg
+start
+start
+start
+start
+start
+start
+start

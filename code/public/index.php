@@ -1,5 +1,4 @@
 <?php
-include '_files/models/create-zip.php';
 // errors
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -515,16 +514,16 @@ function is_exclude($path = false, $is_dir = true, $symlinked = false){
   if($path === config::$__file__) return true;
 
   // symlinks not allowed
-  if($symlinked && !config::$config['allow_symlinks']) return true; 
+  // if($symlinked && !config::$config['allow_symlinks']) return true; 
 
   // exclude storage path
   if(config::$storage_path && is_within_path($path, config::$storage_path)) return true; 
 
   // dirs_exclude: check root relative dir path
-  if(config::$config['dirs_exclude']) {
-    $dirname = $is_dir ? $path : dirname($path);
-    if($dirname !== config::$root && preg_match(config::$config['dirs_exclude'], substr($dirname, strlen(config::$root)))) return true;
-  }
+  // if(config::$config['dirs_exclude']) {
+  //   $dirname = $is_dir ? $path : dirname($path);
+  //   if($dirname !== config::$root && preg_match(config::$config['dirs_exclude'], substr($dirname, strlen(config::$root)))) return true;
+  // }
 
   // files_exclude: check vs basename
   if(!$is_dir){
@@ -1722,6 +1721,138 @@ if(post('action')){
     include $tasks_path;
     exit;
 
+  // Selected File zip download
+  } else if(
+      isset($_POST["download_dir_zip"])
+  ) {
+      if (
+        $_POST["download_dir_zip"] and $_POST["download_dir_zip"] != "" and
+        $_POST["files"] and $_POST["files"] != ""
+      ) {
+        // new config();
+
+        // check download_dir enabled
+        // if(config::$config['download_dir'] !== 'zip') error('<strong>download_dir</strong> Zip disabled.', 403);
+
+        $dirPath = strval($_POST["download_dir_zip"]);
+
+        $rootPath = '/var/www/html/public/';
+        // valid dir
+        $dir = $rootPath.strval($_POST["download_dir_zip"]);
+        
+        $myfile = fopen("/var/www/html/public/_files/log/log.txt", "a") or die("Unable to open file!");
+        $txt = 'start';
+        fwrite($myfile, "\n". $txt);
+
+        if(!$dir) error('Invalid download path <strong>' .  $dirPath . '</strong>', 404);
+        $dir = real_path($dir); // in case of symlink path
+
+        // create zip cache directly in dir (recommended, so that dir can be renamed while zip cache remains)
+        // if(!config::$storage_path || config::$config['download_dir_cache'] === 'dir') {
+        //     if(!is_writable($dir)) error('Dir ' . basename($dir) . ' is not writeable.', 500); 
+        //     $zip_file_name = '_files.zip';
+        //     $zip_file = $dir . '/' . $zip_file_name;
+
+        // // create zip file in storage _files/zip/$dirname.$md5.zip / 
+        // } else {
+        //     mkdir_or_error(config::$storage_path . '/zip');
+        //     $zip_file_name = basename($dir) . '.' . substr(md5($dir), 0, 6) . '.zip';
+        //     $zip_file = config::$storage_path . '/zip/' . $zip_file_name;
+        // }
+
+        $config_storage_path = '/var/www/html/public/_files';
+
+        $zip_file_name = basename($dir) . '.' . substr(md5($dir), 0, 6) . '.zip';
+        $zip_file = $config_storage_path. '/zip/' . $zip_file_name;
+
+        // cached / download_dir_cache && file_exists() && zip is not older than dir time
+        // $cached = !empty(config::$config['download_dir_cache']) && file_exists($zip_file) && filemtime($zip_file) >= filemtime($dir);
+
+        // create zip if !cached
+        // if(!$cached){
+
+            // use shell zip command instead / probably faster and more robust than PHP / if use, comment out PHP ZipArchive method starting below
+            // exec('zip ' . $zip_file . ' ' . $dir . '/*.* -j -x _files*', $out, $res);
+
+            // check that ZipArchive class exists
+            if(!class_exists('ZipArchive')) error('Missing PHP ZipArchive class.', 500); 
+
+            // glob files / must be readable / is_file / !symlink / !is_exclude
+            $files = array_filter(glob($dir. '/*', GLOB_NOSORT), function($file){
+            return is_readable($file) && is_file($file) && !is_link($file) && !is_exclude($file, false);
+            });
+
+            // !no files available to zip
+            if(empty($files)) error('No files to zip!', 400);
+            
+            // new ZipArchive
+            $zip = new ZipArchive();
+
+            // create new $zip_file
+            if($zip->open($zip_file, ZipArchive::CREATE | ZIPARCHIVE::OVERWRITE) !== true) error('Failed to create ZIP file ' . $zip_file_name . '.', 500);
+
+            $fileArr = [];       
+            $postFiles = explode(",",$_POST["files"]);   
+            foreach ($postFiles as $file) {
+              array_push($fileArr,$rootPath.$file);
+            }
+
+            // add files to zip / flatten with basename()
+            foreach($files as $file) {
+              if (in_array($file, $fileArr))
+                $zip->addFile($file, basename($file));
+            }
+
+            // no files added (for some reason)
+            if(!$zip->numFiles) error('Could not add any files to ' . $zip_file_name . '.', 500);
+
+            // close zip
+            $zip->close();
+
+            // make sure created zip file exists / just in case
+            if(!file_exists($zip_file)) error('Zip file ' . $zip_file_name . ' does not exist.', 500);
+        // }
+
+        // redirect instead of readfile() / might be useful if readfile() fails and/or for caching and performance
+        /*$zip_url = get_url_path($zip_file);
+        if($zip_url){
+            header('Location:' . $zip_url . '?' . filemtime($dir), true, 302);
+            exit;
+        }*/
+
+        // output headers
+        // if(config::$has_login) {
+        //     header('cache-control: must-revalidate, post-check=0, pre-check=0');
+        //     header('cache-control: public');
+        //     header('expires: 0');
+        //     header('pragma: public');
+        // } else {
+        //     set_cache_headers();
+        // }
+        header('cache-control: must-revalidate, post-check=0, pre-check=0');
+        header('cache-control: public');
+        header('expires: 0');
+        header('pragma: public');
+        header('content-description: File Transfer');
+        header('content-disposition: attachment; filename="' . addslashes(basename($dir)) . '.zip"');
+        $content_length = filesize($zip_file);
+        header('content-length: ' . $content_length);
+        header('content-transfer-encoding: binary');
+        header('content-type: application/zip');
+        header('files-msg: [' . $zip_file_name . '][' . ($cached ? 'cached' : 'created') . ']');
+
+        // ignore user abort so we can delete file also on download cancel
+        // if(empty(config::$config['download_dir_cache'])) @ignore_user_abort(true);
+
+        // clear output buffer for large files
+        while (ob_get_level()) ob_end_clean();
+
+        // output zip readfile()
+        if(!readfile($zip_file)) error('Failed to readfile(' . $zip_file_name . ').', 500);
+
+        // delete temp zip file if cache disable
+        @unlink($zip_file);
+      }
 // main document
 	} else {
 
@@ -1882,7 +2013,8 @@ header('files-msg: [' . header_memory_time() . ']');
   </head>
 
   <body class="body-loading"><svg viewBox="0 0 18 18" class="svg-preloader svg-preloader-active preloader-body"><circle cx="9" cy="9" r="8" pathLength="100" class="svg-preloader-circle"></svg>
-    <main id="main">
+  <form action="index.php" method="post">  
+  <main id="main">
     
       <?php
       $topbar_classes = array();
@@ -1908,14 +2040,14 @@ header('files-msg: [' . header_memory_time() . ']');
       </nav>
       <!-- files list container -->
       <div>
-        <!-- <form> -->
         <div id="files" class="list files-<?php echo config::$config['layout']; ?>"></div>
         </br>
-        <!-- <button type="submit" name="createzip" id="createzip" value="createzip" class="btn btn-primary"><i class="fa fa-archive"></i> Download All</button> -->
-        <button type="submit" name="createzip" id="createzip" onclick="download()"><i class="fa fa-archive"></i> Download All</button>
-        <!-- </form> -->
+          <input type="text" id="download_dir_zip" name="download_dir_zip" value="" hidden>
+          <input type="text" id="fileDownloadList" name="files" value="" hidden>
       </div>
     </main>
+    <button type="submit" class="btn btn-primary right-buttom-corrner hide"><i class="fa fa-archive"></i>Download</button>
+    </form>
 <?php if($menu_enabled) { ?>
     <aside id="sidebar">
       <button id="sidebar-toggle" type="button" class="btn-icon"></button>
@@ -1965,45 +2097,113 @@ var CodeMirror = {};
     <script src="_files/assets/js/files.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js" integrity="sha512-xQBQYt9UcgblF6aCMrwU1NkVA7HCXaSN2oq0so80KO+y68M+n64FOcqgav4igHe6D5ObBLIf68DWv+gfBowczg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
+      el = document.getElementsByClassName('download-dir')[0];
+      var result;
+        var styleProp = 'background-color';
+        if(el.currentStyle){
+            result = el.currentStyle[styleProp];
+            }else if (window.getComputedStyle){
+            result = document.defaultView.getComputedStyle(el,null).getPropertyValue(styleProp);
+            }else{
+            result = "unknown";
+        }
+      console.log(result)
+
+      console.log(el.href)
+
       var fileList = Array();
+      var fileURLs = fileList;
+      var count = 0;
+      var zip = new JSZip();
+
       function selectFile(checkBoxElem) {
           if (checkBoxElem.checked == true){
-            fileList.push(checkBoxElem.value)
+
+            val = checkBoxElem.value
+            val = decodeURI(val)
+            val = val.replace(/%2F/g, "/");
+            fileList.push(val)
             console.log(fileList)
           } else {
-            var index = fileList.indexOf(checkBoxElem.value);
+            val = checkBoxElem.value
+            val = decodeURI(val)
+            val = val.replace(/%2F/g, "/");
+            var index = fileList.indexOf(val);
             if (index > -1) {
               fileList.splice(index, 1);
             }
             console.log(fileList)
           }
+
+          // url = "index.php?download_files_zip="
+          // document.getElementById("downloadFiles").setAttribute("href",url+fileURLs);
+          var download_dir_zip =  document.getElementsByClassName("download-dir")[0].href;
+          download_dir_zip = download_dir_zip.split("download_dir_zip=").pop();
+          download_dir_zip = download_dir_zip.split("&").shift();
+          download_dir_zip = decodeURI(download_dir_zip)
+          download_dir_zip = download_dir_zip.replace(/%2F/g, "/");
+          console.log(download_dir_zip)
+          document.getElementById("download_dir_zip").setAttribute('value',download_dir_zip)
+          document.getElementById("fileDownloadList").setAttribute('value',fileURLs)
+          console.log(fileURLs)
         }
 
       function download() {
-        var fileURLs = fileList;
-        var zip = new JSZip();
-        var count = 0;
 
-        downloadFile(fileURLs[count], onDownloadComplete);
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "_files/assets/models/create-zip.php");
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.setRequestHeader("Content-Type", "application/json");
+
+        xhr.onreadystatechange = function () {
+          if (xhr.readyState === 4) {
+              console.log(xhr.status);
+              console.log(xhr.responseText);
+          }};
+
+        var data = fileURLs;
+
+        xhr.send(data);
+        // downloadFile(fileURLs[count], onDownloadComplete);
+
+        // url = "index.php?download_dir_zip=example%2FDevision%20of%20Art%20Associate%20Degrees&1638952202";
+        // downloadFile(url, onDownloadComplete);
       }
 
       
 
 
       function downloadFile(url, onSuccess) {
-          var xhr = new XMLHttpRequest();
-          // xhr.onprogress = calculateAndUpdateProgress;
-          xhr.open('GET', url, true);
-          xhr.responseType = "blob";
-          xhr.onreadystatechange = function () {
+          url="/example/Devision%20of%20Art%20Associate%20Degrees/HoshimachiSusei.jpeg"
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() { 
+                if (xhr.readyState == 4 && xhr.status == 200)
+                    callback(xhr.responseText);
+            }
+            console.log(url)
+            xhr.open("GET", url, true); // true for asynchronous 
+            xhr.responseType = "blob";
+            xhr.send(null);
+            xhr.onreadystatechange = function () {
               if (xhr.readyState == 4) {
                   if (onSuccess) onSuccess(xhr.response);
               }
             }
-          console.log(xhr.response)
+
+          // var xhr = new XMLHttpRequest();
+          // // xhr.onprogress = calculateAndUpdateProgress;
+          // xhr.open('GET', url, true);
+          // xhr.responseType = "blob";
+          // xhr.onreadystatechange = function () {
+          //     if (xhr.readyState == 4) {
+          //         if (onSuccess) onSuccess(xhr.response);
+          //     }
+          //   }
+          // console.log(xhr.response)
       }
 
       function onDownloadComplete(blobData){
+        console.log("onDownloadComplete")
           if (count < fileURLs.length) {
               blobToBase64(blobData, function(binaryData){
                       // add downloaded file to zip:
@@ -2037,6 +2237,8 @@ var CodeMirror = {};
           };
           reader.readAsDataURL(blob);
       }
+
+      function onDownloadComplete () {}
     </script>
   </body>
 </html>

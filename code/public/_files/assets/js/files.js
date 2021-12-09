@@ -1711,8 +1711,8 @@
                 + f("menu" !== _c.click || c.is_dir, "files-context") + D(c) 
                 + "</a>"
                 // + '<input type="checkbox" name="fileId[]" class="custom-control-input" id="checkbox" value=""></input>'
-                // + '<input type="checkbox" name="fileId" class="custom-control-input" id="checkbox" value="'+l(c, "download" === _c.click)+'" onclick=selectFile(this)'
-                // + '></input>'
+                + '<input type="checkbox" name="fileId" class="custom-control-input hide" id="checkbox" value="'+l(c, "download" === _c.click)+'" onclick=selectFile(this)'
+                + '></input>'
                 + '</div>'
             }))
         }
@@ -3660,6 +3660,7 @@
                 })), p("beforeChange", b.update), g.downloadEl && p("afterChange", (function() {
                     var t = e.currItem.original || e.currItem.src;
                     s.setAttribute("href", t || "#"), s.style.display = t ? "" : "none"
+                    console.log("changed")
                 })), g.mapEl && p("afterChange", (function() {
                     var t = e.currItem.item,
                         i = !!(t && t.image && t.image.exif) && t.image.exif.gps;
