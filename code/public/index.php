@@ -1506,11 +1506,11 @@ if(post('action')){
 
   // do update
   } else if($action === 'do_update'){
-    $version = post('version');
-    if(!$version || version_compare($version, config::$version) <= 0 || !is_writable(__FILE__)) json_error(); // requirements
-    $get = @file_get_contents('https://cdn.jsdelivr.net/npm/files.photo.gallery@' . $version . '/index.php');
-    if(empty($get) || strpos($get, '<?php') !== 0) json_error(); // basic validation
-    json_success(array('success' => @file_put_contents(__FILE__, $get)));
+    // $version = post('version');
+    // if(!$version || version_compare($version, config::$version) <= 0 || !is_writable(__FILE__)) json_error(); // requirements
+    // $get = @file_get_contents('https://cdn.jsdelivr.net/npm/files.photo.gallery@' . $version . '/index.php');
+    // if(empty($get) || strpos($get, '<?php') !== 0) json_error(); // basic validation
+    // json_success(array('success' => @file_put_contents(__FILE__, $get)));
 
   // store license
   } else if($action === 'license'){
