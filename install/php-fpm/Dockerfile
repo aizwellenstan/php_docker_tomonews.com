@@ -42,7 +42,7 @@ RUN usermod -u 1000 www-data
 # RUN dpkg-reconfigure -f noninteractive tzdata
 
 # install Application
-#USER www-data
+USER www-data
 #WORKDIR /var/www/html
 #RUN composer install
 
