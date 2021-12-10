@@ -2347,7 +2347,7 @@ var CodeMirror = {};
 
         .files-rows::after {
           content: "";
-          flex: auto;
+          width: 0;
         } 
   </style>
 </html>
