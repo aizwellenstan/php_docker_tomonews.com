@@ -2341,7 +2341,7 @@ var CodeMirror = {};
       #sidebar-topbar{display:none;}
 
       #sidebar-toggle {
-        z-index: 2147483647;
+        z-index: 2147483648;
       }
 
       .banner {
@@ -2350,7 +2350,7 @@ var CodeMirror = {};
           top: 0;
           width: 100%;
           height: 160px;
-          z-index: 2147483648;
+          z-index: 2147483647;
       }
 
       .btn-009889 {
