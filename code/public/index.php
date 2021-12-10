@@ -2111,23 +2111,7 @@ header('files-msg: [' . header_memory_time() . ']');
 
     <!-- custom footer html -->
     <?php get_include('include/footer.html'); ?>
-    <!-- <div class="footer" height="" width="100%"> -->
-      <!-- <button type="submit" class="btn btn-primary right-buttom-corrner hide"><i class="fa fa-archive"></i>Download</button> -->
     </div>
-    <style>
-      .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 60px;
-        background-color: #E5E5E5;
-        color: white;
-        text-align: center;
-        z-index: 2147483648;
-      }
-      </style>
-
       <div class="footer">
         <button type="submit" class="btn btn-primary right-buttom-corrner hide" id="selectedDownload"><i class="fa fa-archive"></i>Download</button>
       </div>
@@ -2332,6 +2316,22 @@ var CodeMirror = {};
       function onDownloadComplete () {}
     </script>
   </body>
+  <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        background-color: #E5E5E5;
+        text-align: center;
+        z-index: 2147483648;
+      }
+      
+      #main {
+        padding-bottom:60px;
+      }
+  </style>
 </html>
 <?php }}
 // htmlend
