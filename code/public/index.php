@@ -2333,8 +2333,8 @@ var CodeMirror = {};
       }
       
       .files-rows {
-          display: grid; 
-          grid-template-columns: repeat(auto-fill, 300px); 
+          display: grid !important; 
+          grid-template-columns: repeat(auto-fill, 300px) !important; 
       }
 
   </style>
