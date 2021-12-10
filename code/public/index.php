@@ -2329,7 +2329,7 @@ var CodeMirror = {};
       }
 
       #main {
-        padding-bottom:60px;
+        padding-bottom:70px;
       }
       
       .files-rows {
