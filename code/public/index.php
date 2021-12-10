@@ -2346,8 +2346,9 @@ var CodeMirror = {};
         } */
 
         .files-rows::after {
-          content: "";
-          width: 0;
+          content:"";
+          display: block;
+          width:calc(100%/var(--rows-size, 150px));
         } 
   </style>
 </html>
