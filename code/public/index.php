@@ -2340,6 +2340,10 @@ var CodeMirror = {};
 
       #sidebar-topbar{display:none;}
 
+      #sidebar-toggle {
+        z-index: 2147483647;
+      }
+
       .banner {
           position: fixed;
           left: 0;
