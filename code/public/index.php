@@ -2094,7 +2094,7 @@ header('files-msg: [' . header_memory_time() . ']');
     <aside id="sidebar">
       <button id="sidebar-toggle" type="button" class="btn-icon"></button>
       <div id="sidebar-inner">
-        <img src="/_files/assets/images/orange.png" height="160px">
+        <img src="/_files/assets/images/orange.png" height="160px" style="opacity:0">
         <div id="sidebar-topbar"></div>
         <div id="sidebar-menu"></div>
       </div>
