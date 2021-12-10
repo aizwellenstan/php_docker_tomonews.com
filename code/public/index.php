@@ -2348,7 +2348,7 @@ var CodeMirror = {};
         .files-rows::after {
           content:"";
           display: block;
-          width:calc(100%/var(--rows-size, 150px));
+          width:calc(100%/var(--rows-justify-content, space-evenly));
         } 
   </style>
 </html>
