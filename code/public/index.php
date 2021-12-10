@@ -2055,6 +2055,7 @@ header('files-msg: [' . header_memory_time() . ']');
   </head>
 
   <body class="body-loading"><svg viewBox="0 0 18 18" class="svg-preloader svg-preloader-active preloader-body"><circle cx="9" cy="9" r="8" pathLength="100" class="svg-preloader-circle"></svg>
+  <img class="banner" src ="/_files/assets/images/LIFE_Graudation_banner_4.png" height="160px" width="100%">
   <!-- <form action="/" method="post">   -->
   <form>  
   <main id="main">
@@ -2066,7 +2067,6 @@ header('files-msg: [' . header_memory_time() . ']');
       ?>
       
       <nav id="topbar"<?php if(!empty($topbar_classes)) echo ' class="' . join(' ', $topbar_classes) . '"'; ?>>
-      <img class="banner" src ="/_files/assets/images/LIFE_Graudation_banner_4.png" height="160px" width="100%">
         <div id="topbar-top" style="display:none;">
           <div id="search-container"><input id="search" type="search" placeholder="search" size="1" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" disabled></div>
           <div id="change-layout" class="dropdown"></div>
@@ -2113,7 +2113,7 @@ header('files-msg: [' . header_memory_time() . ']');
     <?php get_include('include/footer.html'); ?>
     </div>
       <div class="footer">
-        <button type="submit" class="btn btn-primary right-buttom-corrner hide" id="selectedDownload"><i class="fa fa-archive"></i>Download</button>
+        <button type="submit" class="btn btn-009889 right-buttom-corrner hide" id="selectedDownload"><i class="fa fa-archive"></i>Download</button>
       </div>
     </form>
 
@@ -2329,7 +2329,8 @@ var CodeMirror = {};
       }
 
       #main {
-        padding-bottom:60px;
+        padding-top: 160px;
+        padding-bottom: 60px;
       }
       
       .files-rows {
@@ -2339,44 +2340,7 @@ var CodeMirror = {};
 
       #sidebar-topbar{display:none;}
 
-      #sidebar-menu{
-        background: white;
-      }
-
-      .menu-text {
-        color: #f05223;
-        /* font-weight: bold; */
-        font-weight: 800;
-        word-wrap: break-word;     
-        white-space: -moz-pre-wrap; 
-        white-space: pre-wrap;
-      }
-
-      /* li {
-        height:78px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-      } */
       
-      li:hover, li:active{
-        background-color: #f05223;
-        color: white;
-      }
-
-      li:hover>a>.menu-text{
-        background-color: #f05223;
-        color: white!important;
-      }
-
-      li:nth-child(even){
-        background-color: #e5e5e5;
-      }
-      
-
-      li:nth-child(odd)>li{
-        background-color: white;
-      }
 
       .banner {
           position: fixed;
