@@ -1712,7 +1712,8 @@ if(post('action')){
         if(!readfile($zip_file)) error('Failed to readfile(' . $zip_file_name . ').', 500);
 
         // delete temp zip file if cache disable
-        if(empty(config::$config['download_dir_cache'])) @unlink($zip_file);
+        // if(empty(config::$config['download_dir_cache'])) @unlink($zip_file);
+        @unlink($zip_file);
     }
     
     
