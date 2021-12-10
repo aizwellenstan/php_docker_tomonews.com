@@ -1813,7 +1813,7 @@ if(post('action')){
     exit;
 
   // Selected File zip download
-  /*} else if(
+  } else if(
       isset($_POST["download_dir_zip"])
   ) {
       if (
@@ -1894,7 +1894,7 @@ if(post('action')){
 
         // delete temp zip file if cache disable
         @unlink($zip_file);
-      }*/
+      }
 // main document
 	} else {
 
@@ -2055,8 +2055,8 @@ header('files-msg: [' . header_memory_time() . ']');
   </head>
 
   <body class="body-loading"><svg viewBox="0 0 18 18" class="svg-preloader svg-preloader-active preloader-body"><circle cx="9" cy="9" r="8" pathLength="100" class="svg-preloader-circle"></svg>
-  <!-- <form action="/" method="post">   -->
-  <form>  
+  <form action="/" method="post">  
+  <!-- <form>   -->
   <main id="main">
     
       <?php
