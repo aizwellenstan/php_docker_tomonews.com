@@ -2329,12 +2329,12 @@ var CodeMirror = {};
       }
 
       #main {
-        padding-bottom:70px !important;
+        padding-bottom:65px;
       }
       
       .files-rows {
-          display: grid !important; 
-          grid-template-columns: repeat(auto-fill, 300px) !important; 
+          display: grid ; 
+          grid-template-columns: repeat(auto-fill, 280px); 
       }
 
   </style>
