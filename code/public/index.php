@@ -2337,6 +2337,8 @@ var CodeMirror = {};
           grid-template-columns: repeat(auto-fill, 260px); 
       }
 
+      #sidebar-topbar{display:none;}
+
       #sidebar-menu{
         background: white;
       }
