@@ -2337,6 +2337,60 @@ var CodeMirror = {};
           grid-template-columns: repeat(auto-fill, 260px); 
       }
 
+      #sidebar-menu{
+        background: white;
+      }
+
+      .menu-text {
+        color: #f05223;
+        /* font-weight: bold; */
+        font-weight: 800;
+        word-wrap: break-word;     
+        white-space: -moz-pre-wrap; 
+        white-space: pre-wrap;
+      }
+
+      li {
+        height:78px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      
+      li:hover, li:active{
+        background-color: #f05223;
+        color: white;
+      }
+
+      li:hover>a>.menu-text{
+        background-color: #f05223;
+        color: white!important;
+      }
+
+      li:nth-child(even){
+        background-color: #e5e5e5;
+      }
+      
+
+      li:nth-child(odd)>li{
+        background-color: white;
+      }
+
+      .banner {
+          position: fixed;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 160px;
+          z-index: 1;
+      }
+
+      .btn-009889 {
+        background-color: #009889;
+        color: white;
+        font-weight: bold;
+      }
+
   </style>
 </html>
 <?php }}
