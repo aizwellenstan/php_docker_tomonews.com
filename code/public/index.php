@@ -2333,7 +2333,7 @@ var CodeMirror = {};
       }
       
       .files-rows {
-          display: grid; 
+          display: grid !important; 
           grid-template-columns: repeat(auto-fill, 250px); 
           flex-wrap: wrap; 
           padding: var(--rows-space, calc((8% + var(--rows-size, 150px)) / 1000 * var(--rows-space-factor, 50))) 0 0 var(--rows-space, calc((8% + var(--rows-size, 150px)) / 1000 * var(--rows-space-factor, 50)));
