@@ -1558,7 +1558,7 @@ if(post('action')){
 
   
 
-    if (get('files')){
+    /*if (get('files')){
         $zip_file_name = basename($dir) . '.' . substr(md5($dir), 0, 6) . '.zip';
         $zip_file = config::$storage_path . '/zip/' . $zip_file_name;
           // use shell zip command instead / probably faster and more robust than PHP / if use, comment out PHP ZipArchive method starting below
@@ -1604,14 +1604,6 @@ if(post('action')){
 
           // make sure created zip file exists / just in case
           if(!file_exists($zip_file)) error('Zip file ' . $zip_file_name . ' does not exist.', 500);
-        
-
-        // redirect instead of readfile() / might be useful if readfile() fails and/or for caching and performance
-        /*$zip_url = get_url_path($zip_file);
-        if($zip_url){
-          header('Location:' . $zip_url . '?' . filemtime($dir), true, 302);
-          exit;
-        }*/
 
         // output headers
         if(config::$has_login) {
@@ -1644,7 +1636,7 @@ if(post('action')){
 
         
         
-    } else {
+    } else {*/
 
         // create zip if !cached
         if(!$cached){
@@ -1720,7 +1712,7 @@ if(post('action')){
 
         // delete temp zip file if cache disable
         if(empty(config::$config['download_dir_cache'])) @unlink($zip_file);
-    }
+   // }
     
     
 
