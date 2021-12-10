@@ -2355,6 +2355,39 @@ var CodeMirror = {};
         font-weight: bold;
       }
 
+
+      #sidebar-menu{
+        background: white;
+      }
+
+      li>a {
+        color: #f05223 !important;
+        /* font-weight: bold; */
+        font-weight: 800;
+        word-wrap: break-word;     
+        white-space: -moz-pre-wrap; 
+        white-space: pre-wrap;
+      }
+      
+      li:hover, li:active{
+        background-color: #f05223;
+        color: white;
+      }
+
+      li:hover>a>.menu-text{
+        background-color: #f05223;
+        color: white!important;
+      }
+
+      li:nth-child(even){
+        background-color: #e5e5e5;
+      }
+      
+
+      li:nth-child(odd)>li{
+        background-color: white;
+      }
+
   </style>
 </html>
 <?php }}
