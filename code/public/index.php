@@ -2327,9 +2327,14 @@ var CodeMirror = {};
         text-align: center;
         z-index: 2147483648;
       }
-      
+
       #main {
         padding-bottom:60px;
+      }
+      
+      .files-rows {
+          display: grid; 
+          grid-template-columns: repeat(auto-fill, 250px);
       }
   </style>
 </html>
