@@ -2333,23 +2333,9 @@ var CodeMirror = {};
       }
       
       .files-rows {
-          display: grid; 
-          grid-template-columns: repeat(auto-fill, 250px); 
-          /* flex-wrap: wrap; */
-          /* padding: var(--rows-space, calc((8% + var(--rows-size, 150px)) / 1000 * var(--rows-space-factor, 50))) 0 0 var(--rows-space, calc((8% + var(--rows-size, 150px)) / 1000 * var(--rows-space-factor, 50))); */
-          /* justify-content: var(--rows-justify-content, space-evenly); */
+          justify-content: center;
       }
 
-      /* .files-rows:empty {
-          height: 0;
-          border: none;
-        } */
-
-        .files-rows::after {
-          content:"";
-          display: block;
-          width:calc(100%/var(--rows-justify-content, space-evenly));
-        } 
   </style>
 </html>
 <?php }}
