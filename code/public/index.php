@@ -2334,7 +2334,7 @@ var CodeMirror = {};
       
       .files-rows {
           display: grid ; 
-          grid-template-columns: repeat(auto-fill, 280px); 
+          grid-template-columns: repeat(auto-fill, 270px); 
       }
 
   </style>
