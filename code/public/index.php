@@ -2389,6 +2389,10 @@ var CodeMirror = {};
         background-color: white;
       }
 
+      li>a {
+        white-space: normal !important;
+      }
+
   </style>
 </html>
 <?php }}
