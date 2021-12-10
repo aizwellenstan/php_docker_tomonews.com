@@ -2110,7 +2110,7 @@ header('files-msg: [' . header_memory_time() . ']');
 
     <!-- custom footer html -->
     <?php get_include('include/footer.html'); ?>
-    <div class="footer" height="100px" width="100%">
+    <!-- <div class="footer" height="100px" width="100%"> -->
       <!-- <button type="submit" class="btn btn-primary right-buttom-corrner hide"><i class="fa fa-archive"></i>Download</button> -->
     </div>
     <style>
