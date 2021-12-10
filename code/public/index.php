@@ -2333,7 +2333,8 @@ var CodeMirror = {};
       }
       
       .files-rows {
-          justify-content: center;
+          display: grid; 
+          grid-template-columns: repeat(auto-fill, 300px); 
       }
 
   </style>
