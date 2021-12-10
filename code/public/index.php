@@ -2340,8 +2340,6 @@ var CodeMirror = {};
 
       #sidebar-topbar{display:none;}
 
-      
-
       .banner {
           position: fixed;
           left: 0;
