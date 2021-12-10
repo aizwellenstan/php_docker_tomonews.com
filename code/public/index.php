@@ -1819,18 +1819,13 @@ if(post('action')){
     exit;
 
   // Selected File zip download
-  } else if(
+  /*} else if(
       isset($_POST["download_dir_zip"])
   ) {
       if (
         $_POST["download_dir_zip"] and $_POST["download_dir_zip"] != "" and
         $_POST["files"] and $_POST["files"] != ""
       ) {
-        // new config();
-
-        // check download_dir enabled
-        // if(config::$config['download_dir'] !== 'zip') error('<strong>download_dir</strong> Zip disabled.', 403);
-
         $dirPath = strval($_POST["download_dir_zip"]);
 
         $rootPath = '/var/www/html/public/';
@@ -1840,32 +1835,10 @@ if(post('action')){
         if(!$dir) error('Invalid download path <strong>' .  $dirPath . '</strong>', 404);
         $dir = real_path($dir); // in case of symlink path
 
-        // create zip cache directly in dir (recommended, so that dir can be renamed while zip cache remains)
-        // if(!config::$storage_path || config::$config['download_dir_cache'] === 'dir') {
-        //     if(!is_writable($dir)) error('Dir ' . basename($dir) . ' is not writeable.', 500); 
-        //     $zip_file_name = '_files.zip';
-        //     $zip_file = $dir . '/' . $zip_file_name;
-
-        // // create zip file in storage _files/zip/$dirname.$md5.zip / 
-        // } else {
-        //     mkdir_or_error(config::$storage_path . '/zip');
-        //     $zip_file_name = basename($dir) . '.' . substr(md5($dir), 0, 6) . '.zip';
-        //     $zip_file = config::$storage_path . '/zip/' . $zip_file_name;
-        // }
-
         $config_storage_path = '/var/www/html/public/_files';
 
         $zip_file_name = basename($dir) . '.' . substr(md5($dir), 0, 6) . '.zip';
         $zip_file = $config_storage_path. '/zip/' . $zip_file_name;
-
-        // cached / download_dir_cache && file_exists() && zip is not older than dir time
-        // $cached = !empty(config::$config['download_dir_cache']) && file_exists($zip_file) && filemtime($zip_file) >= filemtime($dir);
-
-        // create zip if !cached
-        // if(!$cached){
-
-            // use shell zip command instead / probably faster and more robust than PHP / if use, comment out PHP ZipArchive method starting below
-            // exec('zip ' . $zip_file . ' ' . $dir . '/*.* -j -x _files*', $out, $res);
 
             // check that ZipArchive class exists
             if(!class_exists('ZipArchive')) error('Missing PHP ZipArchive class.', 500); 
@@ -1904,24 +1877,6 @@ if(post('action')){
 
             // make sure created zip file exists / just in case
             if(!file_exists($zip_file)) error('Zip file ' . $zip_file_name . ' does not exist.', 500);
-        // }
-
-        // redirect instead of readfile() / might be useful if readfile() fails and/or for caching and performance
-        /*$zip_url = get_url_path($zip_file);
-        if($zip_url){
-            header('Location:' . $zip_url . '?' . filemtime($dir), true, 302);
-            exit;
-        }*/
-
-        // output headers
-        // if(config::$has_login) {
-        //     header('cache-control: must-revalidate, post-check=0, pre-check=0');
-        //     header('cache-control: public');
-        //     header('expires: 0');
-        //     header('pragma: public');
-        // } else {
-        //     set_cache_headers();
-        // }
         header('cache-control: must-revalidate, post-check=0, pre-check=0');
         header('cache-control: public');
         header('expires: 0');
@@ -1945,7 +1900,7 @@ if(post('action')){
 
         // delete temp zip file if cache disable
         @unlink($zip_file);
-      }
+      }*/
 // main document
 	} else {
 
