@@ -1687,7 +1687,7 @@
                     }
                     e.features = t
                 }(c), c.DateTimeOriginal && (c.mtime = c.DateTimeOriginal), 
-                '<div>'
+                '<div class="file-grid">'
                 +'<a href="' + l(c, "download" === _c.click) + 
                 '" target="_blank" class="files-a files-a-' 
                 + (d ? "img" : "svg") 

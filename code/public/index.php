@@ -2350,6 +2350,10 @@ var CodeMirror = {};
           z-index: 3;
       }
 
+      /* .file-grid{
+        border: 1px solid black;
+      } */
+
       .btn-009889 {
         background-color: #009889;
         color: white;
