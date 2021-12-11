@@ -2347,7 +2347,7 @@ var CodeMirror = {};
           top: 0;
           width: 100%;
           height: 160px;
-          z-index: 2;
+          z-index: 3;
       }
 
       .btn-009889 {
