@@ -2325,7 +2325,7 @@ var CodeMirror = {};
         height: 60px;
         background-color: #E5E5E5;
         text-align: center;
-        z-index: 2147483648;
+        z-index: 3;
       }
 
       #main {
