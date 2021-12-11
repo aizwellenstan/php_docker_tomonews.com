@@ -2325,11 +2325,15 @@ var CodeMirror = {};
         height: 60px;
         background-color: #E5E5E5;
         text-align: center;
-        z-index: 3;
+        z-index: 2147483648;
       }
 
       #main {
         padding-top: 160px;
+        padding-bottom: 60px;
+      }
+
+      .sidebar-menu {
         padding-bottom: 60px;
       }
       
