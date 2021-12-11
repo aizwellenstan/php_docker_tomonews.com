@@ -2333,7 +2333,7 @@ var CodeMirror = {};
         padding-bottom: 60px;
       }
 
-      .sidebar-menu {
+      #sidebar-menu {
         padding-bottom: 60px;
       }
       
