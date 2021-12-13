@@ -2401,6 +2401,16 @@ var CodeMirror = {};
         white-space: normal !important;
       }
 
+      .custom-control-input {
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+        position: relative;
+        float: right;
+        bottom: 40px;
+        right: 20px;
+      }
+
   </style>
 </html>
 <?php }}
