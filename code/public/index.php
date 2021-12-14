@@ -2404,11 +2404,38 @@ var CodeMirror = {};
       .custom-control-input {
         height: 25px;
         width: 25px;
-        background-color: #eee;
+        color: #ee5128;
         position: relative;
         float: right;
         bottom: 40px;
         right: 20px;
+      }
+
+      
+      .svg-folder {
+        background-color: #eb6d44;
+      }
+
+      .svg-folder-fg, .svg-folder-bg{
+        display: none;
+      }
+
+      .files-folder-preview{
+        display: none;
+      }
+
+      .folder-text {
+        display: flex;
+   align-items: center;
+        position: relative;
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        bottom: 110px;
+        color: white;
+        text-align: center;
+        
       }
 
   </style>
