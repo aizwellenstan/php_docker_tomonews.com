@@ -403,8 +403,8 @@ function check_login($is_doc){
         $_POST['sidx'] === $sidx
       ){
         $_SESSION['login'] = $login_hash;
-        // $newURL = '/?Awards';
-        // header('Location: '.$newURL);
+        $newURL = '/?Awards';
+        header('Location: '.$newURL);
       // display login page and exit
       } else {
         login_page($is_login_attempt, $sidx, $is_logout, $client_hash);
