@@ -508,7 +508,7 @@ function is_exclude($path = false, $is_dir = true, $symlinked = false){
   if(!$path || $path === config::$root) return;
 
   // exclude all paths that start with /_files* (reserved for any files and folders to be ignored and hidden from Files app)
-  if(strpos($path, '/_files') !== false) return true;
+  if(strpos($path, './_files') !== false) return true;
 
   // exclude files PHP application
   if($path === config::$__file__) return true;
@@ -2050,11 +2050,11 @@ header('files-msg: [' . header_memory_time() . ']');
     <?php get_include('include/head.html'); ?>
     <link href="<?php echo config::$assets ?>css/files.css" rel="stylesheet">
     <?php get_include('css/custom.css'); ?>
-    <link href="/_files/assets/css/app.css" rel="stylesheet">
+    <link href="./_files/assets/css/app.css" rel="stylesheet">
   </head>
 
   <body class="body-loading"><svg viewBox="0 0 18 18" class="svg-preloader svg-preloader-active preloader-body"><circle cx="9" cy="9" r="8" pathLength="100" class="svg-preloader-circle"></svg>
-  <img class="banner" src ="/_files/assets/images/LIFE_Graudation_banner_4.png" height="160px" width="100%">
+  <img class="banner" src ="./_files/assets/images/LIFE_Graudation_banner_4.png" height="160px" width="100%">
   <!-- <form action="/" method="post">   -->
   <form>  
   <main id="main">
@@ -2093,7 +2093,7 @@ header('files-msg: [' . header_memory_time() . ']');
     <aside id="sidebar">
       <button id="sidebar-toggle" type="button" class="btn-icon"></button>
       <div id="sidebar-inner">
-        <img src="/_files/assets/images/orange.png" height="160px" style="opacity:0">
+        <img src="./_files/assets/images/orange.png" height="160px" style="opacity:0">
         <div id="sidebar-topbar"></div>
         <div id="sidebar-menu"></div>
       </div>
@@ -2140,7 +2140,7 @@ var CodeMirror = {};
     <?php get_include('js/custom.js'); ?>
     <!-- files -->
     <!-- <script src="<?php echo config::$assets ?>js/files.js"></script> -->
-    <script src="_files/assets/js/files.js"></script>
+    <script src="./_files/assets/js/files.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js" integrity="sha512-xQBQYt9UcgblF6aCMrwU1NkVA7HCXaSN2oq0so80KO+y68M+n64FOcqgav4igHe6D5ObBLIf68DWv+gfBowczg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
       // document.getElementsByTagName('form')[0].addEventListener('submit', function(){
