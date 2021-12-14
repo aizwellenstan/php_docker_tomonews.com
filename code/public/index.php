@@ -389,10 +389,8 @@ function check_login($is_doc){
 
   // not logged in
   if(!$is_logged_in){
-
     // login only on html pages
     if($is_doc){
-
       // vars
       $sidx = md5(session_id());
       $is_login_attempt = isset($_POST['fusername']) && isset($_POST['fpassword']) && isset($_POST['client_hash']) && isset($_POST['sidx']);
@@ -405,7 +403,8 @@ function check_login($is_doc){
         $_POST['sidx'] === $sidx
       ){
         $_SESSION['login'] = $login_hash;
-
+        $newURL = '/?Awards';
+        header('Location: '.$newURL);
       // display login page and exit
       } else {
         login_page($is_login_attempt, $sidx, $is_logout, $client_hash);
@@ -2409,33 +2408,6 @@ var CodeMirror = {};
         float: right;
         bottom: 40px;
         right: 20px;
-      }
-
-      
-      .svg-folder {
-        background-color: #eb6d44;
-      }
-
-      .svg-folder-fg, .svg-folder-bg{
-        display: none;
-      }
-
-      .files-folder-preview{
-        display: none;
-      }
-
-      .folder-text {
-        display: flex;
-   align-items: center;
-        position: relative;
-        /* display: flex; */
-        align-items: center;
-        justify-content: center;
-        vertical-align: middle;
-        bottom: 110px;
-        color: white;
-        text-align: center;
-        
       }
 
   </style>

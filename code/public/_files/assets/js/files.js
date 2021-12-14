@@ -1699,7 +1699,6 @@
                 + (c.is_dir || "download" !== _c.click ? "" : " download") 
                 + ">" 
                 + (d || P.get_svg_large(c, "files-svg")) 
-                + (c.is_dir ? '<span class="folder-text">'+c.basename+'</span>':"")
                 + '<div class="files-data">' 
                 + n.span(c.gps, "gps") + a(i(c.basename), "name") 
                 + (c.image && c.image.iptc && c.image.iptc.title ? a(c.image.iptc.title, "title") : "") 
