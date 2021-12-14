@@ -32,7 +32,7 @@ class config {
     'image_resize_dimensions' => 320,
     'image_resize_dimensions_retina' => 480,
     'image_resize_dimensions_allowed' => '', // comma-separated list of allowed resize dimensions
-    'image_resize_types' => 'jpeg, png, gif, webp, bmp', // image types to resize / jpeg, png, gif, webp, bmp
+    'image_resize_types' => 'jpeg, png, gif, webp, bmp, jpg', // image types to resize / jpeg, png, gif, webp, bmp
     'image_resize_quality' => 85,
     'image_resize_function' => 'imagecopyresampled', // imagecopyresampled / imagecopyresized
     'image_resize_sharpen' => true,
@@ -695,6 +695,9 @@ function resize_image($path, $resize_dimensions, $clone = false){
   $resize_width  = round($info[0] / $resize_ratio);
   $resize_height = round($info[1] / $resize_ratio);
 
+  $maxWidth = 480;
+  $maxHeight = 320;
+
   // memory
   $memory_limit = config::$config['image_resize_memory_limit'] && function_exists('ini_get') ? (int) @ini_get('memory_limit') : false;
   if($memory_limit && $memory_limit > -1){
@@ -712,9 +715,26 @@ function resize_image($path, $resize_dimensions, $clone = false){
   $image = image_create_from($path, $info[2]);
   if(!$image) error('Failed to create image resource.', 500);
 
-  // Create final image with new dimensions.
-  $new_image = imagecreatetruecolor($resize_width, $resize_height);
-  if(!call_user_func(config::$config['image_resize_function'], $new_image, $image, 0, 0, 0, 0, $resize_width, $resize_height, $info[0], $info[1])) error('Failed to resize image.', 500);
+
+  if ($resize_width < $resize_height) {
+    $new_image = imagecreatetruecolor($maxWidth, $maxHeight);//create the background 130x130
+    $whiteBackground = imagecolorallocate($new_image, 0, 0, 0); 
+    imagefill($new_image,0,0,$whiteBackground); // fill the background with white
+
+    // imagecopyresized($small_image, $new_image, 0, 0, 0, 0, $maxWidth/1.5, $maxHeight, $info[0], $info[1]);
+
+    imagecopyresampled($new_image, $image, ($maxWidth - $resize_width)/2, ($maxHeight - $resize_height) / 2,0,0, $resize_width , $resize_height, $info[0], $info[1]); // copy the image to the background
+    // imagecopyresampled($new_image, $small_image, 0, ($maxHeight - $resize_height) / 2, 0, 0, $resize_width , $resize_height, $resize_width, $resize_height); // copy the image to the background
+
+    // imagecopyresized($small_image, $image, 0, 0, 0, 0, $maxWidth/1.5, $maxHeight, $info[0], $info[1]);
+    // imagecopyresampled($new_image, $small_image,, 0, ($maxHeight - $resize_height) / 2, 0, 0, $resize_width , $resize_height, $resize_width, $resize_height,  $info[0], $info[1]); // copy the image to the background
+  } else {
+    // Create final image with new dimensions.
+    $new_image = imagecreatetruecolor($resize_width, $resize_height);
+    if(!call_user_func(config::$config['image_resize_function'], $new_image, $image, 0, 0, 0, 0, $resize_width, $resize_height, $info[0], $info[1])) error('Failed to resize image.', 500);
+  }
+
+  
 
   // destroy original $image resource
   imagedestroy($image);
@@ -2314,6 +2334,11 @@ var CodeMirror = {};
 
       function onDownloadComplete () {}
     </script>
+    <style>
+      .files-img-placeholder{
+        max-height: 320px;
+      }
+      </style>
   </body>
 </html>
 <?php }}
