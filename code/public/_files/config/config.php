@@ -5,8 +5,8 @@
 return array (
   //'root' => '',
   //'start_path' => false,
-  'username' => 'guest',
-  'password' => 'Abc123!!',
+  'username' => 'life',
+  'password' => 'life2021',
   //'load_images' => true,
   //'load_files_proxy_php' => false,
   //'load_images_max_filesize' => 1000000,

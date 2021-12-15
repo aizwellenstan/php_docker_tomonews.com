@@ -19,8 +19,8 @@ class config {
     'start_path' => false, // start path relative to script. If empty, root is start path
 
     // login
-    'username' => 'life',
-    'password' => 'life2021', // Add password directly or use https://files.photo.gallery/tools/hash/ to encrypt the password (encrypted password is more secure, as it prevents your password from being exposed directly in a file).
+    'username' => '',
+    'password' => '', // Add password directly or use https://files.photo.gallery/tools/hash/ to encrypt the password (encrypted password is more secure, as it prevents your password from being exposed directly in a file).
 
     // images
     'load_images' => true,
