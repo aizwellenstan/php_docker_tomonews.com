@@ -403,7 +403,7 @@ function check_login($is_doc){
         $_POST['sidx'] === $sidx
       ){
         $_SESSION['login'] = $login_hash;
-        $newURL = '/?Associate%20Degrees%20and%20Higher%20Diploma%20of%20Art%20%20Programme';
+        $newURL = '/?Associate%20Degrees%20and%20HD%20of%20Art%20%20Programme';
         header('Location: '.$newURL);
       // display login page and exit
       } else {
