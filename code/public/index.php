@@ -2068,7 +2068,7 @@ header('files-msg: [' . header_memory_time() . ']');
     <meta name="robots" content="noindex,nofollow">
     <title><?php echo $init_path ? basename($init_path) : '/'; ?></title>
     <?php get_include('include/head.html'); ?>
-    <link href="<?php echo config::$assets ?>css/files.css" rel="stylesheet">
+    <link href="./_files/assets/css/files.css" rel="stylesheet">
     <?php get_include('css/custom.css'); ?>
     <link href="./_files/assets/css/app.css" rel="stylesheet">
   </head>
