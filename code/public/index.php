@@ -336,7 +336,7 @@ function login_page($is_login_attempt, $sidx, $is_logout, $client_hash){
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no, shrink-to-fit=no">
     <meta name="robots" content="noindex,nofollow">
     <title>Login</title>
-    <link href="<?php echo config::$assets ?>css/files.css" rel="stylesheet">
+    <link href="./_files/assets/css/files.css" rel="stylesheet">
     <?php get_include('css/custom.css'); ?>
   </head>
   <body><div id="files-login-container"></div></body>
