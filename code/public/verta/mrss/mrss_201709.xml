@@ -1,0 +1,5 @@
+<?php xml version="1.0"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:mcp="http://schema.anvato.com/mcp/" version="2.0">  <channel>
+    <title>MRSS feed for Verta News</title>
+    <link>//api.nm.anvato.net/v2/feed/K5DREWL4E6RRMTRDAIBA?start=0&amp;count=200&amp;filters[]=u_Slug_Dept_s:"DPS_iUS"&amp;filters[]=c_ts_publish_l:[1504396800%20TO%201504483200]&amp;fmt=mrss&amp;media_filters[]=video/mp4</link>
+    <description/></channel></rss>

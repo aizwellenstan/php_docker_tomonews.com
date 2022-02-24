@@ -1,0 +1,18 @@
+<?php xml version="1.0" encoding="UTF-8"?>
+<urlset
+		  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+		  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+	<url>
+	   <loc>http://us.tomonews.com/about</loc>
+	   <lastmod>2015-09-07T15:18:55+00:00</lastmod>
+	   <changefreq>daily</changefreq>
+	   <priority>0.8000</priority>
+	</url>
+	<url>
+	   <loc>http://us.tomonews.com/mobileApp</loc>
+	   <lastmod>2015-09-07T15:18:55+00:00</lastmod>
+	   <changefreq>daily</changefreq>
+	   <priority>0.8000</priority>
+	</url>
+</urlset>

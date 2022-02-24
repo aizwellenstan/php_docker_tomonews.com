@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script>
+    <script src="http://static.nmhk.movideo.com/js/movideo.min.latest.js" type="text/javascript"></script><div id="movideo-player-element-1420625465329" style="width: 720px; height: 480px; margin: 0px auto;"></div>
+    <script type="text/javascript">
+
+        var category = "ASIA";
+        var preProcessorFunction = function (vastUrl, params) {
+            var replaceData = {
+                adcategory: category,
+                timestamp: new Date().getTime().toString()
+            };
+            var output = MOVIDEO.utils.replaceTokens(vastUrl, replaceData);
+            return output;
+        }
+
+        $("#movideo-player-element-1420625465329").player({
+            apiKey: "movideoNM-Tomo-US",
+            appAlias: {
+                flash: "NMTomoUS-universal-android",
+                android: "NMTomoUS-universal-android",
+                iphone: "NMTomoUS-universal-iPhone"
+            },
+            mediaId: 178587191590912,
+            adURLPreProcesser: (MOVIDEO.devices.types.iPad || MOVIDEO.devices.types.iPhone || MOVIDEO.devices.types.Android)
+                ? preProcessorFunction
+                : 'preProcessorFunction'
+
+        });        
+    </script>
+
+</body>
+</html>

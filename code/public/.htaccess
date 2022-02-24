@@ -1,0 +1,118 @@
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteBase /
+  Header add Access-Control-Allow-Origin "*"
+  RewriteCond %{HTTP:x-wap-profile} !^$ [OR]
+  RewriteCond %{HTTP_USER_AGENT} "(android|avantgo|blackberry|oppo|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)" [NC]
+  RewriteCond %{HTTP_USER_AGENT} "!((tablet|ipad|playbook)|(android(?!.*(mobi|opera mini))))" [NC,OR]
+  RewriteCond %{HTTP:Profile}       !^$
+  RewriteRule ^(.*) m/$1 [R,L]
+  
+  #RewriteRule ^(.*)\.html$ $1.php [nc]
+
+  #RewriteRule ^l6w4pj(.*)$ /var/www/html/tomo_us/cnn/mrss/l6w4pj.xml [NC,L]
+  RewriteRule ^category/([^/]*)$ category.php?cate_title=$1 [L]
+  RewriteRule ^category/([^/]*)/([^/]*)$ category.php?cate_title=$1&page=$2 [L]
+
+  RewriteRule ^tomoplay/$ passive.php  [L]
+  RewriteRule ^tomoplay$ passive.php  [L]
+  RewriteRule ^tomoplay/([^/]*)$ passive.php?playlist_id=$1 [L]
+  RewriteRule ^tomoplay/([^/]*)/([^/]*)$ passive.php?playlist_id=$1&page=$2 [L]
+  RewriteRule ^tomoplay/([^/]*)/([^/]*)/([^/]*)$ passive.php?playlist_id=$1&page=$2&video_id=$3 [L]
+
+  RewriteRule ^theme/([^/]*)$ theme.php?theme_title=$1 [L]
+  RewriteRule ^theme/([^/]*)/([^/]*)$ theme.php?theme_title=$1&page=$2 [L]
+
+  RewriteRule ^search$ search.php [L,QSA]
+  #RewriteRule ^wall-of-thanks$ wall-of-thanks.php [L,QSA]
+  RewriteRule ^giveaway$ giveaway.php [L,QSA]
+
+  RewriteRule ^newsfeed$ newsfeed.php  [L]
+  RewriteRule ^newsfeed/([^/]*)$ newsfeed.php?page=$1 [L]
+
+  RewriteRule ^mostviewed$ most.php  [L]
+  RewriteRule ^mostviewed/([^/]*)$ most.php?dtype=$1 [L]
+
+  RewriteRule ^feed$ create_mrss.php [L,QSA]
+
+  RewriteRule ^mobileApp$ mobile.php [L,QSA]
+  
+  RewriteRule ^about$ about.php [L,QSA]
+  RewriteRule ^privacy$ privacy.php [L,QSA]
+
+  RewriteRule ^media-highlights$ media.php  [L]
+  RewriteRule ^media-highlights/([^/]*)$ media.php?dtype=$1 [L]
+
+  RewriteRule ^asot$ asot.php  [L]
+
+  RewriteCond %{REQUEST_URI} ([0-9]{1,30})/session.php$
+  RewriteRule ([0-9]{1,30})/session.php$ video.php?video_id=$1 [R=301,L]
+
+  RewriteRule ([0-9]{1,30})$ video.php?video_id=$1 [QSA,NC,L]
+
+  RewriteRule ([0-9]{1,30})/session.php/v$ videoO.php?video_id=$1&v=$2 [L]
+  
+  #RewriteRule ^cB45yt$ verta/mrss/mrss_%{TIME_YEAR}%{TIME_MON}.xml [NC,L]
+  
+  RewriteRule ^gH25ih$ watchup/mrss/mrss_%{TIME_YEAR}%{TIME_MON}.xml [NC,L]
+
+  RewriteRule ^aH33ah$ powr/create_mrss.php [NC,L]
+
+  RewriteRule ^sTyu3T$ topbuzz/mrss/mrss_%{TIME_YEAR}%{TIME_MON}.xml [NC,L]
+
+  RewriteRule ^nKl9ro$ wochit_raw/mrss/mrss_%{TIME_YEAR}%{TIME_MON}.xml [NC,L]
+  
+  RewriteRule ^rti44i$ wochit_airdate/mrss/mrss_201701.xml [NC,L]
+  
+  RewriteRule ^yT715q$ wochit/mrss/mrss_201612.xml [NC,L]
+
+  RewriteRule ^Qwpoi$ oovvuu/mrss.php [NC,L]
+  RewriteRule ^kL91ts$ beachfront/mrss/mrss_%{TIME_YEAR}%{TIME_MON}.xml [NC,L]
+    
+  RewriteRule ^rss/rss.html$ rss_us/create_mrss.php [NC,L]
+  
+  RewriteRule ^rss/rss_([A-Za-z0-9-]+)/?.html$ rss_us/create_mrss.php?cat=$1 [QSA,NC,L]
+  
+  RewriteRule ^r2sy8p$ reuters_mrss/mrss/mrss_r2sy8p_%{TIME_YEAR}%{TIME_MON}.xml [NC,L]
+  
+  RewriteRule ^f5h4to$ reuters_mrss/mrss/mrss_f5h4to.xml [NC,L]
+  
+  #NewsResp Sci&Tec
+  RewriteRule ^rss/([A-Za-z0-9-]+)/?.html$ NewsRep/create_mrss.php?cat=$1 [QSA,NC,L]
+  
+  RewriteRule ^rss/news_([A-Za-z0-9-]+)/?.html$ NewsRep/mrss/$1_%{TIME_YEAR}%{TIME_MON}.xml [NC,L]
+  
+  RewriteRule ^kf4trl/([^/]*)$ flipboard/create_mrss.php?cat=$1 [QSA,NC,L]
+  
+  RewriteRule ^d0r3hz/([^/]*)$ line/mrss.php?code=d0r3hz [QSA,NC,L]   
+  RewriteRule ^l6w4pj([^/]*)$ line/mrss.php?code=l6w4pj [QSA,NC,L]
+  RewriteRule ^2dc32j([^/]*)$ line/mrss.php?code=2dc32j [QSA,NC,L]
+  RewriteRule ^3bc12j([^/]*)$ line/mrss.php?code=3bc12j [QSA,NC,L]
+  RewriteRule ^4daa1j([^/]*)$ line/mrss.php?code=4daa1j [QSA,NC,L]
+  
+  RewriteRule ^5cc23j([^/]*)$ line/videoelephant.php [QSA,NC,L]
+
+  ErrorDocument 404 /404.php
+  RewriteRule ^disqus/mobile.html$ / [L,QSA]
+
+</IfModule>
+
+<IfModule mod_expires.c>
+# Enable expirations
+ExpiresActive On 
+# Default directive
+ExpiresDefault "access plus 1 week"
+ExpiresByType text/css "access plus 1 week"
+ExpiresByType text/plain "access plus 1 month"
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType application/x-javascript "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 week"
+ExpiresByType application/x-icon "access plus 1 year"
+</IfModule>
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</IfModule>

@@ -1,0 +1,188 @@
+﻿# locale/en_US/Strings.properties
+
+#
+#
+#	Due to parsing problems with \n in the value,
+#	a new line is denoted by {newline}.
+#
+#	@see com.movideo.player.util.LocalisationManager
+#
+#
+
+# Context Menu Items
+
+player.contextMenu.support=Report Playback Issue
+player.contextMenu.fullScreen=Fullscreen
+player.contextMenu.normal=Normal
+
+# Playback module messages
+
+error.playback.implementation=Connection not available
+error.playback.connection.timeout=Timed-out trying to establish a connection to the server
+error.playback.connection.filenotfound=The file could not be found on the server
+error.playback.livestream.timeout=Timed out trying to subscribe to the live stream
+error.playback.connection.rejected=The connection attempt was rejected by the server
+error.playback.netstream.failed=The underlying NetStream failed. Playback cannot continue
+error.playback.connection.failed=The underlying NetConnection failed. Playback cannot continue
+error.playback.unknown=An unknown error has occurred
+error.playback.authorise.failed=Could not authorise media
+error.playback.dynamic.failed=Adaptive streaming not available
+error.playback.stream.noneavailable=No encodings found for media
+
+# Kernel messages
+# Used for Notification Titles
+
+error.kernel.playback=Connection Lost
+error.kernel.system=Load Failed
+error.kernel.system.domain=Domain Error
+error.kernel.system.network=Network Error
+error.kernel.system.geo=Video Not Available
+error.kernel.system.application=Application Error
+error.kernel.system.disabled=Application Disabled
+error.kernel.system.config=Configuration Error
+error.kernel.system.modules=Initialisation Error
+error.kernel.system.authorisation=Authorisation Error
+error.kernel.system.loadfailed=Video Not Available
+
+error.player.domain=Unauthorised domain
+error.player.geoip=Player cannot be used in your location
+error.player.session=Unauthorised player location
+error.player.io=Unable to connect to network
+error.player.disabled=This player has been disabled
+error.player.config=Unable to retrieve configuration
+error.player.modules=Configuration failed
+error.player.nomedia=No media to play
+
+kernel.loading.message=Loading Media...
+
+# Queue Module messages
+error.queue.load.nullrequest=Queue load failed, nothing to request
+error.queue.load.invalidrequest=Queue load failed, nothing to request
+error.queue.load.invalidqueuedata=Queue data failed, no data to populate
+error.queue.load.related=Unable to load related media
+error.queue.load.invalidid=Unable to locate media
+error.queue.load.noplaylists=Channel contains no playlists
+error.queue.load.nomedia=Playlist contains no media
+
+# Notification module messages
+
+notification.message.bufferstart=Buffering...
+notification.message.buffering=Buffering {0}%
+notification.message.authorising=Authorising...
+notification.message.reconnect=Reconnecting...
+
+# Audio Media View messages
+audiomedia.advert.title=Advertisement
+audiomedia.advert.attribution=Coming up: {0}
+
+
+# Service module message
+
+http.request.error.security=You are not authorised to access this service
+http.request.error.forbidden=You are not authorised to access this service
+http.request.error.notfound=Media not found
+http.request.error.io=A server error occurred
+http.request.error.timout=A gateway timout occurred
+http.request.error.unknown=An error has occurred with your request
+
+# Service Module Cause messages
+
+http.request.cause.inactive=You are not authorised to access this service
+http.request.cause.notownedorsyndicated=You are not authorised to access this service
+http.request.cause.notscheduled=You are not authorised to access this service
+http.request.cause.syndicatedunaccepted=You are not authorised to access this service
+
+# UI Component labels
+
+label.button.play=Play
+label.button.replay=Play Again
+label.button.retry=Retry
+label.button.next=Next
+label.button.support=Report Issue
+label.button.dismiss=Dismiss
+label.slider.live=LIVE
+label.seekbar.compact.separator=/
+
+# UI Text Component
+text.truncationIndicator=...
+text.mediaTitle={title}
+
+
+# Interaction event types
+interaction.nokiadownload=Nokia Music Store Download
+interaction.ringtonedownload=Ringtone Download
+interaction.mediadownload=Bandit Download
+interaction.facebook=Facebook Share
+interaction.twitter=Twitter Share
+interaction.sponsorclick=Sponsor Clicked
+
+# Share media 
+
+share.embed.label=EMBED
+share.embed.tooltip=Embed Media
+share.embed.template=<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script><script src="http://static.nmhk.movideo.com/js/movideo.min.latest.js" type="text/javascript"></script><div id="movideo-player-element" style="width: 512px; height: 288px; margin: 0px auto;"></div><script type="text/javascript">$("#movideo-player-element").player({ apiKey: "movideoNM-Tomo-US", appAlias: {flash:"NMTomoUS-universal-flash",android:"NMTomoUS-universal-android",ipad:"NMTomoUS-universal-iPad",iphone:"NMTomoUS-universal-iPhone"}, mediaId: {mediaId} });</script>
+share.embed.message=Use the code below to embed this video:
+
+share.link.label=LINK
+share.link.tooltip=Link Media
+share.link.message=Paste this link into an email or instant message:
+
+share.facebook.label=FACEBOOK
+share.facebook.tooltip=Share on Facebook
+#share.facebook.template=http://www.facebook.com/sharer.php?u={url}&t={title}
+share.facebook.template=http://www.facebook.com/sharer.php?u={url}
+
+share.twitter.label=TWITTER
+share.twitter.tooltip=Share on Twitter
+#share.twitter.template=http://twitter.com/home?status={title}%20{url}%20via %40TomoNewsUS
+share.twitter.template=http://twitter.com/home?status={url}%20via %40TomoNewsUS
+
+share.socialmedia.message=Share with one of your existing accounts:
+
+share.download.label=DOWNLOAD
+share.download.tooltip=Download this media
+share.ringtone.label=RINGTONE
+share.ringtone.tooltop=Download this media as a ringtone!
+
+# Share plugin labels
+share.button.copy=Copy to clipboard
+share.button.cancel=Close
+
+# Support Zendesk
+support.message=An error has occurred. Please enter a description to send to support.
+
+# Support Zendesk labels
+support.button.send=Send
+support.button.ignore=Cancel
+support.text.description=To help us resolve your issue we are going to collect some information about the video you are trying to play.<br>
+support.text.messageInitial=Add a comment here (optional)
+support.checkbox.email=Email me about this issue
+support.text.emailInitial=Enter your email address here (optional)
+support.faq.label=Support FAQ
+support.faq.url=http://support.movideo.com/forums/47753
+support.privacy.label=Privacy Policy
+support.privacy.url=http://www.movideo.com/privacy
+
+# Tooltips
+controls.previousButton.tooltip=Previous Media
+controls.nextButton.tooltip=Next Media
+controls.playButton.tooltip=Play
+controls.pauseButton.tooltip=Pause
+controls.repeatButton.tooltip=Turn Repeat On
+controls.repeatButton.tooltip.selected=Turn Repeat Off
+controls.shuffleButton.tooltip=Turn Shuffle On
+controls.shuffleButton.tooltip.selected=Turn Shuffle Off
+controls.fullscreenButton.tooltip=Turn Fullscreen On
+controls.fullscreenButton.tooltip.selected=Turn Fullscreen Off
+
+# Paywall
+# 0=billingProvider 1=price 2=currencySymbol 3=currencyLocale
+paywall.paymentrequired.message=This video can be purchased via {0} for {2}{3}{1}
+paywall.contentexpired.message=This purchase has expired. Please purchase again to watch ${1}{2}
+paywall.error.message=An error occurred with the payment attempt.
+
+paywall.cancel.message=Transaction in progress
+paywall.paymentbutton.label=Purchase
+paywall.cancelbutton.label=Cancel Payment
+
+

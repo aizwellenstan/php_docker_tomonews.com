@@ -1,0 +1,27 @@
+<articles>
+  <UUID>l6w4pj110081801</UUID>
+  <time></time>
+  <article>
+	<ID></ID>
+	<nativeCountry>TW</nativeCountry>
+	<language>ZH</language>
+	<title>Tomonews</title>
+	<category></category>
+	<publishTimeUnix></publishTimeUnix>		
+	<startYmdtUnix></startYmdtUnix>
+	<endYmdtUnix></endYmdtUnix>
+	<contentType>5</contentType>
+	<thumbnai></thumbnai>		 
+	<contents>
+		<video>
+ 		<title>Tomonews</title>
+		<url></url>
+ 		<thumbnail></thumbnail>
+ 		</video>
+		<text>
+			<content><![CDATA[文字]]></content>
+		</text>
+			</contents>
+  </article>		
+
+</articles>

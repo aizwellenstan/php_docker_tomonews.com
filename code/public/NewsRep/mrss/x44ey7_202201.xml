@@ -1,0 +1,7 @@
+<?php xml version="1.0" encoding="ascii"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:metadata="http://www.w3.org/Metadata" version="2.0">
+  <channel>
+    <link>http://us.tomonews.com/</link>
+    <lastBuildDate>Mon, 31 Jan 2022 18:08:01 +0000</lastBuildDate>
+  </channel>
+</rss>

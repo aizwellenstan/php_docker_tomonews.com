@@ -1,0 +1,34 @@
+<?php xml version="1.0"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" version="2.0">
+  <channel>
+    <title>RSS Feed for Wochit</title>
+    <lastBuildDate>Fri, 02 Jun 2017 13:21:46 +0800</lastBuildDate>
+    <item>
+      <guid>3337535</guid>
+      <title>Couple death: Missing American-Canadian couple found strangled to death in Belize</title>
+      <description><![CDATA[BELIZE  The search for a couple who went missing in Belize last April has ended in tragedy, after police found them dead on Monday.CBC reports that ex-U.S. Marine Drew DeVoursney, 36, and his Canadian girlfriend Francesca Matus, 52, were last seen leaving a popular expat bar in Corozal around 11:00 p.m. on Tuesday, April 25.A friend was supposed to take Matus to the airport for her flight home to Canada on Wednesday. But when he went to pick her up, he found the gate closed, and only DeVoursney’s bike in the driveway. After failing to get hold of the couple, he reported them missing.On Sunday, police discovered the woman’s SUV abandoned in a remote sugarcane field.They found the pair’s decomposing remains the next day, in a field about six kilometers outside town. DeVoursney’s body was on top of Matus’, and both had their wrists bound in duct tape.An autopsy revealed that the couple was strangled to death.Authorities believe robbery may have been a motive in the killing, but have yet to pinpoint any suspects, according to the Toronto Sun.]]></description>
+      <pubDate>Wed, 03 May 2017 19:15:00 +0800</pubDate>
+      <media:content url="http://video-pdu.us.tomonews.net/mcp/us/764/17/05/03/3337535/3337535_7C6389C7D5BE40B2BDF639730860EA83_170503_3337535_Couple_death__Missing_American_Canadian_couple_f_2600.mp4" type="video/mp4"/>
+      <media:thumbnail url="http://sa-mcp.s3.amazonaws.com/previews/A45/24C/A4524C838B7D4CDFA187BF6497FA8559_4.jpg"/>
+      <media:keywords><![CDATA[video,animation,NAS,Next Animation Studio,Couple death,missing couple,missing in belize,couple missing in belize,strangled to death,strangulation,francesca matus,drew devoursney,american,canadian,homicide,murder]]></media:keywords>
+    </item>
+    <item>
+      <guid>3337298</guid>
+      <title>Japan&#x2019;s JS Izumo to guard U.S. navy ship for the first time</title>
+      <description><![CDATA[TOKYO  Japan’s aircraft carrier-like destroyer left Yokosuka Naval Base on Monday to escort a U.S. supply vessel. This deployment is a first for Japan’s navy as previous Japanese laws forbade such action.Japan’s largest warship, the JS Izumo is 814 feet long and weighs 27,000 tons when fully loaded. It is shorter than China’s Liaoning aircraft carrier and USS George H.W. Bush.The JS Izumo is armed with three Phalanx CIWS point defense guns and two SeaRAM last-ditch interceptor missiles. It normally carries seven SH-60J anti-submarine warfare helicopters.For decades, Japan’s constitution forbade the country’s Self Defense Forces from rendering aid to allies. However, the country enacted new security legislation last March that expanded the scope of Self-Defense Forces’ overseas missions.]]></description>
+      <pubDate>Wed, 03 May 2017 15:25:00 +0800</pubDate>
+      <media:content url="http://video-pdu.us.tomonews.net/mcp/us/764/17/05/03/3337298/3337298_946D3A61E30A4049BC92FB32E3427B3C_170503_3337298_Japan___s_JS_Izumo_to_guard_U_S__navy_ship_for_t_2600.mp4" type="video/mp4"/>
+      <media:thumbnail url="http://sa-mcp.s3.amazonaws.com/previews/7B9/CDC/7B9CDC240B3D4A158D4F747BF1EAD05C_3.jpg"/>
+      <media:keywords><![CDATA[video,animation,NAS,Next Animation Studio,Japan JS Izumo,JS Izumo japan navy,japanese navy,japan self defense forces,japan us navy,japan maritime self defense force,japan helicopter carrier]]></media:keywords>
+    </item>
+    <item>
+      <guid>3337295</guid>
+      <title>Dallas shooting: Suspect Derick Lamont Brown found dead after killing roommate</title>
+      <description><![CDATA[A Dallas man committed suicide after killing his roommate and opening fire on emergency responders, critically injuring at least two people on Monday.According to the Dallas police department, the suspect Derick Lamont Brown was acting erratically at his home before fatally shooting his 67-year-old roommate in a backroom.Brown then shot a neighbor who came outside after hearing the previous gunshots. He then opened fire at paramedics responding to the emergency. One of the paramedics was critically wounded.Brown also opened fire at police officers at the scene, and only retreated to his home after being injured by officers.A search robot was deployed later to search his home, where it found the suspect and the roommate dead. It is believed that Brown took his own life. Brown has a criminal record that includes aggravated assault with a deadly weapon. He was also reportedly the national minister of defense for the New Black Panther Party.]]></description>
+      <pubDate>Wed, 03 May 2017 15:22:00 +0800</pubDate>
+      <media:content url="http://video-pdu.us.tomonews.net/mcp/us/764/17/05/03/3337295/3337295_252D09D625BD48CF8FC366C3A6D6BB96_170503_3337295_Dallas_shooting__Suspect_Derick_Lamont_Brown_fou_2600.mp4" type="video/mp4"/>
+      <media:thumbnail url="http://sa-mcp.s3.amazonaws.com/previews/373/EAE/373EAE279CF84EEAAB9DEF61B2C2C7D6_4.jpg"/>
+      <media:keywords><![CDATA[video,animation,NAS,Next Animation Studio,Dallas shooting,dallas shooting suspect dead,derick lamont brown,dallas paramedic shooting,dallas paramedic attacked,dallas crime]]></media:keywords>
+    </item>
+  </channel>
+</rss>

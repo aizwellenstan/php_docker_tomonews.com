@@ -1,0 +1,7 @@
+<?php xml version="1.0"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" version="2.0">
+  <channel>
+    <title>RSS Feed for Wochit</title>
+    <lastBuildDate>Tue, 30 Nov 2021 19:32:02 +0000</lastBuildDate>
+  </channel>
+</rss>

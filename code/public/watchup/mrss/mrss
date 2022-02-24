@@ -1,0 +1,156 @@
+<?php xml version="1.0"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:mcp="http://schema.anvato.com/mcp/" version="2.0">  <channel>
+    <title>z_Watchup_Content_Feed</title>
+    <link>//api.nm.anvato.net/v2/feed/KJJAAX47PJSRRUTTA5GA?fmt=mrss</link>
+    <description>Feed for Watchup content</description><item><title>KIA swaps wheels for tank treads in concept SUV</title><description>Korean car manufacturer KIA unveiled a concept design of its Sorento SUV that drives autonomously using tank treads in place of tires. 
+
+
+According to automotive news website Top Speed, the design was shown at the SEMA 2017 car show in Las Vegas earlier this month. 
+
+
+Most cars distribute the vehicle&#x2019;s weight over four wheels. This concept performs well in regular driving scenarios. But when faced with snow, mud or other difficult terrain, the tires can sink &#x2014; leaving the vehicle stuck.
+
+
+To get around this, KIA&#x2019;s concept Sorento supplants normal tires with tank treads.
+
+
+Also known as continuous tracks or caterpillar tracks, these distribute weight better over a larger surface than tires, enabling vehicles to traverse difficult terrain. Vehicles such as tanks and tractors use these to maneuver across desert, mud and other obstacles.
+
+
+The concept Sorento features an autonomous driving system and can also be controlled via a tablet rather than a regular steering wheel. The vehicle sports suicide-style doors to make getting in and out easier and seating similar to that of a gondola.</description><tags>next animation studio,tomonews,Tank car,tank treads on a car,kia gondola,kia gondola car,kia tank tread suv,suv,driving in winter,winter tank treads,stuck in snow,car stuck in snow</tags><guid>MCP1_3207299</guid><pubDate>Mon, 14 Nov 2016 22:13:00 -0800</pubDate><duration>87</duration><media:thumbnail url="http://sa-mcp.s3.amazonaws.com/previews/1E8/625/1E862544DF9E49ABA7190478B06B99BE_2_160x90.jpg"/><media:group><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/14/3207299/3207299_A754928B0D8F4590BA04F6A328BFD9B9_161114_3207299_KIA_swaps_wheels_for_tank_treads_in_concept_SUV_2600.m3u8" type="application/x-mpegurl" bitrate="2600" width="1280" height="720"/><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/14/3207299/3207299_4B01F31AC90142598598E26F5B48C431_161114_3207299_KIA_swaps_wheels_for_tank_treads_in_concept_SUV_2600.mp4" type="video/mp4" bitrate="2600" width="1280" height="720"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/1E8/625/1E862544DF9E49ABA7190478B06B99BE_2.jpg" type="image/jpeg" bitrate="0" width="1920" height="1080"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/1E8/625/1E862544DF9E49ABA7190478B06B99BE_pvw" type="image/x-anv-pvwmatrix" bitrate="0" width="0" height="0"/></media:group></item><item><title>Brain implants help paralyzed monkeys walk again</title><description>Paraplegics may soon regain use of their legs, now that scientists have created an implant that proves effective in primates.
+
+
+In a spinal cord injury, brain signals are unable to reach the neurons that activate movement, often resulting in lower limb paralysis. But researchers from the Swiss Federal Institute of Technology in Lausanne may have found a way to bypass this, having successfully restored movement in two paralyzed monkeys.
+
+
+According to the study, published in Nature, the team developed a neuroprosthetic interface that uses two wireless implants. The first is a sensor surgically implanted in the brain&#x2019;s motor cortex &#x2014; the area that controls movement. The second is a nerve stimulator that is placed near the spinal injury.
+
+
+The sensor picks up brain signals commanding leg movement and transmits them to a computer. The computer decodes the signals and sends them to the second implant in the spine. From there, pulses of electricity are released to stimulate certain nerves. This in turn triggers muscles in the leg, enabling it to move and flex.
+
+
+CNN reports that the monkeys did not need any training and were able to walk immediately after activation of the interface.
+
+
+The researchers plan to apply the technology to improve human lives, but say this may take several more years to achieve.</description><tags>next animation studio,tomonews,Brain implants,brain implant,wireless implants,paraplegia,paraplegic,paralysis,paralyzed monkeys,paralyzed,cure for paralysis,medical technology</tags><guid>MCP1_3207298</guid><pubDate>Mon, 14 Nov 2016 22:11:00 -0800</pubDate><duration>68</duration><media:thumbnail url="http://sa-mcp.s3.amazonaws.com/previews/EA8/DF2/EA8DF22F147B4F61B7028A4ABDFF0FBE_8_160x90.jpg"/><media:group><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/14/3207298/3207298_55636CFDD65749D49C9BBCE713B80461_161114_3207298_Brain_implants_help_paralyzed_monkeys_walk_again_2600.m3u8" type="application/x-mpegurl" bitrate="2600" width="1280" height="720"/><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/14/3207298/3207298_5DB11E9EB3BD46DABE45A3BCB2247FD4_161114_3207298_Brain_implants_help_paralyzed_monkeys_walk_again_2600.mp4" type="video/mp4" bitrate="2600" width="1280" height="720"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/EA8/DF2/EA8DF22F147B4F61B7028A4ABDFF0FBE_8.jpg" type="image/jpeg" bitrate="0" width="1920" height="1080"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/EA8/DF2/EA8DF22F147B4F61B7028A4ABDFF0FBE_pvw" type="image/x-anv-pvwmatrix" bitrate="0" width="0" height="0"/></media:group></item><item><title>Japanese engineer develops turbines to harness energy from typhoons</title><description>A Japanese engineer has designed a new type of wind turbine that he believes would be able to harness power from typhoons.
+
+
+Atsushi Shimizu founded a tech company called Challenergy in 2013 and invented a wind turbine that not only can draw power from the force of wind, but can stay functional during typhoons.
+
+
+The typhoon turbine consists of three vertical blades and a central rod. It has an omnidirectional axis so that it can respond to wind coming from every direction.
+
+
+Instead of driven by a propeller, the turbine makes use of the principle of the Magnus effect: air curves when passing by a rotating object, and the downward deflection of the air-flow produces a lifting force that counteracts the force of gravity, enabling the object to remain airborne.
+
+
+The blades are controlled by the central rod, which can be tightened to slow down, or stop the blades regardless of the external forces.
+
+
+Under normal circumstances, the typhoon turbine can achieve about 30 percent efficiency while conventional wind turbine can achieve 40 percent, ScienceAlert reported. However, conventional wind turbines could be damaged by typhoons while the typhoon turbine would be able to function normally.
+
+
+"Japan actually has a lot more wind power than it does solar power, it's just not utilized," Shimizu told CNN. "Japan has the potential to be a super power of wind.&#x201D;
+According to the Japan Guide, about seven or eight typhoons pass over Okinawa prefecture each year, with about three hitting its main islands. Shimizu believes a single typhoon could generate enough energy to power Japan for 50 years.</description><tags>next animation studio,tomonews,Typhoon turbine,wind energy,wind power,typhoon energy,renewable energy,sustainable energy,japan,atsushi shimizu,challenergy,technology</tags><guid>MCP1_3207297</guid><pubDate>Mon, 14 Nov 2016 22:10:00 -0800</pubDate><duration>99</duration><media:thumbnail url="http://sa-mcp.s3.amazonaws.com/previews/FDF/124/FDF12420D1D1439BA6071289612D8EA7_5.jpg"/><media:group><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/14/3207297/3207297_33025B2859544CB88D81358934535602_161114_3207297_Japanese_engineer_develops_turbines_to_harness_e_2600.m3u8" type="application/x-mpegurl" bitrate="2600" width="1280" height="720"/><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/14/3207297/3207297_079B1970243C4D728CB4EEC2AA8177E5_161114_3207297_Japanese_engineer_develops_turbines_to_harness_e_2600.mp4" type="video/mp4" bitrate="2600" width="1280" height="720"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/FDF/124/FDF12420D1D1439BA6071289612D8EA7_5.jpg" type="image/jpeg" bitrate="0" width="1920" height="1080"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/FDF/124/FDF12420D1D1439BA6071289612D8EA7_pvw" type="image/x-anv-pvwmatrix" bitrate="0" width="0" height="0"/></media:group></item><item><title>Netherlands investing 150 million euros in biogas project</title><description>The Netherlands has committed to investing 150 million euros in a biogas project to turn cow manure into fuel.
+
+
+Manure processing is important to the Netherlands as about 10% of the country&#x2019;s greenhouse gas emissions come from agriculture, mostly methane from animal manure. The Netherlands&#x2019; livestock produces about 74 million tons of manure a year, according to the International Dairy Federation. This is too much to directly apply to farmlands as fertilizer, as the excessive amount of nutrients could leak underground and cause algae growth and pollution in nearby water sources.
+
+
+A way to solve this problem is by transforming manure into biogas. In one experiment conducted at a farm in the Netherlands, manure is transported into an anaerobic digester, where bacteria transforms solid manures into liquid form. The resulting substance releases biogas, which consists of mostly methane and carbon dioxide. The biogas can then be used as fuel while any left over manure can be used as fertilizer.
+
+
+According to the Guardian, the digester generated 9,342 kWh of electricity in 20 days, which is enough to power three homes for a year. The Dutch government aims to get 1,000 large farms in the country to produce energy from cow manure within four years.</description><tags>next animation studio,tomonews,Biogas,netherlands biogas project,dutch biogas project,cow manures into biogas,animal manures pollution,greenhouse gas emission,renewable energy</tags><guid>MCP1_3207296</guid><pubDate>Mon, 14 Nov 2016 22:08:00 -0800</pubDate><duration>89</duration><media:thumbnail url="http://sa-mcp.s3.amazonaws.com/previews/AEE/30F/AEE30FE09BD74AE08CB6F22E472C8FBF_1.jpg"/><media:group><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/14/3207296/3207296_35E09605DC3A47C39E1CCF11077628B2_161114_3207296_Netherlands_investing_150_million_euros_in_bioga_2600.m3u8" type="application/x-mpegurl" bitrate="2600" width="1280" height="720"/><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/14/3207296/3207296_7D3FC05FB01F40E89526F6085C3672CE_161114_3207296_Netherlands_investing_150_million_euros_in_bioga_2600.mp4" type="video/mp4" bitrate="2600" width="1280" height="720"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/AEE/30F/AEE30FE09BD74AE08CB6F22E472C8FBF_1.jpg" type="image/jpeg" bitrate="0" width="1920" height="1080"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/AEE/30F/AEE30FE09BD74AE08CB6F22E472C8FBF_pvw" type="image/x-anv-pvwmatrix" bitrate="0" width="0" height="0"/></media:group></item><item><title>Airbag bike helmets &#x2018;five times safer&#x2019; than foam versions, researchers say</title><description>With millions around the world riding bicycles, accidents are inevitable. Most of us know that wearing a helmet reduces the risk of serious injury, but it turns out the type of helmet also matters.
+
+
+Researchers from Stanford University found that helmets equipped with airbag technology offer five times more protection than standard foam ones, according to Reuters.
+
+
+The test was conducted using two test dummies&#x2014; one wearing a foam helmet, and another with an airbag helmet. Both were then dropped from varying heights to simulate an accident. 
+
+
+Conventional helmets may prevent skull fractures during accidents, but don&#x2019;t often protect against concussions and other similar head injuries.
+
+
+In lieu of foam as protection, airbag helmets are inflated with helium, and worn like a collar around the neck. Sensors monitor the cyclist&#x2019;s normal movements, and deploy automatically once they detect something abnormal, such as a collision.
+
+
+Upon deployment, an inflated hood is released from the collar. The hood covers most of the head and absorbs shock during impact. 
+
+
+The researchers warn however, that airbag helmets may pose a bigger risk if not deployed properly.
+
+
+The helmets are made by Swedish company Hovding and are currently only available in Europe.</description><tags>next animation studio,tomonews,Airbag helmet,hovding,bike helmet,bike safety,bike accident,bike collision,bike crash,safety,head injury</tags><guid>MCP1_3203982</guid><pubDate>Thu, 10 Nov 2016 05:20:00 -0800</pubDate><duration>65</duration><media:thumbnail url="http://sa-mcp.s3.amazonaws.com/previews/87E/CE3/87ECE3202DE2401F8ED6F23D9A5D5963_4_160x90.jpg"/><media:group><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/10/3203982/3203982_74FFEB7FBF7B463BA30B4F2C476B852F_161110_3203982_Airbag_bike_helmets____five_times_safer____than__2600.m3u8" type="application/x-mpegurl" bitrate="2600" width="1280" height="720"/><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/10/3203982/3203982_8723A4EE879C4FE0BD978F1B0AA9D119_161110_3203982_Airbag_bike_helmets____five_times_safer____than__2600.mp4" type="video/mp4" bitrate="2600" width="1280" height="720"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/87E/CE3/87ECE3202DE2401F8ED6F23D9A5D5963_4.jpg" type="image/jpeg" bitrate="0" width="1920" height="1080"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/87E/CE3/87ECE3202DE2401F8ED6F23D9A5D5963_pvw" type="image/x-anv-pvwmatrix" bitrate="0" width="0" height="0"/></media:group></item><item><title>Startup converts waste plastic into bricks to build affordable housing</title><description>A New York startup has developed an innovative way to recycle waste plastic, converting it into an alternative building material that can be used to build affordable housing.
+
+
+The company, called ByFusion, has designed a machine that is highly compact and modular. It can be powered by propane gas or electricity and can process all types of plastic waste, according to the ByFusion website.
+
+
+The plastic waste does not have to be pre-processed. Instead, it is shredded inside the machine before it&#x2019;s made into a new material called RePlast and compressed into bricks. The RePlast bricks are not as strong as concrete, so are reinforced with steel rods, wire and layers of mortar.
+
+
+The company said RePlast has been used in projects including retaining walls in New Zealand and California, which have withstood environmental tests such as earthquakes.
+
+
+ByFusion has so far raised around $30,000 of a $250,000 target on Indiegogo. On its campaign page, it says the machine will likely be available in the U.S. by May next year.</description><tags>next animation studio,tomonews,Byfusion,replast,replast bricks,byfusion turns waste plastic into bricks,waste plastic converted into bricks,cheap housing,alternative building materials</tags><guid>MCP1_3203980</guid><pubDate>Thu, 10 Nov 2016 05:18:00 -0800</pubDate><duration>67</duration><media:thumbnail url="http://sa-mcp.s3.amazonaws.com/previews/0D6/7A4/0D67A4B8BAE84D9FA7C08227B337C1D5_2_160x90.jpg"/><media:group><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/10/3203980/3203980_49CB06794B6049998BEA09CB669AF66B_161110_3203980_Startup_converts_waste_plastic_into_bricks_to_bu_2600.m3u8" type="application/x-mpegurl" bitrate="2600" width="1280" height="720"/><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/10/3203980/3203980_5480184208204DFF997E4180D8D4A6A6_161110_3203980_Startup_converts_waste_plastic_into_bricks_to_bu_2600.mp4" type="video/mp4" bitrate="2600" width="1280" height="720"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/0D6/7A4/0D67A4B8BAE84D9FA7C08227B337C1D5_2.jpg" type="image/jpeg" bitrate="0" width="1920" height="1080"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/0D6/7A4/0D67A4B8BAE84D9FA7C08227B337C1D5_pvw" type="image/x-anv-pvwmatrix" bitrate="0" width="0" height="0"/></media:group></item><item><title>National University of Singapore to test drone delivery service in 2017</title><description>Aircraft manufacturer Airbus is set to trial a drone delivery service which, if successful, could potentially lead to tests of flying taxis for passengers.
+
+
+The technology to be tested in Singapore next year will see drones being used to deliver parcels, according to an article in FORUM, the Airbus Group corporate magazine. During the trial, drones will navigate a network of delivery and pick-up points across the National University of Singapore campus. 
+
+
+These drones, also known as octocopters because of their eight blades, will fly automated on routes along interconnecting sky corridors throughout the campus. Upon arrival, the drone will unload the parcel automatically, and its recipient will be sent a delivery notification.
+
+
+Airbus says that if testing shows drones to be safe, this may increase the chances of passenger flight testing being accepted in Singapore. 
+
+
+&#x201C;If the team is able to demonstrate the safe operation of Skyways over NUS, this could help shape the regulatory framework for unmanned aircraft system operations in Singapore and potentially increase acceptance for passenger flight testing, thus giving a boost to urban air vehicle projects,&#x201D; an excerpt from the FORUM article explains.
+
+
+The company has been developing a electric flying vehicle named CityAirbus for several years, with the aim of reducing traffic congestion in cities. Airbus believes that in the future, people will use such vehicles, which could be operated via transport apps such as Uber.</description><tags>next animation studio,tomonews,Drone delivery service,drones,drone delivery,national university of singapore,the flying car,flying taxi,drone delivery service,Airbus,cityairbus</tags><guid>MCP1_3203977</guid><pubDate>Thu, 10 Nov 2016 05:16:00 -0800</pubDate><duration>81</duration><media:thumbnail url="http://sa-mcp.s3.amazonaws.com/previews/BB5/F84/BB5F84279CF846E2870D10624A9115B5_6_160x90.jpg"/><media:group><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/10/3203977/3203977_1F9DB29A17D0450899B3AF4AC26FAC1E_161110_3203977_National_University_of_Singapore_to_test_drone_d_2600.m3u8" type="application/x-mpegurl" bitrate="2600" width="1280" height="720"/><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/10/3203977/3203977_98F26D034559480BB11047CEC48E5C0E_161110_3203977_National_University_of_Singapore_to_test_drone_d_2600.mp4" type="video/mp4" bitrate="2600" width="1280" height="720"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/BB5/F84/BB5F84279CF846E2870D10624A9115B5_6.jpg" type="image/jpeg" bitrate="0" width="1920" height="1080"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/BB5/F84/BB5F84279CF846E2870D10624A9115B5_pvw" type="image/x-anv-pvwmatrix" bitrate="0" width="0" height="0"/></media:group></item><item><title>Tesla unveils solar roof panels that look like ordinary tiles</title><description>Tesla has unveiled a solar roof product that doesn&#x2019;t distract from the aesthetics of a home, as they look just like ordinary tiles.
+
+
+The company unveiled four types of solar tile during a launch event at the &#x201C;Desperate Housewives&#x201D; set at Universal Studios last Friday, TechCrunch reported.
+
+
+Each Tesla roof tile is made up of a solar cell, quartz glass and a color louver film that makes it appear opaque from an angle.
+
+
+Tesla CEO Elon Musk said the tiles have 98 percent of the efficiency of traditional solar panels. However, the tiles have the potential to go above normal efficiency if improved coatings can trap light inside to reduce loss of energy.
+
+
+Tesla sees the solar roofs working in tandem with its Powerwall battery unit to provide energy for homes and its electric vehicles.
+
+
+The tiles will be available next year through SolarCity, a solar installation company chaired by Musk, which he is trying to merge with Tesla.
+
+
+Musk didn&#x2019;t reveal any specific prices but said the Tesla panels would cost less than the full cost of a roof, with the added benefit of being able to generate electricity.</description><tags>next animation studio,tomonews,Tesla solar,tesla solar roof,tesla solarcity,tesla solar panels,tesla solar power,tesla solarcity merger,tesla solar system,solar energy</tags><guid>MCP1_3202990</guid><pubDate>Wed, 09 Nov 2016 04:17:00 -0800</pubDate><duration>73</duration><media:thumbnail url="http://sa-mcp.s3.amazonaws.com/previews/3EE/CCA/3EECCA5BE3464D668AA0C9E62895A857_4_160x90.jpg"/><media:group><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/09/3202990/3202990_75A2933059EF468C8B6CAC17354CCB98_161109_3202990_Tesla_unveils_solar_roof_panels_that_look_like_o_2600.m3u8" type="application/x-mpegurl" bitrate="2600" width="1280" height="720"/><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/09/3202990/3202990_496F8E59C82D42E99315B904366A2883_161109_3202990_Tesla_unveils_solar_roof_panels_that_look_like_o_2600.mp4" type="video/mp4" bitrate="2600" width="1280" height="720"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/3EE/CCA/3EECCA5BE3464D668AA0C9E62895A857_4.jpg" type="image/jpeg" bitrate="0" width="1920" height="1080"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/3EE/CCA/3EECCA5BE3464D668AA0C9E62895A857_pvw" type="image/x-anv-pvwmatrix" bitrate="0" width="0" height="0"/></media:group></item><item><title>Norway floats $25 billion floating underwater tunnel plan</title><description>The Norwegian Public Roads Administration believes floating underwater tunnels could be the key to shorter driving times in the country.
+
+
+Norway is home to more than 1,100 fjords, the deep glacial water inlets that divide land masses. Getting over one means taking a ferry, and that can add hours to a car trip.
+
+
+Because fjords can be up to a mile deep, building a bridge over the waterway or tunnel underneath is not very practical.
+
+
+But Norwegian engineers think they can build a quicker way. They want to float concrete tunnels up to 100 feet below the ocean&#x2019;s surface. 
+
+
+This would allow ships to sail unobstructed by bridges. Floating pontoons would hold the concrete tunnels in place. Engineers hope the ambitious $25 billion project will be completed by 2035.</description><tags>next animation studio,tomonews,underwater floating tunnels,submerged floating tunnels,norway tunnels,Norwegian Public Roads Administration</tags><guid>MCP1_3202984</guid><pubDate>Wed, 09 Nov 2016 04:13:00 -0800</pubDate><duration>71</duration><media:thumbnail url="http://sa-mcp.s3.amazonaws.com/previews/D06/0B5/D060B51C057541A6AD3C6404B56DF048_5_160x90.jpg"/><media:group><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/09/3202984/3202984_60EA4CE049AA4071B2FE8FEBF6098AB6_161109_3202984_Norway_floats__25_billion_floating_underwater_tu_2600.m3u8" type="application/x-mpegurl" bitrate="2600" width="1280" height="720"/><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/09/3202984/3202984_327709DB5E9C4377B34FF36628C4BE95_161109_3202984_Norway_floats__25_billion_floating_underwater_tu_2600.mp4" type="video/mp4" bitrate="2600" width="1280" height="720"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/D06/0B5/D060B51C057541A6AD3C6404B56DF048_5.jpg" type="image/jpeg" bitrate="0" width="1920" height="1080"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/D06/0B5/D060B51C057541A6AD3C6404B56DF048_pvw" type="image/x-anv-pvwmatrix" bitrate="0" width="0" height="0"/></media:group></item><item><title>National University of Singapore to test drone delivery service in 2017</title><description>Aircraft manufacturer Airbus is set to trial a drone delivery service which, if successful, could potentially lead to tests of flying taxis for passengers.
+
+
+The technology to be tested in Singapore next year will see drones being used to deliver parcels, according to an article in FORUM, the Airbus Group corporate magazine. During the trial, drones will navigate a network of delivery and pick-up points across the National University of Singapore campus. 
+
+
+These drones, also known as octocopters because of their eight blades, will fly automated on routes along interconnecting sky corridors throughout the campus. Upon arrival, the drone will unload the parcel automatically, and its recipient will be sent a delivery notification.
+
+
+Airbus says that if testing shows drones to be safe, this may increase the chances of passenger flight testing being accepted in Singapore. 
+
+
+&#x201C;If the team is able to demonstrate the safe operation of Skyways over NUS, this could help shape the regulatory framework for unmanned aircraft system operations in Singapore and potentially increase acceptance for passenger flight testing, thus giving a boost to urban air vehicle projects,&#x201D; an excerpt from the FORUM article explains.
+
+
+The company has been developing a electric flying vehicle named CityAirbus for several years, with the aim of reducing traffic congestion in cities. Airbus believes that in the future, people will use such vehicles, which could be operated via transport apps such as Uber.</description><tags>next animation studio,tomonews,Drone delivery service,drones,drone delivery,national university of singapore,the flying car,flying taxi,drone delivery service,Airbus,cityairbus</tags><guid>MCP1_3201674</guid><pubDate>Mon, 07 Nov 2016 21:46:00 -0800</pubDate><duration>84</duration><media:thumbnail url="http://sa-mcp.s3.amazonaws.com/previews/C92/E78/C92E78802BC944DE89C58C1F01F001DB_6_160x90.jpg"/><media:group><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/07/3201674/3201674_B36DFAFB75654B2892275ED86F6657E9_161107_3201674_National_University_of_Singapore_to_test_drone_d_2600.m3u8" type="application/x-mpegurl" bitrate="2600" width="1280" height="720"/><media:content url="http://video-pdu.us.tomonews.net/mcp/us/753/16/11/07/3201674/3201674_B41CF5C965D54C38A2B4418FD987C114_161107_3201674_National_University_of_Singapore_to_test_drone_d_2600.mp4" type="video/mp4" bitrate="2600" width="1280" height="720"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/C92/E78/C92E78802BC944DE89C58C1F01F001DB_6.jpg" type="image/jpeg" bitrate="0" width="1920" height="1080"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/C92/E78/C92E78802BC944DE89C58C1F01F001DB_pvw" type="image/x-anv-pvwmatrix" bitrate="0" width="0" height="0"/></media:group></item></channel></rss>

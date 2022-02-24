@@ -1,0 +1,38 @@
+
+//基本變數設定 
+$font_s: 15px
+$def_width: 1000px
+
+$ad1w: 730px
+$ad1h: 90px
+
+$imgroot: img
+
+$f8pt: 0.4em
+$f9pt: 9pt
+$f10pt: 10pt
+$f105pt: 10.5pt
+$f11pt: 11pt
+$f12pt: 12pt
+$f13pt: 13pt
+$f15pt: 15pt
+
+$c_b3b: #b3b3b3
+$c_fff: #ffffff
+
+//共用函式定義
+@mixin pos_abs($x,$y,$w,$h)
+	position: absolute
+	top: $x
+	left: $y
+	width: $w
+	height: $h
+
+@mixin bgurl($imgroot,$file)
+	background: url('../'+$imgroot+'/'+$file)
+	background-repeat: no-repeat 
+
+@mixin alink($color,$fs)
+	color: $color
+	font-size: $fs 
+	text-decoration: none

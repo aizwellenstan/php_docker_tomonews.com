@@ -1,0 +1,32 @@
+<?php xml version="1.0"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:mcp="http://schema.anvato.com/mcp/" version="2.0">  <channel>
+    <title>MRSS feed for Verta News</title>
+    <link>//api.nm.anvato.net/v2/feed/K5DREWL4E6RRMTRDAIBA?filters[]=u_Slug_Dept_s:"DPS_iUS"&amp;filters[]=c_ts_publish_l:[1479139200%20TO%201479225600]&amp;fmt=mrss</link>
+    <description/><item><title>Kidnapped 4-year-old Florida girl found safe in Memphis after frantic five-state search</title><description>MEMPHIS, TENNESSEE &#x2014; A 4-year-old Florida girl was found safe and her kidnapper arrested in Tennessee on Monday after a search that spanned five states, authorities said. 
+
+
+Rebecca Lewis was discovered in Memphis, the Tennessee Bureau of Investigation confirmed over Twitter. 
+
+
+Authorities say 31-year-old West Wild Hogs, a family friend, kidnapped Rebecca on Saturday morning, Fox 13 reported.  
+
+
+Amber Alerts for the Lewis were issued in five states: Florida, Georgia, Alabama, Kentucky and Tennessee, according to the New York Daily News. 
+
+
+The pair was spotted at a BP gas station on surveillance cameras in Forsyth, Georgia on Saturday night, then later by a park ranger in Tennessee, according to Fox 13. 
+
+
+The two were then spotted again in Nashville at 2:28 a.m. on Monday, Polk County Sheriff Grady Judd told reporters. 
+
+
+Hogs was pulled over while driving a 2012 gray Nissan with Alabama plates, the New York Daily News reported. 
+
+
+The 4-year-old was first reported missing when her older sister woke up and couldn&#x2019;t find Rebecca. Hogs had come to the family&#x2019;s home prior to the kidnapping, officials said. 
+
+
+According to Luther Lewis, the girl&#x2019;s father, Hogs underwent brain surgery several years ago and hadn&#x2019;t been the same since, Fox 13 reported. 
+
+
+Sheriff Judd described Hogs as a bipolar truck driver who suffers from depression and who was unemployed for at least one to two years, according to Fox 13.</description><tags>Kidnapped girl,abducted girl,kidnapped girl found safe,abducted girl found safe,Rebecca Lewis,Rebecca Lewis kidnapped,Rebecca Lewis abducted</tags><guid>MCP1_3207485</guid><pubDate>Tue, 15 Nov 2016 01:21:00 -0800</pubDate><duration>28</duration><media:thumbnail url="http://sa-mcp.s3.amazonaws.com/previews/8A5/403/8A5403E503D646838D4342BD1FDBB863_4_160x90.jpg"/><media:group><media:content url="http://video-pdu.us.tomonews.net/mcp/us/764/16/11/15/3207485/3207485_52369942EFD3485A929A8E01639EC822_161115_3207485_Kidnapped_4_year_old_Florida_girl_found_safe_in__2600.mp4" type="video/mp4" bitrate="2600" width="1280" height="720"/><media:content url="http://video-pdu.us.tomonews.net/mcp/us/764/16/11/15/3207485/3207485_4A9F1E843C5343C8BA7CDBD43EABA836_161115_3207485_Kidnapped_4_year_old_Florida_girl_found_safe_in__2600.m3u8" type="application/x-mpegurl" bitrate="2600" width="1280" height="720"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/8A5/403/8A5403E503D646838D4342BD1FDBB863_4.jpg" type="image/jpeg" bitrate="0" width="1920" height="1080"/><media:content url="http://sa-mcp.s3.amazonaws.com/previews/8A5/403/8A5403E503D646838D4342BD1FDBB863_pvw" type="image/x-anv-pvwmatrix" bitrate="0" width="0" height="0"/></media:group></item></channel></rss>

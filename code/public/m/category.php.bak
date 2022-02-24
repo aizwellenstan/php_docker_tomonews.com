@@ -1,0 +1,146 @@
+<?php 
+include_once('config.php');
+include_once('api_setting.php');
+
+$cate_id=$_GET['category_id'];
+
+$cate_title=$_GET['cate_title'];
+if($cate_title!=''){
+	$cate_id= $cateRouteAry[$cate_title];
+}
+
+$page=(int)$_GET['page'];
+$debug_mode=$_GET['debug_mode'];
+
+if(!is_int($page)||$page==''||$page==0  ){ $page=1; }
+
+$cate_name = category_id2name($cate_id,$topmenu);
+// $thisURL='category.php?category_id='.$cate_id;
+$thisURL=THIS_SITE.'category/'.$cate_title;
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><?php  echo $cate_name; ?> | <?php  site_title() ?></title>
+
+	<meta name="apple-itunes-app" content="app-id=633875353">
+	<meta name="google-play-app" content="app-id=com.nextmedia.gan">
+	<meta name="description" content="TomoNews is your daily source for top animated news. We’ve combined animation and video footage with a snarky personality to bring you the biggest and best stories from around the world." />
+	<meta name="keywords" content="news, news videos, funny news, animated news, funny videos, animation, next media animation" />
+	<link rel="apple-touch-icon-precomposed" href=""/>
+	<link rel="icon" href="<?php  echo THIS_SITE; ?>img/favicon.ico" type="image/icon" />
+
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<div class="wapper"> 
+		<?php  
+		$ad728x90=$ad_category_728x90;
+		include_once('header.php'); 
+		?>
+	</div>
+	<div id="cate_lab" class="w<?php  echo $cate_id; ?>" align="center" style="text-trans;">
+			<?php  echo $cate_name ; ?>
+	</div>
+	<div id="lists">
+		<?php 
+			$ad300x250_1=$ad_category_300x250_1;
+			$ad300x250_2=$ad_category_300x250_2;
+		?>
+		<?php 
+		$getUrls=get_CategoryList($cate_id,($page-1),PAGE_LIMIT_CATEGORY);
+		$getCountUrls=get_CategoryListCount($cate_id);
+
+			if($debug_mode=='1'){ echo 'getUrls : <br>',$getUrls,'<hr>'; }	
+		$data=curl_info($getUrls);
+			if($debug_mode=='1'){ echo 'data : <br>',$data,'<hr>'; }
+		
+		$dAry=json_decode($data, true);
+
+		$dAryn=$dAry['list'][0]['media'];
+		$i=0;
+        foreach ($dAryn as $key => $value) {
+            if($i==3){ echo '<div class="mov">',$ad300x250_1,'</div>'; }
+            if($i==12){ echo '<div class="mov">',$ad300x250_2,'</div>'; }
+            $i++;
+            show_category_content($value['id'],$value['title'],$value['creationDate'],$value['mediaPlays']['total']);
+        }
+
+        unset($dAryn);unset($i);unset($data);unset($getUrls);
+        /// get totals for page counter
+        $data=curl_info($getCountUrls);
+        	if($debug_mode=='1'){ echo 'page_data : <br>',$data,'<hr>'; }
+        $dAry=json_decode($data, true);
+
+        $totals=$dAry['ItemCounter']['totalItems'];
+        $thisPage=$page;
+        $totalPage=ceil($totals/PAGE_LIMIT_CATEGORY);
+
+
+        //echo 'totalPage',$totals,'<hr>';
+        //echo 'page==>',$dAry['ItemCounter']['totalItems'];
+
+        if($page<=1){ $prePage=1;}else{ $prePage=$page-1; }
+        if($page>=$totalPage){ $nexPage=1; }else{ $nexPage=$page+1; }
+
+        $showLimit=3;
+        $showMax=$totalPage-2;
+
+
+
+
+        // $showStart=$page-2;
+        // $showEnd=$page+2;
+        // if($page<=$showLimit){
+        // 	$showStart=1;
+        // 	$showEnd=5;
+        // }
+        
+        // if($page>=$showMax){
+        // 	$showEnd=$totalPage;
+        // 	$showStart=$totalPage-4;
+        // }
+
+
+
+        $showStart=$page-2;
+        $showEnd=$page+2;
+        if($page<=$showLimit){
+        	$showStart=1;
+        	$showEnd=5;
+        }
+        
+        if($page>=$showMax){
+        	$showEnd=$totalPage;
+        	$showStart=$totalPage-4;
+        	if($showStart<=1){$showStart=1;}
+        }
+
+		?>	
+
+
+		<div class="cb"></div>
+	</div>
+	<div class="pager">
+		<div class="pager_cnt"><a href="<?php  echo $thisURL; ?>"><span>&lt;&lt;First</span></a></div>
+		<div class="pager_cnt"><a href="<?php  echo $thisURL; ?>/<?php  echo $prePage; ?>"><span>&lt;Previous</span></a></div>
+		<div class="pager_cnt">
+			
+			<?php 
+			for($i=$showStart;$i<=$showEnd;$i++  ){
+				?>
+				<a href="<?php  echo $thisURL; ?>/<?php  echo $i; ?>"><span class="pgcount <?php  if($i==$page){ ?>current<?php  } ?> "><?php  echo $i; ?></span></a>
+				<?php 
+			}
+			?>
+			
+		</div>
+		<div class="pager_cnt"><a href="<?php  echo $thisURL; ?>/<?php  echo $nexPage; ?>"><span>Next&gt;</span></a></div>
+		<div class="pager_cnt"><a href="<?php  echo $thisURL; ?>/<?php  echo $totalPage; ?>"><span>Last&gt;&gt;</span></a></div>
+	</div>
+	<?php  include_once('footer.php'); ?>
+</body>
+</html>

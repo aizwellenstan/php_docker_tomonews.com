@@ -1,0 +1,68 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteBase /m/
+
+  RewriteCond %{HTTP_USER_AGENT} "!(android|avantgo|blackberry|oppo|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)" [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} "((tablet|ipad|playbook)|(android(?!.*(mobi|opera mini))))" [NC]
+  
+  RewriteRule ^(.*) http://us.tomonews.com/$1 [R,L]
+
+  RewriteRule ^category/([^/]*)$ category.php?cate_title=$1 [L]
+  RewriteRule ^category/([^/]*)/([^/]*)$ category.php?cate_title=$1&page=$2 [L]
+
+  RewriteRule ^tomoplay$ passive.php  [L]
+  RewriteRule ^tomoplay/$ passive.php  [L]
+  RewriteRule ^tomoplay/([^/]*)$ passive.php?playlist_id=$1 [L]
+  RewriteRule ^tomoplay/([^/]*)/([^/]*)$ passive.php?playlist_id=$1&page=$2 [L]
+  RewriteRule ^tomoplay/([^/]*)/([^/]*)/([^/]*)$ passive.php?playlist_id=$1&page=$2&video_id=$3 [L]
+
+  RewriteRule ^theme/([^/]*)$ theme.php?theme_title=$1 [L]
+  RewriteRule ^theme/([^/]*)/([^/]*)$ theme.php?theme_title=$1&page=$2 [L]
+
+  RewriteRule ^search$ search.php [L,QSA]
+
+  RewriteRule ^mobileApp$ mobile.php [L,QSA]
+  RewriteRule ^about$ about.php [L,QSA]
+  RewriteRule ^privacy$ privacy.php [L,QSA]
+  #RewriteRule ^wall-of-thanks$ wall-of-thanks.php [L,QSA]
+  RewriteRule ^giveaway$ giveaway.php [L,QSA]
+
+  RewriteRule ^media-highlights$ media.php  [L]
+  RewriteRule ^media-highlights/([^/]*)$ media.php?dtype=$1 [L]
+
+  RewriteRule ^newsfeed$ newsfeed.php  [L]
+  RewriteRule ^newsfeed/([^/]*)$ newsfeed.php?page=$1 [L]
+
+  RewriteRule ^mostviewed$ most.php  [L]
+  RewriteRule ^mostviewed/([^/]*)$ most.php?dtype=$1 [L]
+
+  RewriteRule ([0-9]{1,30})$ video.php?video_id=$1 [L]
+  #RewriteRule ([0-9]{1,30})/v$ videoO.php?video_id=$1&v=$2 [L]
+
+  ErrorDocument 404 /404.php
+ 
+
+  #RewriteRule ^([^/]*)-([^/]*)$ video.php?title=$1&video_id=$2 [L]
+  #RewriteRule ^([^/]*)$ video.php?video_id=$1 [L]
+  #RewriteRule ^([^/]*)-([^/]*)$ video.php?title=$1&video_id=$2 [L]
+  RewriteRule ^disqus/mobile.html$ mobile_disqus.php [L,QSA]
+</IfModule>
+<IfModule mod_expires.c>
+# Enable expirations
+ExpiresActive On 
+# Default directive
+ExpiresDefault "access plus 1 week"
+ExpiresByType text/css "access plus 1 week"
+ExpiresByType text/plain "access plus 1 month"
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType application/x-javascript "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 week"
+ExpiresByType application/x-icon "access plus 1 year"
+</IfModule>
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</IfModule>
+

@@ -1,0 +1,529 @@
+//載入設定檔案
+@import "compass/reset"
+@import "default_setting"
+	
+//基本css開發
+body
+	background: url('../'+$imgroot+'/'+'bg.gif') #dadada repeat-x
+.wapper 
+	width: $def_width
+	margin: 0 auto
+	
+
+#header
+	position: relative
+	padding-top: 15px 
+	height: 150px
+	
+#logo
+	margin-left: 15px 
+
+#ad1
+	@include pos_abs(15px,270px,$ad1w,$ad1h)	
+	background-color: #F00 
+#icons
+	@include pos_abs(82px,15px,250px,16px)
+	font-size: $f8pt 
+	line-height: 24pt 
+	
+	img
+		float: right
+
+	#mico1
+		@include bgurl($imgroot,'icon_fb.gif')
+	#mico2
+		@include bgurl($imgroot,'icon_twitter.gif')
+	#mico3
+		@include bgurl($imgroot,'icon_gplus.gif')
+
+#header_flag
+	font-size: $f8pt 
+	@include pos_abs(123px,390px,256px,35px)
+	z-index: 9998
+#appstore
+	@include pos_abs(108px,635px,368px,35px)
+	
+.menu_icon
+	float: right
+	width: 26px
+	height: 26px
+	margin: 0px 2px
+#menu_mask
+	position: absolute
+	width: 100%
+	height: 600px
+	z-index: 9700 
+
+#menus1
+	@include bgurl($imgroot,'menu1.gif')
+	@include pos_abs(120px,15px,40px,38px)
+	cursor: pointer
+
+#menus2	
+	@include bgurl($imgroot,'menu2.png')
+	@include pos_abs(120px,15px,598px,540px)
+	z-index: 9800
+	font-size: $f105pt
+	a
+		@include alink(#2d2d2d,$f105pt)
+	a:visited
+		@include alink(#2d2d2d,$f105pt)
+	a:hover
+		@include alink(#2d2d2d,$f105pt)
+		 
+	#m21
+		@include pos_abs(110px,25px,150px,420px)
+		z-index: 9911
+		ul li
+			height: 18px
+			list-style: none 
+			padding: 2px 10px
+			margin: 11px 0px 
+			line-height: 16pt 
+			font-weight: bold
+			font-size: $f9pt 
+			
+	#m22
+		@include pos_abs(110px,220px,150px,420px)
+		z-index: 9812
+		line-height: 26pt 
+	#m23
+		@include pos_abs(110px,410px,160px,50px)
+		z-index: 9813
+	#m24
+		@include pos_abs(210px,410px,160px,90px)
+		line-height: 20pt 
+		z-index: 9814
+	#m25
+		@include pos_abs(340px,410px,160px,150px)
+		z-index: 9815
+#search1
+	@include bgurl($imgroot,'input.gif')
+	@include pos_abs(120px,65px,320px,38px)
+	z-index: 9999	
+	input
+		-webkit-border-radius: 0px
+		border-radius: 0px
+		border: 0px
+		width: 260px
+		height: 18px
+		margin: 6px
+		padding: 4px
+		background-color: transparent
+		
+	input:focus
+		outline: 0	
+	
+#search_go
+	@include pos_abs(5px,280px,38px,30px)
+	cursor: pointer
+
+#cate_lab
+	height: 40px
+	font-size: $f15pt 
+	color: #FFFFFF
+	font-weight: bold 
+	line-height: 30pt
+#keymovie
+	position: relative
+	padding: 30px 15px 0px 15px
+	width: 970px
+	height: 540px
+
+	
+#lists
+	padding: 20px 15px 30px 15px 
+	height: auto
+	position: relative
+	margin: auto
+	width: $def_width
+	
+.movlabel
+	height: 25px
+	display: table
+	color: #898989
+	font-size: $f10pt 
+	line-height: 20pt
+.ml1
+	display: table-cell
+	text-align: center 
+	width: 125px
+	color: #FFF
+		
+.ml2
+	display: table-cell
+	text-align: right
+	width: 100px
+.ml3	
+	display: table-cell
+	text-align: center 
+	width: 75px
+.minfo
+	width: 260px
+	height: 50px
+	padding: 6px 20px
+	color: #383838 
+	word-wrap: break-word
+	word-break: keep-all
+	line-height: 16pt
+	font-size: $f105pt
+	overflow: hidden
+#fl_icon_pos
+	position: relative
+	width: 970px
+	margin: auto
+#fl_icon
+	width: 50px
+	position: absolute
+	right: -80px
+	top: 50px
+	img
+		margin-bottom: 10px 
+.mov
+	float: left
+	width: 300px
+	height: 250px
+	margin: 15px 
+	background: #EFE	
+
+.cb
+	clear: both 
+
+.pager
+	display: table
+	width: 500px
+	height: 30px
+	margin: auto
+	font-size: $f105pt
+	
+.pager_cnt
+	display: table-cell
+	text-align: center 
+	color: #292929
+	a
+		text-decoration: none
+		color: #292929
+	a:visited
+		color: #292929
+	a:hover
+		color: #292929
+.pgcount
+	margin: 0 5px
+	padding: 5px 8px
+	
+.current
+	background: #292929
+	color: #FFFFFF
+
+#footer
+	width: 100%
+	position: relative
+	background: #292929
+	height: 340px
+	
+#footer_content
+	width: $def_width
+	border-bottom: 1px solid #6a6a6a
+	height: 280px
+	margin: auto
+	position: relative
+#footer_copy
+	width: 970px
+	height: 30px
+	padding: 15px 
+	margin: auto
+	color: #7a7a7a
+	font-size: $f105pt
+// search result page
+#search_wapper
+	width: 905px
+	padding: 0px 35px 0px 30px
+	display: table
+	font-size: $f105pt 
+#search_term
+	display: table-cell
+	width: 265px
+	height: auto
+	vertical-align: top			
+#search_term_1
+	width: 200px
+	background: #474747
+	padding: 20px
+	color: $c_fff
+	line-height: 15px 20px
+		
+	a
+		color: $c_fff
+		text-decoration: none
+	a:visited
+		color: $c_fff
+	a:hover
+		color: $c_fff
+		
+.dtpicker
+	width: 183px
+	height: 20px
+	background: url("../img/datepicker.gif") 
+	padding: 3px 5px
+	
+	input
+		width: 150px
+		height: 15px
+		border: 0px
+		background-color: transparent
+	input:focus
+		outline: 0
+#datepick_btn
+	cursor: pointer
+
+.search_term_til
+	color: $c_b3b 
+
+#search_result
+	display: table-cell
+	width: 640px
+	height: auto
+//
+
+
+// video page
+#vdo_wapper
+	display: table
+	width: 970px
+	padding: 15px
+	
+	height: auto
+	margin: auto
+	margin-top: 30px
+#vdo_content
+	display: table-cell
+	width: 680px
+	vertical-align: top
+	
+#vod_spec
+	display: table-cell
+	width: 20px
+	vertical-align: top
+#vdo_cnt
+	width: 645px
+	background: #FFFFFF
+	padding: 25px 25px 35px 20px 
+#vdo_otherlist
+	.mov
+		margin-top: 0px 
+
+#vdo_title
+	font-size: 34pt
+	border-bottom: 1px solid #c4c6c9 
+	padding: 0 0 20px 0  
+
+#vdo_sub
+	font-size: 13pt
+	line-height: 20pt
+	padding-top: 10px 
+
+#vdo_otherlist
+	display: table-cell
+	width: 300px
+	vertical-align: top
+
+#vdoplayer
+	width: 645px
+	height: 360px
+	margin: 20px 0px 
+
+#subcrip
+	background: #EDEDED
+#vdo_inf
+	font-size: 10.5pt
+	line-height: 16pt
+	color: #2F3239
+//////	
+
+#srh_lab	
+	background: #b3b3b3
+	width: 1000px
+	height: 60px
+	margin: 0 auto
+	margin-top: 20px 
+
+.srh_result
+	display: table
+	background: #FC0
+	width: 640px
+	height: 250px
+	vertical-align: top
+.srhmov
+	display: table-cell
+	width: 210px
+	height: 250px
+	vertical-align: top
+.srhinfo
+	display: table-cell
+	width: 400px
+	vertical-align: top
+
+.srh_lis_bg
+	background: #FFF 
+	margin-top: 30px 	
+
+// footer list
+#ft_menu1
+	@include pos_abs(50px,20px,320px,200px)
+	ul li
+		list-style: none
+		float: left
+		margin: 5px
+		font-size: $f105pt
+		width: 140px 
+		height: 20px
+		line-height: 16pt
+		border-left: 0px solid 
+
+#ft_menu2
+	@include pos_abs(50px,350px,300px,200px)		
+	ul li
+		list-style: none
+		float: left
+		margin: 5px
+		font-size: $f105pt
+		width: 140px 
+		height: 20px
+		line-height: 16pt
+		color: #FFFFFF
+	
+
+#ft_menu3
+	@include pos_abs(50px,666px,120px,200px)
+	div
+		float: left
+		margin: 2px
+		font-size: 10pt
+		width: 140px 
+		height: 26px
+		
+		a
+			text-decoration: none
+
+	span
+		vertical-align: top 
+		color: #FFFFFF
+		text-decoration: none
+		line-height: 20px 
+		padding-left: 10px 		
+#ft_menu4
+	@include pos_abs(50px,860px,120px,200px)
+	a
+		color: #FFFFFF
+		text-decoration: none
+		font-size: $f105pt
+		line-height: 22pt
+	a:visited
+		color: #FFFFFF
+		text-decoration: none
+	a:hover
+		color: #FFFFFF
+		text-decoration: none
+// 	
+	
+.mu1
+	color: #194A9E
+	background: #194A9E 
+	border-left: #194A9E solid 3px
+.mu2
+	color: #ff0000
+	background: #ff0000 
+	border-left: #ff0000 solid 3px
+.mu3
+	color: #008d3f
+	background: #008d3f 
+	border-left: #008d3f solid 3px
+.mu4
+	color: #7f1084
+	background: #7f1084 
+	border-left: #7f1084 solid 3px
+.mu5
+	color: #f08300
+	background: #f08300 
+	border-left: #f08300 solid 3px	
+.mu6
+	color: #00ab84
+	background: #00ab84 
+	border-left: #00ab84 solid 3px
+.mu7
+	color: #e4007f
+	background: #e4007f 
+	border-left: #e4007f solid 3px
+.mu8
+	color: #1fa4e4
+	background: #1fa4e4 
+	border-left: #1fa4e4 solid 3px
+.mu9
+	color: #be885a
+	background: #be885a 
+	border-left: #be885a solid 3px
+.mu10
+	color: #5d30e3
+	background: #5d30e3 
+	border-left: #5d30e3 solid 3px
+.mu11
+	color: #ffc70f
+	background: #ffc70f 
+	border-left: #ffc70f solid 3px
+.mu12
+	color: #993333
+	background: #993333 
+	border-left: #993333 solid 3px
+.mu_def
+	background: #FFFFFF
+.ft_def
+	background: #292929
+	
+
+
+.w33169260716032
+	color: #194A91
+	background: #194A91 
+	border-left: #194A91 solid 3px
+.w33168992280576
+	color: #FF0000
+	background: #FF0000 
+	border-left: #FF0000 solid 3px
+
+.w63057669693440
+	color: #FFC300
+	background: #FFC300 
+	border-left: #FFC300 solid 3px
+.w33168723845120
+	color: #008D3F
+	background: #008D3F 
+	border-left: #008D3F solid 3px
+.w33168455409664
+	color: #7F1084
+	background: #7F1084 
+	border-left: #7F1084 solid 3px
+.w33166576361472
+	color: #F08300
+	background: #F08300 
+	border-left: #F08300 solid 3px
+.w33166307926016
+	color: #00AB84
+	background: #00AB84 
+	border-left: #00AB84 solid 3px
+
+.w33166039490560
+	color: #E4007F
+	background: #E4007F 
+	border-left: #E4007F solid 3px
+.w33165502619648
+	color: #0097E0
+	background: #0097E0 
+	border-left: #0097E0 solid 3px
+.w33164428877824
+	color: #A96124
+	background: #A96124 
+	border-left: #A96124 solid 3px
+.w64578088116224
+	color: #5D3013
+	background: #5D3013 
+	border-left: #5D3013 solid 3px

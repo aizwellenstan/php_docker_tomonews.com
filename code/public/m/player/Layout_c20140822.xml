@@ -1,0 +1,64 @@
+﻿<?php xml version="1.0" encoding="utf-8" ?>
+<app>
+	<stack style="main">
+		<videoView style="videoView" />
+
+		<posterView style="posterView" showOn="idle,posterShow" hideOn="posterHide" />
+
+		<vbox style="overlay" showOn="notificationShow,errorShow"
+			hideOn="notificationHide,errorHide,idle,play,playAdvert,paywallShow" visible="false">
+			<notificationView />
+		</vbox>
+
+		<stack style="floatingControls" showOn="interactionStarted"
+			hideOn="interactionStopped,play,playAdvert">      
+      
+      <directShareButton showOn="play" hideOn="playAdvert,idle" 
+               template="{share.facebook.template}" style="directShareButton shareOptionsPanelButtonRTFacebook" />
+
+      <directShareButton showOn="play" hideOn="playAdvert,idle"
+					     template="{share.twitter.template}" style="directShareButton shareOptionsPanelButtonRTTwitter" />
+
+      <embedShareButton showOn="play" hideOn="playAdvert,idle"
+					     style="directShareButton shareOptionsPanelButtonRTEmbed" />
+
+      <directShareButton showOn="play" hideOn="playAdvert,idle"
+               template="{share.facebook.template}" style="directShareButton shareOptionsPanelButtonLBFacebook" />
+
+      <directShareButton showOn="play" hideOn="playAdvert,idle"
+					     template="{share.twitter.template}" style="directShareButton shareOptionsPanelButtonLBTwitter" />      
+			<hbox style="controlBar">
+				<previousButton style="maskButton previousButton"
+					tooltip="{controls.previousButton.tooltip}" />
+				<playPauseButton style="maskButton playPauseButton"
+					tooltip="{controls.pauseButton.tooltip}" selectedTooltip="{controls.playButton.tooltip}" />
+				<nextButton style="maskButton nextButton" tooltip="{controls.nextButton.tooltip}" />
+				<seekView />
+				<volumeButton style="maskButton volumeButton" />
+				<bitrateSelector showFor="all" includeDisplayName="false" includeBitrateName="true" itemStyle="bitrateSelectorItem" style="maskButton bitrateSelector" tooltip="Change Quality" />
+				<fullscreenButton style="maskButton fullscreenButton"
+					tooltip="{controls.fullscreenButton.tooltip}" />
+				<repeatButton style="maskButton repeatButton" tooltip="{controls.repeatButton.tooltip}"
+					selectedTooltip="{controls.repeatButton.tooltip.selected}" />				
+			</hbox>
+		</stack>
+		
+		<vbox style="overlay" showOn="shareShow" hideOn="idle,play,resume,shareHide"
+			visible="false">
+			<shareMediaView />
+		</vbox>
+
+		<vbox style="overlay" showOn="supportShow" hideOn="idle,play,resume,supportHide"
+			visible="false">
+			<supportView />
+		</vbox>
+		
+		<vbox style="paywallOverlay" showOn="paywallShow" hideOn="paywallHide" visible="false">
+			<paywallView />
+		</vbox>
+		
+		<vbox style="titleBarOverlay" showOn="posterShow, idle, interactionStarted" hideOn="interactionStopped,play,playAdvert">
+      		<titleBarOverlay />
+        </vbox>
+	</stack>
+</app>

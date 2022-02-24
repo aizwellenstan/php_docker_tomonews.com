@@ -1,0 +1,438 @@
+<?php xml version="1.0" encoding="ascii"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:metadata="http://www.w3.org/Metadata" version="2.0">
+  <channel>
+    <link>http://us.tomonews.com/</link>
+    <lastBuildDate>Sat, 30 Nov 2019 18:08:01 +0000</lastBuildDate>
+    <item>
+      <guid>3914573</guid>
+      <title>New Android malware infects at least 45,000 devices</title>
+      <description><![CDATA[SANTA CLARA, CALIFORNIA <br/> Researchers at cybersecurity firms Malwarebytes and Symantec have uncovered an Android trojan called xHelper that is able to reinstall itself even after users have uninstalled it.<br/><br/>According to Symantec, the malware has already infected more than 45,000 devices, mainly in the U.S., India and Russia, over the last six months.<br/><br/>Malwarebytes explained in a blogpost that the malware is installed through web redirects that take users to web pages that host unofficial Android apps. These unofficial apps include code that installs the xHelper trojan onto a users' phone once these apps have been downloaded.<br/><br/>The malware shows users popup ads and notification spam, though it doesn't seem to carry out any sketchy operations, according to Malwarebytes.<br/><br/>The ads and notifications lead users to Google's Play Store where they are asked to download more apps <br/> a method by which authors of the xHelper trojan earn money each time these apps are installed.<br/><br/>Even if users restore their Android phones back to factory settings or manually uninstall the malware, the xHelper trojan is able to reinstall itself.<br/><br/>Some users have said even after disabling the "Install apps from unknown sources" option after manually uninstalling the app, their device was reinfected with the malware in a matter of minutes, according to ZDNet.   <br/><br/>Symantec advised users to take precautions and not download apps from unfamiliar sites and to only install apps from trusted sources.<br/><br/>The company also advised users to pay close attention to permissions the app is seeking, backup important data frequently and install a suitable mobile security app to protect their device.]]></description>
+      <link>http://us.tomonews.com/new-android-malware-infects-at-least-45-000-devices-3914573</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/726/33B/72633BD2E45469FE0DB6BCB4A45DE845.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/01/3914573/3914573_A703185DB617479F93715D8DF4D52306_191101_3914573_New_Android_malware_infects_at_least_45_000_devi_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Fri, 01 Nov 2019 04:54:51 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3914864</guid>
+      <title>Otzi the Iceman's final journey retraced using moss</title>
+      <description><![CDATA[SOUTH TYROL, ITALY <br/> Frozen plant species buried with Otzi the Iceman has allowed scientists to trace the unusual route he took before his death.<br/><br/>Otzi the Iceman was a hunter who died in the Alps 5,300 years ago. His mummified body was discovered near the Italy-Austria border in 1991.<br/><br/>According to Science News, he was believed to have died due to freezing temperatures in the Italian Alps. But the discovery of an arrowhead in his left shoulder has led scientists to believe he was deliberately killed.<br/><br/>A new study from the University of Glasgow examined fragments of frozen vegetation buried alongside or inside Otzi, which includes 75 different species of mosses and liverworts.<br/><br/>Only 30% of the species are local, others were likely transported via Otzi's clothing or inside his gut.<br/><br/>According to New Scientist, researchers found a type of bog moss in Otzi's colon that is used to staunch wounds, and may have been used to treat a gash on his palm.<br/><br/>His intestines also contained the moss Neckera complanata and traces of pollen.<br/><br/>Both moss species are found in low-elevation woodlands, while Otzi was found 3,200 meters above sea level.<br/><br/>This suggests the Iceman travelled from the forests below and went through Schnalstal valley on his final ascent.<br/><br/>Researcher James Dickson says Otzi the Iceman's route through the gorge was the most stressful way up the mountain, but fits with the assumption that he was hiding and running away from someone.]]></description>
+      <link>http://us.tomonews.com/otzi-the-iceman-s-final-journey-retraced-using-moss-3914864</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/D02/B8F/D02B8FF2100F846E35F36E4289AF5BF0.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/01/3914864/3914864_647AB5A3E9E04778A200D1A3943FEAB0_191101_3914864_Otzi_the_Iceman_s_final_journey_retraced_using_m_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Fri, 01 Nov 2019 11:56:13 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3914728</guid>
+      <title>NASA plans orbiter mission to Pluto</title>
+      <description><![CDATA[SAN ANTONIO <br/> NASA has commissioned Southwest Research Institute to study the possibility and the cost of a long-term Pluto orbiter mission.<br/><br/>NASA and Southwest Research Institute aim to send an unmanned spacecraft to study Pluto and two other Kuiper Belt Objects for a total of two years, according to a press release from the research institute. <br/><br/>For the mission, the institute will work to develop a new spacecraft with a new payload design.<br/><br/>According to the press release, the spacecraft would have a larger payload than the New Horizons space probe and carry more advanced instruments.<br/><br/>The press release didn't detail which exact instruments the space probe could potentially carry.<br/><br/>The institute previously lead NASA's New Horizon mission, in which the New Horizon space probe was able to fly past Pluto and its five moons and reach Kuiper Belt Object (KBO) 2014 MU69, also known as Ultima Thule, the farthest object visited till date.<br/><br/>The spacecraft captured high-resolution images of Pluto but wasn't able to enter Pluto's orbit as it was traveling fast at 50,700 kilometers per hour, according to Phys.org. <br/><br/>Researchers will deliver their results to the National Academy Planetary Decadal Study in 2020.]]></description>
+      <link>http://us.tomonews.com/nasa-plans-orbiter-mission-to-pluto-3914728</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/21F/2CA/21F2CAEFF71D14DB76C91F326E6F240D.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/01/3914728/3914728_C10AE85FBFE34143B27EDD18C77DA2EE_191101_3914728_NASA_plans_orbiter_mission_to_Pluto_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Fri, 01 Nov 2019 09:21:17 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3914721</guid>
+      <title>Exposure to sunlight is good for the bacteria in your gut</title>
+      <description><![CDATA[VANCOUVER, CANADA <br/> Exposure to ultraviolet rays may increase biodiversity of the gut microbiome in humans.<br/><br/>Canadian researchers find that being under the sun could enrich gut flora and that a novel skin-gut axis may exist, according to a study published in Frontiers in Microbiology on October 24. <br/><br/>The researchers say that 21 women volunteers were subjected to three full body exposures to UV rays over one week.<br/><br/>Blood samples were tested for vitamin D levels and stool samples were tested for the biodiversity of their gut bacteria.<br/><br/>Frontiers Science News reports that half of the participants who regularly took vitamin D supplements experienced no changes to their gut microbiome.<br/><br/>However, women who did not take supplements saw increases to vitamin D levels, and their gut microbiome became as diverse as the supplemented group.<br/><br/>The researchers state that multiple sclerosis and inflammatory bowel diseases are associated with the lack of sunlight, vitamin D, and unhealthy gut microbiota.<br/><br/>The study indicates that there is a direct link between those factors, but it does not identify the causal mechanism.]]></description>
+      <link>http://us.tomonews.com/exposure-to-sunlight-is-good-for-the-bacteria-in-your-gut-3914721</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/67A/319/67A3191A9358346C1CBEA5F1A1898F48.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/01/3914721/3914721_F59F0E7831FA4D549F2E4F1C71FCF4BC_191101_3914721_Exposure_to_sunlight_is_good_for_the_bacteria_in_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Fri, 01 Nov 2019 09:10:09 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3915796</guid>
+      <title>A quarter of the world's pigs could die due to African swine fever</title>
+      <description><![CDATA[WORLD <br/> Mark Schipp, vice president of the World Organization for Animal Health, stated in a press conference on October 31 that roughly a quarter of the pig population worldwide is expected to die off as a result of the spread of African swine fever. <br/><br/>African swine fever is spread through bites by infectious ticks, contact through infected animals, contact with objects containing the virus, or by ingesting the meat of infected animals. The disease is spread by the DNA virus of the Asfarviridae family.<br/><br/>Symptoms of the disease include high fever, redness on the ears, abdomen, legs as well as diarrhea.<br/><br/>The disease can be fatal for pigs, though it isn't transmissible to humans.<br/><br/>There is currently no approved vaccine to prevent the spread of the disease, according to the World Organization for Animal Health.<br/><br/>The swine fever outbreak has already claimed as many as 100 million pigs in China, the Guardian reports. This has resulted in rising pork prices around the world, mainly due to increasing demand from China.<br/><br/>European pork prices have reached a six-year high, while the U.S. has managed to double its sale of pork to China.<br/><br/>The African swine fever virus has already been identified in 50 countries around the world, including Poland, Russia, South Korea and the Philippines.]]></description>
+      <link>http://us.tomonews.com/a-quarter-of-the-world-s-pigs-could-die-due-to-african-swine-fever-3915796</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/FD0/AFE/FD0AFEBC8B4DED6A53CB2C8B3B25778F.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/04/3915796/3915796_76689F2E2AEA49C29087F4ABCA0C47F6_191104_3915796_A_quarter_of_the_world_s_pigs_could_die_due_to_A_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Mon, 04 Nov 2019 04:11:26 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3915930</guid>
+      <title>China dumped 27% more trash into the oceans in 2018</title>
+      <description><![CDATA[BEIJING <br/> China discarded 200.7 million cubic meters of waste into its coastal waters in 2018.<br/><br/>In a briefing on October 29, China's environmental ministry said that this is a 27 percent increase from 2017 and the highest level in at least a decade. The bulk of the waste was dumped into the delta regions of the Yangtze and Pearl rivers.<br/><br/>China is discarding large amounts of trash into its ocean waters in an attempt to clean up its rivers, Reuters reports, citing environmental groups. <br/><br/>According to the ministry, the country found an average of 24 kilograms of floating waste for every 1,000 square meters of surface water, almost 90 percent of the waste was plastic. Plastic waste was also found below surface water and on the seabed.<br/><br/>China said it plans to designate 30 percent of its coastal waters to be completely off-limits for development as part of the country's "ecological red line" scheme.<br/><br/>China is also moving its steel and petrochemical industries to its coastline in order to protect its rivers at the same time, according to Reuters.<br/><br/>Huo Chuanlin, from China's environmental ministry, explained in the briefing that they were working to improve on the issue of wastewater from rivers entering into oceans.<br/><br/>Huo added that China cannot be blamed for the global ocean plastic pollution crisis, even though the nation is the biggest manufacturer and exporter of plastic products around the world.]]></description>
+      <link>http://us.tomonews.com/china-dumped-27-more-trash-into-the-oceans-in-2018-3915930</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/64D/BF0/64DBF054F49902CEB7173B5F7C8C09FF.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/04/3915930/3915930_730D4594887B45B8AC1B168FEF21A4D6_191104_3915930_China_dumped_27__more_trash_into_the_oceans_in_2_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Mon, 04 Nov 2019 08:42:13 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3916488</guid>
+      <title>Direct brain to brain interface demonstrated by scientists</title>
+      <description><![CDATA[SEATTLE <br/> According to a study published in Nature, BrainNet is the first brain to brain interface to link three people and allow two way communication using only their mind.<br/><br/>Two senders and a receiver cooperate in a Tetris-like game, using EEG and transcranial magnetic stimulation.<br/><br/>According to the study, each of the senders is provided with a monitor that displays the game, and two LED lights flashing at different frequencies.<br/><br/>The senders give a binary yes or no signal to the receiver by looking at one light or the other, which indicates whether the Tetris block should be rotated to win the game.<br/><br/>When one sender says yes, a transcranial stimulator informs the blindfolded receiver by stimulating the visual cortex, causing the receiver to see a spot or ring of light.<br/><br/>A no response did not engage the stimulator and the receiver did not visualize a light spot or ring.<br/><br/>The senders can check the receiver's decision and send corrections via BrainNet if they disagree.<br/><br/>The results showed that three people were better than one in playing the game.<br/><br/>When researchers flipped the responses of a sender deliberately, the receiver learned to disregard bad information, showing BrainNet can overcome interference or an unreliable player.]]></description>
+      <link>http://us.tomonews.com/direct-brain-to-brain-interface-demonstrated-by-scientists-3916488</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/ED9/C9B/ED9C9BC368D03FF5E96CA50D6D966181.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/05/3916488/3916488_928B3C7DA70D426E9F4EA84CDEB397E8_191105_3916488_Direct_brain_to_brain_interface_demonstrated_by__2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Tue, 05 Nov 2019 10:08:23 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3916485</guid>
+      <title>Tooth of megalodon found in Mexico</title>
+      <description><![CDATA[MEXICO CITY <br/> Researchers found at least 13 prehistoric shark teeth during a diving expedition in the Xoc cenote, a flooded cave in the Mexican city of Merida.<br/><br/><br/><br/>Mexico City daily Excelsior reported that morphological analysis suggests one of the teeth belonged to a megalodon, a species of giant sharks that lived from about 23 million to 2.5 million years ago.<br/><br/><br/><br/>Megalodons were biggest sharks known to have existed in the world.<br/><br/><br/><br/>A megalodon could grow to as large as 18 meters long and its open jaws were 1.8 meters wide, dwarfing the great white shark, according to National Geographic.<br/><br/><br/><br/>The researchers told Excelsior they found other teeth belonging to the sawshark and mako shark genuses likely originating in the same geological epochs as the megalodon tooth.<br/><br/><br/><br/>Excelsior reported that the Xoc cenote is Merida's third largest flooded cavern and researchers are mapping the cave system. "Xoc" means shark in the Mayan language. A 'cenote' is a natural sinkhole.]]></description>
+      <link>http://us.tomonews.com/tooth-of-megalodon-found-in-mexico-3916485</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/F02/279/F02279DCA77F6DF8A1C1E208A129F829.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/05/3916485/3916485_4313FAF69B4543D799D054D88A7C0266_191105_3916485_TOOTH_OF_MEGALODON__FOUND_IN_MEXICO_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Tue, 05 Nov 2019 10:02:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3917340</guid>
+      <title>App developers had improper access to user info on Facebook</title>
+      <description><![CDATA[MENLO PARK, CALIFORNIA <br/> Facebook says roughly 100 app developers had improper access to user data from video streaming apps and social media management apps through admins that authorized the apps' access to Facebook groups.<br/><br/>According to a news release from the company, at least 11 apps accessed names and profile pictures of group members in the past 60 days even though Facebook says it made changes in April 2018 to prevent app developers from accessing this information.<br/><br/>The company explained that following the changes, group members had to opt-in in order to allow apps to access their information.<br/><br/>Facebook says it has since removed this access for those app developers even though the social media giant says it didn't find any evidence of the apps abusing their access to user information.<br/><br/>The company didn't mention how many users were affected by the breach.<br/><br/>Facebook has been working to restrict developer access to user data since March 2018, following the Cambridge Analytica scandal in which the consulting firm gained access to user data from 87 million Facebook users, CNBC reports. <br/><br/>As a result, the company suspended tens of thousands of apps in September.<br/><br/>The social media giant was also ordered to pay a US$5 billion fine to the Federal Trade Commission over its privacy policies.]]></description>
+      <link>http://us.tomonews.com/app-developers-had-improper-access-to-user-info-on-facebook-3917340</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/750/2E9/7502E9E7493302FCE8272BF4069C0678.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/07/3917340/3917340_9F8AE3E65A3749309F4DA852D91EF00C_191107_3917340_App_developers_had_improper_access_to_user_info__2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Thu, 07 Nov 2019 03:33:01 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3917532</guid>
+      <title>Scientists from around the world declare climate emergency</title>
+      <description><![CDATA[WORLD <br/> More than 11,000 scientists around the world have signed a declaration stating planet Earth is facing a climate emergency, according to a new study published in the journal BioScience.<br/><br/>These scientists have outlined six crucial steps for us to take in order to tackle climate change.<br/><br/>For the first step, the scientists say that we must replace fossil fuels with clean renewables.<br/><br/>Next, we must cut down emissions of methane, hydrofluorocarbons and other climate pollutants. Scientists say this could reduce short-term warming trend by over 50 percent in the next few decades.<br/><br/>Thirdly, the scientists stated that restoring and protecting ecosystems such as forests and grasslands, would not only benefit organisms that live in these ecosystems but also naturally isolate and take in more carbon dioxide pollutants in the atmosphere.<br/><br/>For the fourth step, the study says we must eat more plant-based food and reduce our consumption of animal-based products. This would reduce methane emissions from animals such as cattle and free up land for growing vegetables instead of livestock.<br/><br/>The scientists added that we need to reduce food waste as roughly a third of all food products end up in the trash.<br/><br/>Next, the study says we need a carbon-free economy that focuses on our biosphere and environment instead of focusing on hitting economic goals related to GDP growth and the pursuit of wealth.<br/><br/>Lastly, scientists say we need to stabilize the global population to ensure social and economic justice for everyone living on this planet.<br/><br/>After analyzing 40 years of climate data, researchers stated that global surface temperature, sea levels, ocean acidity and ocean heat content are all steadily on the rise.]]></description>
+      <link>http://us.tomonews.com/scientists-from-around-the-world-declare-climate-emergency-3917532</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/B41/D5A/B41D5A019EA9FE2C9DE66EA49AE02233.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/07/3917532/3917532_AD7B5C664FCD4685A3A755E613F5C660_191107_3917532_Scientists_from_around_the_world_declare_climate_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Thu, 07 Nov 2019 09:21:57 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3917496</guid>
+      <title>Voyagers find new clues
+about the solar system</title>
+      <description><![CDATA[Washington <br/> The latest data sent from Voyager 2 brought new insight and questions about the boundary region where the sun's influence ends and interstellar space begins.<br/><br/>According to NASA, the sun's energetic influence projects a bubble around the solar system called the heliosphere, Reuters says.<br/><br/>NASA reports that as Voyager 2 crossed the border region, or the heliopause, it registered an unexpectedly sharp difference in magnetic particles and plasma density.<br/><br/>Comparing the data from Voyager 1, researchers found the heliopause is thinner and less changeable by solar cycles than thought previously, the New York Times reports.<br/><br/>The New York Times reports that the sun creates the heliosphere bubble by blowing solar wind, or charged particles that are mostly hydrogen.<br/><br/>University of Iowa Professor Don Gurnett told the New York Times that solar winds clash with interstellar winds in the bubble's outer region, which could explain why a sharp boundary was formed.]]></description>
+      <link>http://us.tomonews.com/voyagers-find-new-clues%0Aabout-the-solar-system-3917496</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/3AB/46B/3AB46B58F6C5D3FD0F612FA9457C0385.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/07/3917496/3917496_357CB23AAE46409B97204C916DFDE210_191107_3917496_Voyagers_find_new_clues_about_the_solar_system_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Thu, 07 Nov 2019 08:27:02 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3918392</guid>
+      <title>The U.S. Air Force is researching orbital solar power systems</title>
+      <description><![CDATA[ALBUQUERQUE, NEW MEXICO <br/> The U.S. Air Force wants a space system to generate solar energy and then beams it to forward operating bases.<br/><br/>The U.S. Air Force wants to develop a system that generates solar energy in space, converts it to radio frequencies, and then beams it to forward operating bases."<br/><br/>Colonel Eric Felt told Stars and Stripes, "Energy is a strategic enabler and potential vulnerability for our nation."<br/><br/>Remote outposts that rely on fuel for energy need to be supplied by convoys and protective escorts, which the enemy could target.<br/><br/>The air force states that harnessing solar energy in space offers advantages such as providing power around the clock in all weather conditions.<br/><br/>The project developers also said another application of the system is to supply energy to remote communities.<br/><br/>According to Stars and Stripes, the system is envisioned as a constellation of satellites with ten thousand square meters of solar panels.<br/><br/>The solar energy system would steer its beams at specific locations electrically, rather than having to turn mechanical arrays.]]></description>
+      <link>http://us.tomonews.com/the-u-s-air-force-is-researching-orbital-solar-power-systems-3918392</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/C94/79A/C9479A7EEEBF14C152714DB365E60A9F.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/09/3918392/3918392_F294242F5C8643C3A1CD72987A2B4DE2_191109_3918392_The_U_S__Air_Force_is_researching_orbital_solar__2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Sat, 09 Nov 2019 02:28:18 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3919209</guid>
+      <title>First new HIV strain identified in nearly 20 years: Study</title>
+      <description><![CDATA[ABBOTT PARK, ILLINOIS <br/> A joint study by Abbott Laboratories and the University of Missouri has identified a new subtype of the HIV strain for the first time in 19 years.<br/><br/>A press release from Abbott Laboratories explains that three different samples of the HIV virus were obtained from the Democratic Republic of Congo, one in 1983, one in 1990 and a third one in 2001.<br/><br/>Scientists weren't able to test the third sample because technologies at the time prevented the researchers from doing so. Now, scientists have developed next-generation sequencing technology to allow them to build a complete genome sequence from the third HIV sample.<br/><br/>After analyzing the HIV virus, the researchers have identified it as the HIV-1 Group M subtype L.<br/><br/>In the news release, one of the authors of the study, Mary Rodgers, principal scientist at Abbott Laboratories, said that identifying new viruses is like "searching for a needle in a haystack."<br/><br/>Rodgers added that the new sequencing technology was like a "magnet" that allowed them to find the needle.<br/><br/>According to CNN, current HIV treatments are able to fight different types of virus strains. It is believed to be able to fight this newly identified HIV strain as well.<br/><br/>The study concluded by saying that additional strains of HIV could be spreading around in the Democratic Republic of Congo or elsewhere.]]></description>
+      <link>http://us.tomonews.com/first-new-hiv-strain-identified-in-nearly-20-years-study-3919209</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/5AC/206/5AC20600F16E4C288C8542D43698112C.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/11/3919209/3919209_D6AD4EB4D3EC45EFBD3EFA3E45B07978_191111_3919209_First_new_HIV_strain_identified_in_nearly_20_yea_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Mon, 11 Nov 2019 02:24:20 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3919910</guid>
+      <title>Elon Musk wants to build offshore ports for SpaceX rocket ships</title>
+      <description><![CDATA[HAWTHRONE, CALIFORNIA <br/> SpaceX is developing Starships, reusable rocket systems that will be used for fast travelling and space exploration.<br/><br/>According to SpaceX, Starship's first stage booster named Super Heavy features 37 Raptor engines that will make Starships the most powerful launch systems ever built.<br/><br/>Super Heavy is designed to separate from Starship and land itself while the spacecraft continues on its trajectory with its six Raptor thrusters.<br/><br/>The Super Heavy booster and Starship will both be capable of reentry and reuse.<br/><br/>SpaceX CEO Elon Musk told Space.com that the design utilizes 301 stainless steel because it is cost effective and resilient to the heat of atmospheric reentry.<br/><br/>SpaceX claims that Starships will be fast enough to go between anywhere on Earth in less than an hour.<br/><br/>Musk tweeted in June that a Starship will carry one hundred passengers in its cabin and up to a thousand when using its cargo hold.]]></description>
+      <link>http://us.tomonews.com/elon-musk-wants-to-build-offshore-ports-for-spacex-rocket-ships-3919910</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/AC7/6B5/AC76B5BDA49C36056F8A55D672892E6B.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/12/3919910/3919910_8006FDB1D55442E3AE15AE5EA1145A72_191112_3919910_Elon_Musk_wants_to_build_offshore_ports_for_Spac_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Tue, 12 Nov 2019 10:29:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3920012</guid>
+      <title>Clownfish use UV light vision under the sea: Study</title>
+      <description><![CDATA[ST. LUCIA, AUSTRALIA <br/> A joint study from the University of Queensland and the University of Maryland has found that a particular species of clownfish called the Amphiprion akindynos is able to see ultraviolet light.<br/><br/>Sara Stieb, a researcher involved with the study, explained in a University of Queensland news release that these fish live close to the water's surface, where UV light is able to easily penetrate through water.<br/><br/>The study says that part of these fish's eyes have photoreceptors that are able to detect both ultraviolet light and violet light. With UV light vision, the fish can identify their kind as white stripes on a clownfish reflect ultraviolet light.<br/><br/>This unique ability allows clownfish to communicate with one another over short distances as bigger fish aren't able to see UV light.<br/><br/>The fish also uses ultraviolet light to find food it typically eats such as zooplankton. These appear as darker dots as they absorb UV light, making it easier for clownfish to locate them.<br/><br/>Stieb said that the fact that these fish have this special ability makes sense because of their environment and what they consume.]]></description>
+      <link>http://us.tomonews.com/clownfish-use-uv-light-vision-under-the-sea-study-3920012</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/F38/175/F38175A5B9BBD00C6F67C6B04AB7D7BD.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/12/3920012/3920012_6B5BE6C3A3DA4BF587D30DD3FDABD01B_191112_3920012_Clownfish_use_UV_light_vision_under_the_sea__Stu_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Tue, 12 Nov 2019 13:53:48 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3919976</guid>
+      <title>Elon Musk wants to build offshore ports for SpaceX rocket ships</title>
+      <description><![CDATA[HAWTHRONE, CALIFORNIA <br/> SpaceX is developing Starships, reusable rocket systems that will be used for fast travelling and space exploration.<br/><br/>According to SpaceX, Starship's first stage booster named Super Heavy features 37 Raptor engines that will make Starships the most powerful launch systems ever built.<br/><br/>Super Heavy is designed to separate from Starship and land itself while the spacecraft continues on its trajectory with its six Raptor thrusters.<br/><br/>The Super Heavy booster and Starship will both be capable of reentry and reuse.<br/><br/>SpaceX CEO Elon Musk told Space.com that the design utilizes 301 stainless steel because it is cost effective and resilient to the heat of atmospheric reentry.<br/><br/>SpaceX claims that Starships will be fast enough to go between anywhere on Earth in less than an hour.<br/><br/>Musk tweeted in June that a Starship will carry one hundred passengers in its cabin and up to a thousand when using its cargo hold.]]></description>
+      <link>http://us.tomonews.com/elon-musk-wants-to-build-offshore-ports-for-spacex-rocket-ships-3919976</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/94B/33D/94B33DB63A0B709BF836932DCECDEB51.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/12/3919976/3919976_01C81E0DF63D483CA7058D9A9C85CEBD_191112_3919976_Elon_Musk_wants_to_build_offshore_ports_for_Spac_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Tue, 12 Nov 2019 12:33:18 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3920247</guid>
+      <title>New sustainable international airport planned for Australia</title>
+      <description><![CDATA[SYDNEY <br/> British architectural firm Zaha Hadid Architects and Sydney-based Cox Architecture have won a competition to build the new Western Sydney International Airport.<br/><br/>According to the British architectural firm's website, the airport draws inspiration from landscape surrounding the area and the region's cultural heritage.<br/><br/>The new airport will make use of a sustainable design to allow sunlight to enter its interior. The airport's eco-friendly design will also include natural ventilation and water recycling to increase energy efficiency.<br/><br/>The airport will be built in four stages. The project's initial stage is expected to be completed in 2026.<br/><br/>The airport will be able to accommodate 10 million annual passengers after the first stage is complete, according to Zaha Hadid Architects. The number of passengers will increase to up to 82 million once the entire project is complete in 2060.<br/><br/>Australian Prime Minister Scott Morrison told ABC News Australia that the airport is set to become the largest gateway to Australia.]]></description>
+      <link>http://us.tomonews.com/new-sustainable-international-airport-planned-for-australia-3920247</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/C38/4C9/C384C9CE647CEC3AC7AE479FD4C4C069.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/13/3920247/3920247_F95A6949E6EC494885757E487AA80F9C_191113_3920247_New_sustainable_international_airport_planned_fo_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Wed, 13 Nov 2019 05:06:34 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3920490</guid>
+      <title>Baby fish found consuming plastic waste, study finds</title>
+      <description><![CDATA[HONOLULU <br/> A new study led by the National Oceanic and Atmospheric Administration's Pacific Islands Fisheries Science Center has found prey-size plastics present in larval fish nurseries in surface slicks off the west coast of the island of Hawaii.<br/><br/>According to a news release from the NOAA, surface slicks are created when waves converge near coastlines and form ribbons of smooth water. These contain large amounts of plankton for larval fish that live in the surface slicks.<br/><br/>The study, published in the journal Proceedings of the National Academy of Sciences, found seven times more plastic present in the surface slicks than larval fish.<br/><br/>Researchers also found that plastics were 126 times more concentrated in the slicks than surface water off the coast of the same island.<br/><br/>Scientists involved in the study dissected hundreds of larval fish from the surface slicks and found that pelagic fish species, including swordfish and mahi-mahi, and larval fish, such as triggerfish, all contained tiny pieces of plastic in their stomachs.<br/><br/>This is the first time these fish species have been found consuming plastic just days after being spawned.<br/><br/>Jamison Gove, a researcher from the NOAA who was involved with the study, stated in the agency's news release that it is alarming that larval fish are surrounded by plastic waste and are consuming plastic at such a vulnerable stage in their life.<br/><br/>Scientists are unsure of the impact of plastic ingestion on larval fish. The study says that plastic could affect their development or even reduce their rate of survival.<br/><br/>Previous studies had found that plastic ingestion in adult fish causes gut blockage, malnutrition and accumulation of plastic toxins.]]></description>
+      <link>http://us.tomonews.com/baby-fish-found-consuming-plastic-waste-study-finds-3920490</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/2A0/FF1/2A0FF19B571C32AED1FB3769AF063C47.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/13/3920490/3920490_8BD65718819B497A8C19DAA6B6C8CD5D_191113_3920490_Baby_fish_found_consuming_plastic_waste__study_f_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Wed, 13 Nov 2019 12:35:44 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3920774</guid>
+      <title>Plans unveiled for Smart Forest City in Cancun, Mexico</title>
+      <description><![CDATA[CANCUN, MEXICO <br/> Italian architectural firm Stefano Boeri Architetti has unveiled design plans for a "Smart Forest City" in Cancun.<br/><br/>The site would consist of 400 hectares of green space and feature public parks and private gardens, according to the architectural firm's website. <br/><br/>The Smart Forest City would contain green roofs and more than 200,000 trees that would be able to absorb approximately 116.000 tons of carbon dioxide.<br/><br/>The company explained that the area would be surrounded by a ring of solar panels and agricultural fields to provide renewable energy and food for the city. The development's agricultural fields would be irrigated by a water channel connected to an underwater maritime pipe.<br/><br/>The site would use electric and semi-automatic vehicles instead of traditional vehicles for both residents and visitors.<br/><br/>Visitors to the forest city would be required to leave their traditional vehicles at the city's outer edge.<br/><br/>According to Stefano Boeri Architetti, the development would house an advanced research center for international organizations and companies that are interested in our planet's sustainability issues.<br/><br/>The proposed plan would reforest the area and build the Smart Forest City instead of a shopping district.]]></description>
+      <link>http://us.tomonews.com/plans-unveiled-for-smart-forest-city-in-cancun-mexico-3920774</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/180/66F/18066F82DE963FE731A9DD62D451BDE1.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/14/3920774/3920774_96B37A09E9F74107AA823CC23F836AF9_191114_3920774_Plans_unveiled_for_Smart_Forest_City_in_Cancun___2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Thu, 14 Nov 2019 05:26:02 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3920698</guid>
+      <title>Air Protein: Vegetarians will soon feast on air-based meat</title>
+      <description><![CDATA[BERKELEY, CALIFORNIA <br/> Air Protein says it has launched a meat substitute made of chemical compounds and other elements harvested from the air in a press release on Tuesday.<br/><br/>CNet reports that the faux meat utilizes carbon dioxide, oxygen and nitrogen.<br/><br/>According to Air Protein, a proprietary technology converts the elements into a protein that contains the same amino acids found in animal meat.<br/><br/>The technology is developed from NASA's concept that recycles carbon dioxide from astronauts with microbes called hydrogenotrophs, which convert the gas into edible protein.<br/><br/>The company says the process is a sustainable food production alternative that helps to reduce the use of agricultural chemicals and stress on arable land.]]></description>
+      <link>http://us.tomonews.com/air-protein-vegetarians-will-soon-feast-on-air-based-meat-3920698</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/531/40B/53140BA6C85595DB101351EF207F4282.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/14/3920698/3920698_4952E0C1D0A64D22ADBAB0BB41E02F1B_191114_3920698_Air_Protein__Vegetarians_will_soon_feast_on_air__2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Thu, 14 Nov 2019 02:31:45 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3921233</guid>
+      <title>Eco-friendly supertall skyscraper planned for China</title>
+      <description><![CDATA[NANJING, CHINA <br/> U.S.-based architectural firm Adrian Smith + Gordon Gill has won a competition to design Nanjing's newest skyscraper, the South HeXi Yuzui Financial District Tower.<br/><br/>The tower's design plans were inspired by the Yangtze River, according to the project website. <br/><br/>The 500-meter-tall building will be able to reflect light, just like the Chinese river, while its exterior will be made up of efficient glass to reduce the amount of solar heat that enters the building.<br/><br/>The architectural firm states that the building will incorporate eco-friendly features such as multiple green spaces and harvest rainwater from its sky gardens.<br/><br/>The structure aims to become one of the tallest buildings to achieve LEED-Gold certification when completed in 2025.<br/><br/>The tower will include an open-air observatory with a 360&#176; view of the city.<br/><br/>In addition to the supertall skyscraper, the company will also design other smaller office towers and residential towers as part of a larger development in the district.<br/><br/>The new financial district will have access to the riverfront, public transportation, public parks and other facilities.]]></description>
+      <link>http://us.tomonews.com/eco-friendly-supertall-skyscraper-planned-for-china-3921233</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/EE3/FD5/EE3FD52FC5AEFC6D8E974A2FC7D56098.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/15/3921233/3921233_2899E46D45F4465398A6FCC734EDAF49_191115_3921233_Eco_friendly_supertall_skyscraper_planned_for_Ch_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Fri, 15 Nov 2019 02:29:31 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3922759</guid>
+      <title>China tests strategic nuclear missile in Bohai Sea</title>
+      <description><![CDATA[BEIJING <br/> China has test launched a new submarine launched ballistic missile named the JL-3.<br/><br/>The country's Defense Ministry told the Global Times in a conference on June 27 that the UFO sightings earlier that month was the result of a test launch conducted in the Bohai Sea.<br/><br/>According to the Global Times, the missile was observed by Chinese netizens in Shandong, Shanxi, Hebei and Henan.<br/><br/>Jane's 360 reported that the trajectory was consistent with a flight path toward the desert areas in the west that China uses for missile tests.<br/><br/>The National Interest reports that the JL-3 features a multiple warhead design capable of carrying China's hydrogen bombs.<br/><br/>An unnamed source told the South China Morning Post that the finished JL-3 will achieve a range of 9,000 kilometers.<br/><br/>According to the National Interest, the completed missile will be able to reach Washington D.C. when fired by a submarine.<br/><br/>The South China Moring Post reported that the missile has a shorter range than the US Trident II because China has not made significant breakthroughs in submarine design.]]></description>
+      <link>http://us.tomonews.com/china-tests-strategic-nuclear-missile-in-bohai-sea-3922759</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/7B3/D17/7B3D176DDEC8764AE387E13E00D1FECB.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/18/3922759/3922759_D9A7B4A0DA624A81902E710D54F75567_191118_3922759_China_tests_strategic_nuclear_missile_in_Bohai_S_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Mon, 18 Nov 2019 09:32:58 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3922751</guid>
+      <title>China tests strategic nuclear missile in Bohai Sea</title>
+      <description><![CDATA[BEIJING <br/> China has test launched a new submarine launched ballistic missile named the JL-3.<br/><br/>The country's Defense Ministry told the Global Times in a conference on June 27 that the UFO sightings earlier that month was the result of a test launch conducted in the Bohai Sea.<br/><br/>According to the Global Times, the missile was observed by Chinese netizens in Shandong, Shanxi, Hebei and Henan.<br/><br/>Jane's 360 reported that the trajectory was consistent with a flight path toward the desert areas in the west that China uses for missile tests.<br/><br/>The National Interest reports that the JL-3 features a multiple warhead design capable of carrying China's hydrogen bombs.<br/><br/>An unnamed source told the South China Morning Post that the finished JL-3 will achieve a range of 9,000 kilometers.<br/><br/>According to the National Interest, the completed missile will be able to reach Washington D.C. when fired by a submarine.<br/><br/>The South China Moring Post reported that the missile has a shorter range than the US Trident II because China has not made significant breakthroughs in submarine design.]]></description>
+      <link>http://us.tomonews.com/china-tests-strategic-nuclear-missile-in-bohai-sea-3922751</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/86D/667/86D66789E134FC6A653CB8B1D929B39B.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/18/3922751/3922751_8B8CD845353F4CD7850572E6FD529E90_191118_3922751_China_tests_strategic_nuclear_missile_in_Bohai_S_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Mon, 18 Nov 2019 09:25:41 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3922850</guid>
+      <title>Asian carp linked to decline of native fish in Mississippi River</title>
+      <description><![CDATA[TRAVERSE CITY, MICHIGAN <br/> New research has linked invasive species of Asian carp to a decline of native sport fish in the Mississippi River and some of its tributaries.<br/><br/>According to a study published in the journal Biological Invasions, there are four types of Asian carp <br/> grass, bighead, silver and black carp <br/> in this river system.<br/><br/>The study focused on the silver carp because the species is more abundant in the Upper Mississippi, where the U.S. Army Corps of Engineers has been collecting data on fish for two decades.<br/><br/>Asian carp were originally introduced to help clear out algae and weeds in sewage ponds and fish farms in the 1960s and 1970s. They escaped, entered the Mississippi River and started migrating north.<br/><br/>The study suggests that this may have led to a decline of native sport fish such as the yellow perch, bluegill and white and black crappie during early life stages due to a dearth of plankton, which both silver carp and sport fish compete for.<br/><br/>While analyzing fish data between 1994 to 2013, researchers found that the number of sport fish had declined by roughly 30 percent in infested areas of the Mississippi and Illinois rivers.<br/><br/>Meanwhile, the study found that the number of native sport fish had increased by approximately 35 percent in sections of the Mississippi River farther upstream where the Asian carp had not arrived.<br/><br/>Researchers considered other factors such as flooding, water temperatures and sediment pollution, though none of them were found to have had a significant impact on native sport fish population.]]></description>
+      <link>http://us.tomonews.com/asian-carp-linked-to-decline-of-native-fish-in-mississippi-river-3922850</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/BA5/D0E/BA5D0E4A98D6BED853228010CE707D4B.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/18/3922850/3922850_E0E400B522574108802D02D77EBB6482_191118_3922850_Asian_carp_linked_to_decline_of_native_fish_in_M_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Mon, 18 Nov 2019 12:21:56 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3922844</guid>
+      <title>NASA to search for fossils on Martian crater</title>
+      <description><![CDATA[MARS <br/> NASA plans to send its Mars 2020 rover to search for signs of ancient life on Mars' Jezero Crater.<br/><br/>In a news release, the space agency pointed to a recent study published in the journal Icarus which identified mineral deposits called carbonates along the crater's inner rim. <br/><br/>The study says that a lake was at the site of the Martian crater more than 3.5 billion years ago.<br/><br/>NASA says its Mars 2020 rover will collect rock core samples from the Martian surface, noting that carbonates on the crater could be preserving signs of past life.<br/><br/>Scientists say these mineral deposits could also reveal how the red planet evolved from having liquid water and a thicker atmosphere to a cold, dry desert. Carbonate minerals are formed as carbon dioxide and water interact with one another.<br/><br/>NASA also pointed to another study which found hydrated silica, minerals that are also capable of preserving ancient life, on the edge of the Jezero Crater. This could be an ideal location for the Mars 2020 rover to search for buried microbial fossils, especially if the minerals are located at the crater's bottom layer.<br/><br/>NASA's Mars 2020 rover will be launched from Cape Canaveral, Florida in 2020.<br/><br/>The Mars 2020 mission is part of a larger project by NASA that includes lunar missions in order to prepare humans to eventually explore the red planet.]]></description>
+      <link>http://us.tomonews.com/nasa-to-search-for-fossils-on-martian-crater-3922844</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/9D7/024/9D7024DDA7731C10BFCB6E0DF9988225.jpg"/>
+      <media url=""/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Mon, 18 Nov 2019 12:11:47 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3923208</guid>
+      <title>Why are Neptune's moons 'dancing' to avoid one another?</title>
+      <description><![CDATA[PASADENA, CALIFORNIA <br/> Thalassa and Naiad appear to be locked in an intricate "dance of avoidance" that keep their respective orbits stable, according to NASA.  <br/><br/>Thalassa and Naiad are described as small and tic tac and shaped, with computations of their mass and size showing the density of ice water.<br/><br/>Thalassa circles Neptune every seven hours and thirty minutes, while Naiad completes the circuit every seven hours, but on an orbit tilted by five degrees relative to Thalassa.<br/><br/>Viewed from Thalassa, Naiad appear to dance in a wave like pattern, passing twice from above and twice from below.<br/><br/>NASA researchers said this behavior between celestial bodies is called a resonance, but the specific pattern of these moons have never been seen before.<br/><br/>According to researchers, Neptune disrupted its original satellite system when it captured its giant moon, Triton.<br/><br/>The disruption caused Naiad to veer into a tilted orbit before it settled into the ballet-like resonance with Thalassa.]]></description>
+      <link>http://us.tomonews.com/why-are-neptune-s-moons-dancing-to-avoid-one-another--3923208</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/594/EED/594EED2E1A6477AEC62E85189CFE5FE0.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/19/3923208/3923208_D73798D404744201ABF982A7DB226862_191119_3923208_Why_are_Neptune_s_moons__dancing__to_avoid_one_a_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Tue, 19 Nov 2019 08:04:44 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3923415</guid>
+      <title>Thousands of Disney+ accounts stolen by hackers</title>
+      <description><![CDATA[BURBANK, CALIFORNIA <br/> Hackers started targeting Disney's new streaming service just hours after it was launched on November 12.<br/><br/>Hackers were able to gain access to users' Disney+ accounts and lock them out of all of their devices that had access to the service, according to an investigation by ZDNet.<br/><br/>They were also able to change the email address and password of the user's streaming service account, essentially taking over the account.<br/><br/>The report suggests that hackers may have stolen user credentials through keylogging or via malware designed to steal data. In some cases, hackers may have used emails and passwords leaked from other websites to gain access to the Disney+ accounts.<br/><br/>The ZDNet report suggested Disney+ could provide multi-factor authentication for a more secure login to prevent hackers from gaining easy access to user accounts through previously used passwords.<br/><br/>The report also advised users to set unique passwords for each online account.<br/><br/>The streaming service is currently available in the U.S., Canada and the Netherlands.<br/><br/>Thousands of Disney+ accounts were found for sale on hacking forums online, with prices ranging from US$3 to US$11. An authentic Disney+ account costs US$7 per month.<br/><br/>The report even found free Disney+ accounts online that are available to be shared with others in the hacking forum.<br/><br/>According to ZDNet, Disney has yet to respond to requests for comments on the streaming service's security issues.]]></description>
+      <link>http://us.tomonews.com/thousands-of-disney%2B-accounts-stolen-by-hackers-3923415</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/7FE/18A/7FE18A1BC386E02F76FA608108BEE466.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/19/3923415/3923415_FD11FE65035A47AD9D1C78E40657EA19_191119_3923415_Thousands_of_Disney__accounts_stolen_by_hackers_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Tue, 19 Nov 2019 14:12:25 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3923412</guid>
+      <title>Iran blocks internet access amid mass protests over gasoline prices</title>
+      <description><![CDATA[TEHRAN <br/> Iran started restricting access to the internet on Friday, November 15, with nearly all access to the internet being restricted by Saturday, November 16, according to a report from NetBlocks, an organization that monitors worldwide internet access.<br/><br/>The organization says Iran now only has five percent of ordinary levels of connectivity to the internet. This comes amid protests against the government's plan to hike gasoline prices.<br/><br/>The Iranian government plans to increase prices for rationed gasoline by 50 percent, the New York Times reports. Those who purchase gasoline that exceeds the ration limit will face a 300 percent increase in fuel prices.<br/><br/>The Associated Press pointed out that even with increased prices, gasoline in Iran still remains among the cheapest in the world <br/> with one liter costing approximately 15,000 rials, or around 13 cents.<br/><br/>According to the NetBlocks report, some of Iran's largest mobile network operators including MCI, RIghtel and IranCell, all fell silent around 6:00 p.m. on Saturday.<br/><br/>Authorities must work with internet service providers and mobile data providers to shut down all internet connections, reports Wired.<br/><br/>Alp Toker, director of NetBlocks, told Wired these telecoms would also need to overcome protections in a network system which are meant to make the system resilient in case of accidental outages or bugs. Toker noted that Iran's initial internet slowdowns may have been due to these very protections in the leadup to the now almost complete internet shutdown.<br/><br/>The clampdown on internet service is believed to be designed to limit the number of people attending protests and to hinder media coverage, according to NetBlocks. <br/><br/>Apps such as WhatsApp and Instagram have also been blocked.<br/><br/>NetBlocks stated that the ongoing internet disruption is the most severe recorded in the nation ever since President Hassan Rouhani came to power.<br/><br/>The organization also noted that this is the "most severe disconnection" tracked by the organization for any country in terms of its "technical complexity and breadth."]]></description>
+      <link>http://us.tomonews.com/iran-blocks-internet-access-amid-mass-protests-over-gasoline-prices-3923412</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/9D2/8AE/9D28AE96CCDA4D79E469DF6A8A362A3A.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/19/3923412/3923412_7AF064EA1F86408DB45DCF5FFF6672D9_191119_3923412_Iran_blocks_internet_access_amid_mass_protests_o_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Tue, 19 Nov 2019 14:09:40 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3923637</guid>
+      <title>Scientists create slippery toilet coating that stops deuces sticking</title>
+      <description><![CDATA[STATE COLLEGE, PENNSYLVANIA <br/> Some scientists at Penn State University have been working on some serious crap. <br/>According to the BBC, Nittany Lion researchers have created a super slippery toilet coating that could potentially help save massive amounts of water in crappers around the world. <br/>The team from Penn State say the coating cuts the amount of water needed to get rid of those man-made logs by 90 percent. <br/>They say it also prevents bacteria from taking over toilet bowls and helps cut down those ultra-fragrant odors associated with destroying the can. <br/>The spray is more slippery than Teflon, but doesn't really like getting pissed on, so it needs to be reapplied after around 50 flushes. <br/>The scientists hope this new crap will help cut back on all the perfectly good water we flush down the john every day. <br/>Every day, more than 141 billion liters of water are used to get rid of those ones and twos. <br/>According to their findings, which were published in the journal Nature Sustainability, the amount of fresh water needed to flush the world's toilets every day is six times Africa's total water consumption. <br/>Think about THAT your next visit to the can when you do your business.]]></description>
+      <link>http://us.tomonews.com/scientists-create-slippery-toilet-coating-that-stops-deuces-sticking-3923637</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/1EE/8A2/1EE8A21B6C39157A80400DBB33C632DA.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/20/3923637/3923637_C14B5202CA9743A09209A766E090B0FD_191120_3923637_Scientists_create_slippery_toilet_coating_that_s_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Wed, 20 Nov 2019 05:42:59 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3924019</guid>
+      <title>Airbus' VSR700 conducts first flight in France</title>
+      <description><![CDATA[MARIGNANE, FRANCE <br/> A prototype of the Airbus Helicopters' VSR700 Unmanned Aerial System successfully performed its first test flight at a drone testing center in southern France on November 8.<br/><br/>A press release from Airbus stated that the aircraft performed multiple takeoffs and landings, with its longest flight lasting roughly 10 minutes.<br/><br/>On its website, the company says that the VSR700 has a maximum speed of 185 kilometers per hour. The aerial vehicle was tethered with 30-meter cables while conducting the test flight.<br/><br/>The company says the aircraft will eventually be cleared to fly without a cable.<br/><br/>Airbus said aerial vehicle was based on the Helicopteres Guimbal's Cabri G2 and will be able to operate on ships with other helicopters.<br/><br/>The VSR700 will feature an advanced flight control system, a payload bay in place of a cockpit and a specialized set of avionics. The company explained that the aircraft will also be capable of carrying multiple full size naval sensors as it has an endurance of eight hours with full payload.<br/><br/>Airbus had previously conducted a test flight of another version of the same aerial vehicle, called the VSR700 Optionally Piloted Vehicle, in 2017.<br/><br/>The VSR700 Unmanned Aerial System will perform test flights with French company the Naval Group for the French Navy in 2021.<br/><br/>The aircraft is being pitched for the French Navy's airborne drone system program scheduled for 2028, according to Naval News.]]></description>
+      <link>http://us.tomonews.com/airbus-vsr700-conducts-first-flight-in-france-3924019</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/BA0/E0E/BA0E0E87223C5587BCCC160D470CAB40.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/21/3924019/3924019_A5B5CF3894A7481CA158D6C904990EEF_191121_3924019_Airbus__VSR700_conducts_first_flight_in_France_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Thu, 21 Nov 2019 02:22:22 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3924014</guid>
+      <title>Deadly mosquito brain-infecting virus claims 6th victim in Michigan</title>
+      <description><![CDATA[ST. JOSEPH COUNTY, MICHIGAN <br/> A farmer from Michigan passed away from complications related to the Eastern Equine Encephalitis virus on Saturday, November 16, according to local news station WNDU.<br/><br/>Health officials in Michigan say six people from the state have now succumbed to the deadly virus.<br/><br/>The Centers for Disease Control and Prevention states on its website that the virus is spread from avian hosts to mosquitoes. The mosquitoes carry the virus and transmit it to humans.<br/><br/>The CDC says that after contracting the virus, a person may become sick with one of two types of illness: systemic or encephalitic.<br/><br/>A systemic infection includes flu-like symptoms such as fever, chills or malaise.<br/><br/>An encephalitic infection includes symptoms such as fever, headache, vomiting and swelling of the brain.<br/><br/>Most people infected do not develop any symptoms. According to CDC statistics, around 5 percent of those infected develop an encephalitic illness. Those older than 50 or younger than 15 are at a greater risk of developing this severe form of the illness.<br/><br/>There is currently no human vaccine available against the virus.<br/><br/>The CDC advises the public to use insect repellent with active ingredients such as DEET, picaridin or lemon eucalyptus oil.<br/><br/>Officials also advise the public to wear long-sleeved clothing and to close windows to prevent mosquito bites.]]></description>
+      <link>http://us.tomonews.com/deadly-mosquito-brain-infecting-virus-claims-6th-victim-in-michigan-3924014</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/C8B/7AE/C8B7AE4DA04017856B61BE66944AEC0F.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/21/3924014/3924014_69DB0E42AC09485B97CA65816FBFEFD9_191121_3924014_Deadly_mosquito_brain_infecting_virus_claims_6th_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Thu, 21 Nov 2019 02:16:40 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3924241</guid>
+      <title>Chicago's new tower may become the second tallest in the city</title>
+      <description><![CDATA[CHICAGO <br/> American architectural firm Adrian Smith + Gordon Gill has unveiled updated design plans to build a 1,422-foot tall skyscraper in Chicago.<br/><br/>The top of the tower will curve inwards.<br/><br/>The skyscraper is part of a larger project that includes an overhaul of nearby buildings as well as the iconic Tribune Tower.<br/><br/>The structure will include commercial spaces as well as parking at the bottom, Dezeen reports. The building's upper part will include a hotel, rental apartments and condominiums.<br/><br/>Upon completion, the skyscraper would become Chicago's second tallest building, surpassing Trump International Hotel & Tower, which stands at 1,380 feet.<br/><br/>Developers of the project are still waiting for zoning approval, reports the Chicago Tribune. <br/><br/>The designers of the skyscraper updated their initial plans as residents of the area raised concerns about traffic and security near the Chicago River.]]></description>
+      <link>http://us.tomonews.com/chicago-s-new-tower-may-become-the-second-tallest-in-the-city-3924241</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/197/21B/19721B6165D4346701DFDCC5DB2A5C3C.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/21/3924241/3924241_EF2683E2AD7B4AA6A87C5A2CB7A15913_191121_3924241_Chicago_s_new_tower_may_become_the_second_talles_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Thu, 21 Nov 2019 08:57:59 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3924886</guid>
+      <title>Doctors put first ever human in suspended animation</title>
+      <description><![CDATA[BALTIMORE<br/> Doctors have put at least one human in suspended animation, the New Scientist reports.<br/><br/>They performed it as part of a trial to save gunshot or stabbing victims who may have minutes to live.<br/><br/>Maryland University researcher Samuel Tisherman told the New Scientist that traumatic injuries could result in massive blood loss and then cardiac arrest, robbing the brain of oxygen.<br/><br/>Irreversible damage would occur to the brain within five minutes and the patient's survival rate is less than five percent, according to the New Scientist.<br/><br/>Tisherman said that the emergency preservation and resuscitation technique, or EPR, replaces all of the patient's blood with ice-cold saline solution.<br/><br/>The researcher explained that EPR reduces the need for oxygen by cooling the body and brain, which gives surgeons two hours to repair the injuries.<br/> <br/>According to Tisherman, the trial will compare EPR's results on a group of ten patients to a control group. Both groups will be treated at the university's hospital.]]></description>
+      <link>http://us.tomonews.com/doctors-put-first-ever-human-in-suspended-animation-3924886</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/5CF/333/5CF33302FBB722FD4DE3E64AA286A20E.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/22/3924886/3924886_A232895FD4C14CF48E75E44BEFE63CD4_191122_3924886_Doctors_put_first_ever_human_in_suspended_animat_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Fri, 22 Nov 2019 11:16:16 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3926603</guid>
+      <title>Flu shot not as effective in people who are overweight, obese</title>
+      <description><![CDATA[WASHINGTON <br/> Scientists have found that the flu vaccine is less effective for people with excess weight.<br/><br/>A study from the University of North Carolina at Chapel Hill found that vaccinated obese adults have twice the risk of flu or flu-like illnesses compared to vaccinated healthy-weight adults.<br/><br/>This is a pretty huge problem, considering two-thirds of the adult population in the U.S. has issues with excess weight.<br/><br/>NPR reports that during the 2009 flu outbreak, health experts noticed the infection was worse in individuals who were significantly overweight.<br/><br/>The virus grows to higher concentrations and spreads deeper in the lungs.<br/><br/>Heavier individuals were also more likely to spread the disease.<br/><br/>A University of Maryland study found that more of the virus came out of the exhaled breath of those who were overweight or obese.<br/><br/>According to Chapel Hill nutrition professor Melinda Beck, the metabolic shift in people's bodies caused by gaining excess weight affects immune system cells.<br/><br/>So although obese people may still make an antibody response, their T-cells aren't functioning, so they can still be infected with the flu despite being vaccinated.<br/><br/>Apart from the obese and overweight, elderly people also face the same problem.<br/><br/>Because of this, scientists are now working to develop a next-generation flu shot that can address these vulnerabilities, though it has years to go before it's ready.<br/><br/>In the meantime, they say people should still continue to get vaccinated, regardless of size or body weight.]]></description>
+      <link>http://us.tomonews.com/flu-shot-not-as-effective-in-people-who-are-overweight-obese-3926603</link>
+      <thumbnail url=""/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/26/3926603/3926603_C1FAFB66C65744A196EFB1F65F2C9864_191126_3926603_Flu_shot_not_as_effective_in_people_who_are_over_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Tue, 26 Nov 2019 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3926916</guid>
+      <title>Scientists find microplastic particles in European rivers</title>
+      <description><![CDATA[PARIS <br/> Researchers from the Tara Ocean Foundation, an environmental research organization, collected water samples from nine rivers across Europe and found microplastic particles present in every sample.<br/><br/>Scientists traveled aboard a research ship called the Tara, across Europe's coastline for six months between May to November and collected 2,700 water samples, according to the foundation's website.<br/><br/>These samples were collected from different sites on rivers which included the Thames, Elbe, Rhine and Seine.<br/><br/>The microplastic particles found were less than 5 millimeters in size and were mostly microbeads or secondary microplastics, which are formed from larger plastic pieces due to exposure to sunlight.<br/><br/>The organization stated that these samples will be analyzed in laboratories in the next 12 to 18 months in order to determine their composition, degradation and their origins.<br/><br/>The project's aim is to identify the source of microplastic pollution and its impact on marine life.]]></description>
+      <link>http://us.tomonews.com/scientists-find-microplastic-particles-in-european-rivers-3926916</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/542/FE1/542FE12C6837EEDC4E431C4B1040A5DF.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/27/3926916/3926916_77E37610B0924CEF9784FDC12358F5B0_191127_3926916_Scientists_find_microplastic_particles_in_Europe_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Wed, 27 Nov 2019 04:09:38 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3927101</guid>
+      <title>World's biggest radio telescope planned for Australia &amp; S. Africa</title>
+      <description><![CDATA[AUSTRALIA / SOUTH AFRICA <br/> Designs for a next-generation radio telescope called the Square Kilometer Array, have nearly been finalized while construction will commence in Australia and South Africa in early 2021.<br/><br/>The telescope itself will be built in two different phases called SKA 1 and SKA 2.<br/><br/>SKA 1, which will soon begin construction, includes two instruments, SKA1-Low and SKA1-Mid.<br/><br/>SKA1-Low will consist of 130,000 antennas and will be located in western Australia, according to Australia's Telescope National Facility. While SKA1-Mid will have 130 parabolic dish antennas and will be located in South Africa.<br/><br/>SKA1-Low will operate in frequencies between 50 and 350 megahertz while SKA1-Mid will operate in frequencies between 350 megahertz and about 15 gigahertz.<br/><br/>According to Square Kilometer Array's project website, the telescope will be hundreds of times faster at mapping the sky than other current radio astronomy facilities. The telescope will cover an area of one square kilometer.<br/><br/>The website states that it will be strong enough to detect faint radio signals by cosmic sources that are billions of light years away.<br/><br/>Square Kilometer Array's website states that the radio telescope is intended to be in operation for over 50 years.]]></description>
+      <link>http://us.tomonews.com/world-s-biggest-radio-telescope-planned-for-australia--s-africa-3927101</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/3FC/910/3FC9104BFD49893D409E09B68D5F9D31.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/27/3927101/3927101_76B52B4914F048C19B6B00D35F9DFCD0_191127_3927101_World_s_biggest_radio_telescope_planned_for_Aust_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Wed, 27 Nov 2019 08:26:43 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3927036</guid>
+      <title>Scientists to use 'Coral IVF' to restore Great Barrier Reef</title>
+      <description><![CDATA[QUEENSLAND, AUSTRALIA <br/> Scientists from Australia's Southern Cross University have come up with a technique called "Coral IVF" to restore coral in damaged parts of the Great Barrier Reef.<br/><br/>Researchers captured millions of coral larvae during mass spawning events that occur following the full moon in the months of November and December. These larvae were then co-cultured with an algae called zooxanthellae, which was grown in a lab to have higher thermal tolerance.<br/><br/>According to a news release from the university, these corals are now living in 'coral nursery' rearer pools designed by the research team.<br/><br/>Scientists say the rearer pools allow the baby coral to be 'turbo-charged' due to the algae which increases their chance of survival. Optical sensors were added to track the progress of the baby coral.<br/><br/>The team now has six rearer pools housing millions of coral larvae. These corals will be dispersed onto damaged parts of the Great Barrier Reef to help form new coral communities.<br/><br/>Peter Harrison, a researcher from the university's Marine Ecology Research Center who was involved with the study, said the technique is similar to a "battery pack" which allows the coral to soak up the algae and potentially gain more energy to grow faster.<br/><br/>If the project is successful, "Coral IVF" could be used as a blueprint to help restore damaged or dying coral reefs around the world.]]></description>
+      <link>http://us.tomonews.com/scientists-to-use-coral-ivf-to-restore-great-barrier-reef-3927036</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/5F4/621/5F462102E38D3B60CE13D62387A0F42E.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/27/3927036/3927036_C51D93D24F8741758D894F2D2EABE089_191127_3927036_Scientists_to_use__Coral_IVF__to_restore_Great_B_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Wed, 27 Nov 2019 07:16:09 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3927803</guid>
+      <title>World's first malaria vaccine introduced in Africa</title>
+      <description><![CDATA[AFRICA <br/> The World Health Organization has implemented a large-scale malaria vaccine pilot program for 360,000 children across Africa.<br/><br/>The vaccine, called RTS,S, is being tested in Malawi, Kenya and Ghana, and is being administered to children upto the age of 2.<br/><br/>However, experts have raised concerns about the vaccine's efficacy, durability and safety. Four doses of the vaccine offer only 30 percent protection from severe malaria, for roughly three years.<br/><br/>Children who received vaccinations were found to have a 10 times higher risk of meningitis than those given a control vaccine.<br/><br/>A fact sheet by PATH Malaria Vaccine Initiative, an international non-profit organization, says the vaccine is designed to trigger the immune system when malaria parasites enter the bloodstream via mosquito bites.<br/><br/>The vaccine blocks the parasite from infecting a person's liver, where it could potentially multiply and reenter the bloodstream to infect red blood cells. This is when symptoms of malaria usually starts to appear.<br/><br/>Initial symptoms of malaria include fever, headache and chills. In more serious cases, children may develop severe anaemia or respiratory distress.<br/><br/>Children under the age of 5 are the most vulnerable to the disease, according to the World Health Organization.]]></description>
+      <link>http://us.tomonews.com/world-s-first-malaria-vaccine-introduced-in-africa-3927803</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/BE2/CD4/BE2CD45E444547228B1750A8FE36279C.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/28/3927803/3927803_15969AE1511645D9A27DEE5B6448A4EC_191128_3927803_World_s_first_malaria_vaccine_introduced_in_Afri_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Thu, 28 Nov 2019 11:46:52 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3927682</guid>
+      <title>Voyager 2 probes outer limits of the solar system</title>
+      <description><![CDATA[SPACE <br/> Voyagers were launched 42 years ago, but Voyager 2 took the longer route to interstellar space.<br/><br/>Live Science reports that Voyager 2 detected a fiery plasma wall in the heliopause, where the sun's outward blowing solar winds clash with cosmic rays. This barrier protects the solar system by repulsing and weakening cosmic rays.<br/><br/>Citing NASA, Live Science reports that Voyager 1 could not detect the wall because its sensors malfunctioned. However, as Voyager 2 crosses the heliopause, it found holes in the protective shell and temperatures twice as high as past models predicted.<br/><br/>According to BBC, the sun's energies charge particles into an ionized plasma state and shoot them out to form solar winds and the heliopause.]]></description>
+      <link>http://us.tomonews.com/voyager-2-probes-outer-limits-of-the-solar-system-3927682</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/195/223/195223FF3E4C68166D5A23C509A0FF0A.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/28/3927682/3927682_54790DB015404441A9F987323FB9600F_191128_3927682_Voyager_2_probes_outer_limits_of_the_solar_syste_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Thu, 28 Nov 2019 09:00:39 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3928325</guid>
+      <title>Huge purifying towers proposed to clean Delhi's air</title>
+      <description><![CDATA[DELHI, INDIA <br/> An Indian architectural firm is proposing to build huge air purifying towers that will tackle air pollution in Delhi.<br/><br/>Studio Symbiosis Architects says that its 60-meter-tall Aura towers will form an air cleaning system to protect city residents from pollution, including PM 2.5 particulate matter.<br/><br/>According to DesignBoom, the structure's aerodynamic designs include spiraling contours that draw in polluted air and expel clean filtered air. <br/><br/>The pressure differentials enables the tower to pull PM 2.5 particles into its internal filtering chamber. <br/><br/>The architects claim the smaller iteration of the Aura tower with a height of 18 meters could clean 32 million cubic meters of air per day.<br/><br/>The firm says the taller towers will form a protective ring around Delhi's city borders to keep pollution out, while the 18 meter towers will be built by pollution hot spots inside the city.<br/><br/>Pollution detecting drones and air cleaner attachments for cars will also form an integrated system with the towers.]]></description>
+      <link>http://us.tomonews.com/huge-purifying-towers-proposed-to-clean-delhi-s-air-3928325</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/B06/871/B0687159312C8137F7C1489A398DD8DF.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/29/3928325/3928325_3285EABBE92645A98FAA2DA6B2D565AE_191129_3928325_Huge_purifying_towers_proposed_to_clean_Delhi_s__2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Fri, 29 Nov 2019 11:06:41 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3928508</guid>
+      <title>'Bubble barrier' could stop plastic waste in rivers from polluting our oceans</title>
+      <description><![CDATA[AMSTERDAM <br/> Dutch-based startup "The Great Bubble Barrier" says that air bubbles could stop plastic waste in rivers from reaching the ocean.<br/><br/>The company says its program features a pipe and air compressor that generate bubbles and a trap system that gathers plastics on the canal of Amsterdam's Westerdok.<br/><br/>New Atlas reports that a previous trial collected 86 percent of riverbourne plastic trash.<br/><br/>The company states that the barrier's diagonal placement uses the water flow to guide the plastic waste to the catchment system on the riverside for collection.<br/><br/>The pipe supplements the garbage collection boats that also clean 42 tonnes of plastic trash from the canal each year.<br/><br/>While boats could not gather submerged plastic objects, the bubble barrier generates upward flow that brings the plastics to the catchment system on the surface.<br/><br/>The company also claims that the bubble barrier pumps oxygen into the river, which prevents algae blooms and bolsters the aquatic ecosystem.]]></description>
+      <link>http://us.tomonews.com/-bubble-barrier-could-stop-plastic-waste-in-rivers-from-polluting-our-oceans-3928508</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/470/4CC/4704CCEBF6DECCBAD783EAC39F412881.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/30/3928508/3928508_DC7BF8B1469C4F60B037AEDA86E91A89_191130_3928508__Bubble_barrier__could_stop_plastic_waste_in_riv_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Fri, 29 Nov 2019 16:22:05 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3928443</guid>
+      <title>North Korea fires two short-range missiles towards the Sea of Japan</title>
+      <description><![CDATA[PYONGYANG <br/> North Korea launched two unidentified short-range projectiles from the country's South Hamgyong province towards the Sea of Japan on Thursday, November 28, around 4:59 p.m. local time.<br/><br/>Both missiles flew around 380 kilometers and reached an altitude of roughly 97 kilometers, according to South Korea's Joint Chiefs of Staff. The two missiles were fired within 30 seconds of one another.<br/><br/>North Korea confirmed that the projectiles were launched from a super-large multiple rocket launcher system. The country's state agency KCNA says the launcher system has a "continuous fire system."<br/><br/>This is North Korea's fourth test of the missile launcher system, reports Yonhap News Agency. It was previously tested on August 24, September 10 and October 31, earlier this year.<br/><br/>Japan has yet to confirm if the missiles landed in the nation's Exclusive Economic Zone.<br/><br/>South Korea's military called on North Korea to immediately "stop such moves," adding that consecutive missiles launches won't help in easing tensions on the Korean Peninsula, Yonhap reports.]]></description>
+      <link>http://us.tomonews.com/north-korea-fires-two-short-range-missiles-towards-the-sea-of-japan-3928443</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/777/C4A/777C4A02D974DA855D87C720E4900427.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/29/3928443/3928443_96973B038E5345718A7600F4C4FDE7B4_191129_3928443_North_Korea_fires_two_short_range_missiles_towar_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Fri, 29 Nov 2019 13:42:34 +0000</pubDate>
+    </item>
+    <item>
+      <guid>3928434</guid>
+      <title>Flesh-eating bacteria meets woman's eye sockets</title>
+      <description><![CDATA[NASHVILLE, TENNESSEE <br/> A woman had one hell of an eye opening experience after her eye sockets got a bit too up close and personal with some flesh-eating bacteria.<br/><br/>According to a case report in The Journal of Emergency Medicine, a 58-year-old woman showed up at the emergency room after her eyes had been bugging her for five days. <br/>The report published on Nov. 7, said the woman had been suffering from eye pain and swelling which had gotten progressively worse. <br/>According to Live Science, an eye exam found her to have pretty intense swelling around both her eye sockets as well as a bunch of goo discharging from her eyes. <br/>At first, doctors thought she might have the bacterial infection cellulitis, which affects the skin and underlying tissue. <br/><br/>She was given antibiotics, but when her symptoms got worse, physicians worried that it could be necrotizing fasciitis. A tissue sample confirmed their fears. <br/>Necrotizing fasciitis is a bacterial infection that destroys the skin and muscle tissue and can quickly spread throughout the body. <br/><br/>According to the Centers for Disease Control and Prevention, people can become infected when bacteria enter the body through breaks in the skin, including cuts and scrapes, burns and surgical wounds. <br/>It's unclear how the woman picked up the infection, but she had been taking medication for arthritis that weakened her immune system, leaving her more susceptible to severe infections. <br/><br/>The woman had to have several surgeries to remove the damaged and affected tissue, and received antibiotics to treat the specific strains of bacteria she was infected with. <br/>After 13 days in the hospital, she was able to go home. She left in stable condition and luckily didn't experience any vision loss.]]></description>
+      <link>http://us.tomonews.com/flesh-eating-bacteria-meets-woman-s-eye-sockets-3928434</link>
+      <thumbnail url="https://sa-mcp.s3.amazonaws.com/up-image/tmp20180606/5FA/4B9/5FA4B9574195A28C7E9AC6D7D69E5BCF.jpg"/>
+      <media url="http://video-pdu.us.tomonews.net/mcp/us/614/19/11/29/3928434/3928434_1E8502A7DA9A431398EFA3E57CA97ABB_191129_3928434_Flesh_eating_bacteria_meets_woman_s_eye_sockets_2600.mp4"/>
+      <category>Sci&amp;Tech</category>
+      <pubDate>Fri, 29 Nov 2019 13:32:54 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

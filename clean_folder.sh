@@ -1,1 +1,0 @@
-rm -rf ./code/public/storage

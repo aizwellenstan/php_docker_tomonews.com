@@ -1,0 +1,167 @@
+.mediaTitlePanel {
+	left: 0;
+    top : 0;
+}
+
+.shareFBLBOptionsPanel {
+	left: 0;
+    bottom : 70;    
+	backgroundAlpha: 1;
+	cornerRadius: 0;
+	padding: 5;
+	spacing: 5;
+}
+
+.shareOptionsPanelButtonRTFacebook {
+	/*icon: url("http://us.tomoplace.net/player/f.png");
+    right: 121;
+    top : 15;*/
+}
+
+.shareOptionsPanelButtonRTTwitter {
+/*	icon: url("http://us.tomoplace.net/player/t.png");
+    right: 68;
+    top : 15;*/
+}
+
+.shareOptionsPanelButtonRTEmbed {
+/*	icon: url("http://us.tomoplace.net/player/blank.png");
+    right: 15;
+    top : 15;*/
+}
+
+.shareOptionsPanelButtonLBFacebook {
+/*	icon: url("http://us.tomoplace.net/player/facebook.png");
+    left: 0;
+    bottom : 113;*/
+}
+
+.shareOptionsPanelButtonLBTwitter {
+	/*icon: url("http://us.tomoplace.net/player/twitter.png");
+    left: 0;
+    bottom : 65;*/
+}
+
+.directShareButton {
+	fontSize: 14;
+	spacing: 5;
+	color: #f3f3f3;
+	alignY: 50%;
+}
+
+/**
+.directShareButton:over {
+	color: #2badf3;
+}
+
+.directShareButton:down {
+	color: #2badf3;
+}
+
+.directShareButton:selected {
+	color: #2badf3;
+}
+
+.directShareButton:disabled {
+	color: #666666;
+}
+**/
+
+/** Share Media View **/
+
+
+.shareMediaView {
+	padding: 15;
+	borderThickness: 1;
+	borderColor: #999999;
+	width: 400;
+	height: 240;
+	backgroundAlpha: 1;
+	alignY: 50%;
+}
+
+.shareMediaMessage {
+	fontSize: 12;
+	top: 0;
+	left: 0;
+}
+
+.shareMediaThumbnail {
+    top: 30;
+	left: 0;
+	width: 130;
+	height: 98;
+	borderThickness: 1;
+}
+
+.shareMediaContent {
+	borderThickness: 1;
+	width: 220;
+	height: 96;
+    top: 30;
+	right: 0;
+}
+
+.shareMediaContentText {
+	fontSize: 12;
+	width: 100%;
+}
+
+.shareMediaTitle {
+	top: 140;
+    width: 300;
+    height: 40;
+	left: 0;
+    visibility: hidden;
+}
+
+.shareMediaSocialMedia {
+	alignX: 50%;
+	alignY: 50%;
+	padding: 10
+}
+
+.shareMediaButtonGroup {
+	right: 0;
+	bottom: 0;
+	spacing: 10;
+}
+
+.shareMediaButton {
+	backgroundAlpha: 1;
+	borderThickness: 1;
+	fontSize: 12;
+	padding: 2 5;
+}
+
+.titleBarOverlay {
+width: 10%;
+height: 10;
+top: -300;    
+backgroundColor: #000000;
+backgroundAlpha: 0.6;
+padding: 5 20 5 20;
+left: 0;
+}
+
+.titleBarOverlayTitle {
+width: 50;
+color: #ffffff;
+fontSize:20;
+word-break: break-all;
+-ms-word-break: break-all;
+display: block;
+}
+
+.titleBarOverlayDescription {
+width: 50;
+height: 40;
+color: #ffffff;
+fontSize:0; 
+visibility: hidden;
+display:none;
+}
+    
+
+
+

@@ -1,0 +1,14 @@
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>http://us.tomonews.com/sitemaps/sitemap_index.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>http://us.tomonews.com/sitemaps/sitemap_static.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>http://us.tomonews.com/sitemaps/sitemap_categories.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>http://us.tomonews.com/sitemaps/sitemap_themes.xml</loc>
+	</sitemap>
+</sitemapindex>
